@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miranda's Video</title>
+    <link rel="icon" type="image/png" href="img/icono.png" />
+    <style>
+        body{
+            background: url("img/fondo.png");
+        }
+
+        .logIn{
+            position: relative;
+            left: 30%;
+            top: 15vh;
+            width: 40%;
+            height: 70vh;
+            border: 2px solid #ff7675;
+            border-radius: 50px;
+        }
+
+        .logIn img{
+            position: absolute;
+            left: 25%;
+            top: 10%;
+        } 
+
+        .logIn .user, .logIn .pwd, .logIn button{
+            position: absolute;
+            top: 40%;
+            left: 25%;
+            width: 40%;
+            height: 40px;
+            border-color:none;
+            background-color: white;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .logIn .pwd{
+            top: 60%;
+        }
+
+        .logIn button{
+            top: 80%;
+            width: 50%;
+            height: 50px;
+            background-color: #ff7675;
+            color: #fff;
+            font-size: 20px;
+        }
+        .logIn button:hover{
+            cursor: pointer;
+            background-color: #ff4949;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="logIn">
+        <img src="img/Logo.png" alt="" width="50%">
+        <input class="user" type="text" placeholder="Usuario">
+        <input class="pwd" type="password" placeholder="Contraseña">
+        <button>Entrar</button>
+    </div>
+    
+</body>
+</html>
