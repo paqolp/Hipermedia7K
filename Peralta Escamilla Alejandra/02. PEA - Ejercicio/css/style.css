@@ -1,0 +1,55 @@
+* {
+	color: #333;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+input {
+	border: 0;
+	border-bottom: 2px solid #A62639;
+	color: #A62639;
+	font-size: 1em;
+	height: 2em;
+	margin-bottom: 1.5em; 
+	width: 15em;
+}
+
+label {
+	color: #fff;
+	margin-bottom: 1.5em; 
+}
+
+.bgli {
+	background-color: #736365;
+}
+
+.login {
+	background-color: #182825;
+    border-radius: 5px;
+    box-shadow: 0px 0px 35px #a29e9e;
+    height: 230px;
+    padding: 50px 100px;
+    max-width: 250px;
+    margin: 200px auto;
+}
+
+.log {
+	border: 1px solid #A62639;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.enlace {
+	color: #01BA98;
+	font-size: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 15px; 
+}
+
+/*01BA98
+A62639*/
