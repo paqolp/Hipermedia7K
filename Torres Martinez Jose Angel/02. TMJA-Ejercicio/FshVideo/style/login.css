@@ -1,0 +1,55 @@
+.encabezado
+{
+  width: 100%;
+  height: 80px;
+  background: #435bbc;
+}
+#logo
+{
+  font-size: 32pt;
+  font-family: arial;
+  float: left;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+}
+.normalFont
+{
+  font-size: 12pt;
+  font-family: arial;
+  float: left;
+  font-style: italic;
+  color: white;
+  text-align: center;
+
+}
+#lema
+{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.login
+{
+  width: 450px;
+  height: 500px;
+  background:  #435bbc;
+  margin-top: 30px;
+  margin-left: 440px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 20px solid black;
+  padding-left: 50px;
+}
+.fondo
+{
+  background-image: url("IMG/fondo.jpg");
+}
+.cajas
+{
+  float: left;
+  font-size: 12pt;
+  font-family: arial;
+  text-align: center;
+  margin-top: 10px;
+  height: auto;
+  width: 300px;
+}
