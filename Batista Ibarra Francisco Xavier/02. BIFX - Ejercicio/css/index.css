@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    display: block;
+    height: 500px;
+    width: 400px;
+    border: 1px solid lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-title {
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+    justify-content: center;
+    align-items: top;
+    width: 100%;
+}
+
+.login-credenciales-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-credenciales {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-button {
+    display: block;
+    float: right;
+    margin-top: 5px;
+}
+
+.login-tb {
+    display: block;
+}
+
+.r-contrasena {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.a-r-contrasena {
+    font-size: 10px;
+}
