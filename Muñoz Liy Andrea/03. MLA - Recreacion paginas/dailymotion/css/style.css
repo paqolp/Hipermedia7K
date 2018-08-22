@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+main {
+    width: 100%;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 0;
+    color: #0af;
+    font-weight: 700;
+    padding: 6px 14px;
+    text-align: center;
+}
+
+.border-blue {
+    border: 1px solid rgba(0, 170, 255, .2);
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(262deg, #00d2f3, #0af) !important;
+    color: #fff !important;
+}
+
+.img-filter {
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
