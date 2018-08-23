@@ -1,0 +1,382 @@
+html body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    fill: white;
+    margin-right: 20px;
+}
+
+.header {
+    background-color: #333333DD;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    z-index: 10000;
+}
+
+.header-izq {
+    float: left;
+}
+
+.header-der {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-item-selected {
+    color: white;
+    font-weight: bold;
+    background-color: yellowgreen;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 7%
+}
+
+.menu-item-selected:hover {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    text-decoration: none !important;
+}
+
+.menu-item {
+    color: #FFFFFF77;
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+
+.menu-item:hover {
+    color: #FFFFFF;
+}
+
+.input-buscar {
+    color: #FFFFFF77;
+    padding: 5px;
+    background-color: rgb(255, 255, 255, .3);
+    border: none !important;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.input-buscar::placeholder {
+    color: #FFFFFF77;
+}
+
+.input-buscar:hover {
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.input-buscar:focus {
+    color: black !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-item-subir {
+    color: white;
+    font-weight: bold;
+    background-color: skyblue;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 7%
+}
+
+.menu-item-subir:hover {
+    color: white;
+    font-weight: bold;
+    background-color: lightskyblue;
+    text-decoration: none !important;
+}
+
+.cont-1 {
+    background-image: url(https://i.vimeocdn.com/video/696622447_2000.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    width: 100%;
+}
+
+.cont-1-content {
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
+.cont-1-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont-1-button-left {
+    font-size: 1.5em;
+    text-decoration: none !important;
+    color: darkslategray;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cont-1-button-left:hover {
+    background-color: gray;
+    color: darkslategray;
+    text-decoration: none !important;
+}
+
+.cont-1-button-right {
+    font-size: 1.5em;
+    color: white;
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cont-1-button-right:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none !important;
+}
+
+.cont-2 {
+    background-color: #e4f6ff;
+    padding: 60px;
+}
+
+.cont-2-button {
+    font-size: 1.5em;
+    color: white;
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cont-2-button:hover {
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: none !important;
+}
+
+.cont-3 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cont-3-title {
+    text-align: center;
+    margin: 15px;
+}
+
+.cont-3-row {
+    justify-content: space-evenly;
+}
+
+.cont-3-button {
+    font-size: 1.5em;
+    color: white;
+    background-color: skyblue;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.cont-3-button:hover {
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: none !important;
+}
+
+.cont-4 {
+    padding-top: 190px;
+    background-image: url(https://f.vimeocdn.com/images_v6/marketing/creator_lohp/glacier.jpg?DEV);
+    background-size: cover;
+}
+
+.cont-4-title {
+    color: white;
+}
+
+.cont-4-listitem {
+    color: white;
+    font-size: 1.3em;
+}
+
+.cont-4-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont-4-footer-text {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.cont-4-button {
+    font-size: 1.5em;
+    color: white;
+    background-color: skyblue;
+    padding: 20px;
+    margin: 50px 0;
+    border-radius: 5px;
+}
+
+.cont-4-button:hover {
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: none !important;
+}
+
+.cont-5 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.cont-5-title {
+    text-align: center;
+    width: 40%;
+}
+
+.cont-5-cont {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.cont-5-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.cont-5-photo {
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.cont-6 {
+    padding: 100px;
+    background-image: url(https://f.vimeocdn.com/images_v6/marketing/creator_lohp/closing.png?DEV);
+    background-size: cover;
+}
+
+.cont-6-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cont-6-cardholder {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont-6-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 42px;
+    box-shadow: 0 0.75rem 1.4375rem 0 rgba(0,0,0,.05);
+    width: 450px;
+}
+
+.cont-6-card-item {
+    margin: 15px 0;
+}
+
+.cont-6-card-link {
+    color: #333333;
+    font-weight: bold;
+}
+
+.cont-6-card-link:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.cont-7 {
+    padding: 25px 30px;
+    background-color: #f1f4f5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-7-lists {
+    display: flex;
+}
+
+.cont-7-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.cont-7-list-title {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.cont-7-list-item {
+    color: gray;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.cont-7-list-item:hover {
+    color: black;
+    text-decoration: none !important;
+}
+
+.cont-7-sabias {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    font-size: 0.8em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 0.8em;
+    color: lightslategrey;
+    border-top: 1px solid lightgray;
+}
+
+.footer-link {
+    border-right: 1px solid #DDDDDD;
+    padding: 0 10px;
+    color: lightslategrey;
+}
+
+.footer-link:hover {
+    color: black;
+    text-decoration: none !important;
+}
+
+.footer-right {
+    float: right;
+}
