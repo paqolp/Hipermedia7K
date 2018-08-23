@@ -1,0 +1,205 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #979696;
+    text-align: center;
+    padding: 10px 10px 12px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+
+#menu{
+    padding-top: 30px;
+}
+
+#buscar{
+    padding: 7px 10px;
+    margin: 22px;
+    color: #CCCCCC;
+}
+
+.subir{
+    background-color: #00ADEF;
+    border: none;
+    color: white;
+    padding: 0px 13px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#fondoPrincipal{
+    width: 100%;
+    padding: 0;
+}
+
+#intro{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    align-items: left;
+    text-align: left;
+}
+
+#titu h5{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 170px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+#titu{
+    padding-left: 230px;
+    padding-top: 240px;
+}
+#intro h4{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 230px;
+    padding-top: 0px;
+    
+}
+
+#momento{
+    position: absolute;
+    background-color: #F3F3F3;
+    width: 100%;
+    margin-top: 570px;
+    padding-bottom: 40px;
+    left: 0;
+}
+
+#momentoImg{
+    float: left;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+
+#momentoInfo{
+    text-align: justify;
+    width: 100%;
+    padding-top: 30px; 
+    padding-left: 230px;
+}
+#momentoInfo h6{
+    text-decoration: none;
+    font-size: 13px;
+}
+#momentoInfo h4{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#destacado1{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 970px;
+    padding-bottom: 40px;
+    left: 0;
+}
+
+#destacado1Img{
+    float: left;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+
+#destacado1Info{
+    text-align: justify;
+    width: 100%;
+    padding-top: 30px; 
+    padding-left: 230px;
+}
+#destacado1Info h6{
+    text-decoration: none;
+    font-size: 13px;
+}
+#destacado1Info h4{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#destacado2{
+    position: absolute;
+    background-color: #F3F3F3;
+    width: 100%;
+    margin-top: 1370px;
+    padding-bottom: 40px;
+    left: 0;
+}
+
+#destacado2Img{
+    float: left;
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+
+#destacado2Info{
+    text-align: justify;
+    width: 100%;
+    padding-top: 30px; 
+    padding-left: 230px;
+}
+#destacado2Info h6{
+    text-decoration: none;
+    font-size: 13px;
+}
+#destacado2Info h4{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+//#mejores{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 1200px;
+    padding-bottom: 100px;
+    left: 0;
+    text-align: center;
+
+    <div id="mejores">
+    <h1>Descubre los mejores videos de hoy</h1>
+    <h2>Inspírate con la cuidadosa selección diaria de cortometrajes, películas y series de los Staff Picks.</h2>
+    <img src="img/videos.png" alt="videos" width="" height="">
+    <div id="infoButton">
+        <a href="#" style="padding:10px;"><button class="info">Ver</button></a>
+    </div>
+</div>
+    
+}
