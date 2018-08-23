@@ -1,0 +1,77 @@
+header {
+    background-color: #fff;
+    padding: 0 25px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+header .logo-container {
+    flex-basis: 20%;
+}
+header #btn-menu {
+    background-color: transparent;
+    border: 0;
+    color: #bbb;
+    cursor: pointer;
+    font-size: 18px;
+}
+.logo {
+    width: 100%;
+    max-width: 90px;
+    margin: 0 20px;
+}
+header nav {
+    padding: 10px 20px;
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+header nav a:active,
+header nav a:focus {
+    color: #0af;
+    border-bottom: 2px solid currentColor;
+
+}
+header .header-search {
+    flex-grow: 1;
+    padding: 0 10%;
+}
+header form {
+    width: 100%;
+    padding-right: 15px;
+    position: relative;
+}
+header form .fa-search {
+    position: absolute;
+    right: 25px;
+    top: 7px;
+    color: #aaa;
+}
+header input#search {
+    height: 30px;
+    padding: 0 35px 0 10px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+.header-opts a {
+    color: #aaa;
+}
+#btn-user {
+    background-color: #fff;
+    border: 0;
+    margin-left: 10px;
+    padding: 0;
+    width: 32px;
+}
+.fa-comment {
+    font-size: 16px;
+    top: 6px;
+}
+.fa-share {
+    font-size: 8px;
+}

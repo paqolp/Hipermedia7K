@@ -1,0 +1,238 @@
+.side-menu {
+    background-color: whitesmoke;
+    height: calc(100vh - 55px);
+    margin-top: 55px;
+    overflow-y: scroll;
+    padding: 10px 0;
+    position: fixed;
+    width: 20%;
+}
+
+.side-menu-section {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+}
+
+.side-menu-section h3 {
+    font-size: 12px;
+    color: #888;
+    padding: 0 20px;
+    margin: 10px 0 5px 0;
+}
+
+.side-menu-section a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+}
+
+.side-menu-section a:hover,
+.side-menu-section a:active,
+.side-menu-section a:focus {
+    background-color: #ccc;
+}
+
+.side-menu-section a:hover .menu-icon,
+.side-menu-section a:active .menu-icon,
+.side-menu-section a:focus .menu-icon {
+    color: red;
+}
+
+.side-menu-section a .menu-icon {
+    margin-right: 10px;
+    color: #888;
+}
+
+.side-menu-section a .menu-img {
+    width: 18px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -3px;
+    margin-right: 10px;
+}
+
+.side-menu-footer {
+    padding: 20px;
+}
+
+.side-menu-footer .links-container {
+    margin-bottom: 20px;
+}
+
+.side-menu-footer,
+.side-menu-footer a {
+    font-size: 12px;
+    color: #888;
+    text-decoration: none;
+}
+
+.side-menu-footer a {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.main-section {
+    margin-left: 20%;
+    padding-top: 56px;
+    width: 80%;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px 40px 10px 40px;
+    width: 100%;
+}
+
+.section-inner {
+    max-width: 1000px;
+    position: relative;
+    width: 100%;
+}
+
+.section-inner .carousel-nav {
+    background-color: #fff;
+    border-radius: 50%;
+    -moz-box-shadow: -2px 3px 7px 0px rgba(0,0,0,.5);
+    -webkit-box-shadow: -2px 3px 7px 0px rgba(0,0,0,.5);
+    box-shadow: -2px 3px 7px 0px rgba(0,0,0,.5);
+    color: #aaa;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 12px;
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 35px);
+    z-index: 1;
+}
+
+.section-inner .carousel-nav.left {
+    left: -15px;
+}
+
+.section-inner .carousel-nav.right {
+    right: -15px;
+}
+
+.section-inner .section-header {
+    margin-bottom: 15px;
+    padding: 0 2px;
+}
+
+.section-inner .section-header h2 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.section-inner .section-header small {
+    color: #888;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.section-inner figure {
+    padding: 0 2px 20px 2px;
+}
+
+.section-inner figure a {
+    text-decoration: none;
+    color: #000;    
+}
+
+.section-inner figure .figure-inner {
+    width: 100%;
+    position: relative;
+}
+
+.section-inner figure .figure-large {
+    padding: 130% 0 0;
+}
+
+.section-inner figure .figure-inner.overlay::after {
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: opacity .4s;
+}
+
+.section-inner figure .figure-inner img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section-inner figure .figure-large img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.section-inner figure .figure-inner .video-icon {
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.section-inner figure .figure-inner .fig-overlay {
+    align-content: center;
+    align-items: center;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    letter-spacing: -2px;
+    padding: 0 10px 10px 10px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.section-inner figure .figure-inner .fig-overlay .items-list-number {
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+.section-inner figure .figure-inner .fig-overlay span:nth-of-type(2),
+.section-inner figure .figure-inner .fig-overlay span:nth-of-type(3) {
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.section-inner figure .figure-inner .fig-overlay .fas.fa-play.fa-xs {
+    font-size: 5px;
+    margin: 0 3px;
+    vertical-align: middle;
+}
+
+.section-inner figure .figure-inner .fig-overlay .duration {
+    bottom: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 15px;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 2px;
+}
+
+.section-inner figure figcaption h3 {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.section-inner figure figcaption p {
+    color: #888;
+    font-size: 12px;
+}
