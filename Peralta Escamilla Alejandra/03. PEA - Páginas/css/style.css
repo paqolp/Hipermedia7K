@@ -1,0 +1,208 @@
+body {
+	margin: 0; 
+	font-family: 'Roboto', sans-serif; 
+	background-color: #fafafa;
+}
+
+a {
+	text-decoration: none;
+	color: #111111;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.mt25 {
+  margin-top: 25px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.right {
+	float: right;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.m0 {
+	margin: 0;
+}
+
+.my25 {
+  margin-top: 25px:
+  margin-bottom: 25px; 
+}
+
+.vid {
+  width: 210px;
+  height: 230px;
+  margin: 3px;
+  display: inline-block;
+}
+
+.imgvid {
+  width: 210px;
+  height: 118px;
+}
+
+.icon {
+	width: 80px;
+  height: 24px;
+}
+
+.iconmenu {
+	width: 24px;
+	height: 24px;
+}
+
+.alinear {
+  vertical-align: super;
+}
+
+.search {
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-left: 105px;
+}
+
+.searchbutton {
+	border: 1px solid #ccc;
+	border-left: 0;
+	background-color: #f8f8f8;
+	width: 65px;
+	height: 28px;
+	padding: 0;
+	margin-left: 0;
+	margin-top: 10px;
+}
+
+.profileimg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.menuimg {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.menuizq {
+	margin: 0;
+  padding: 0;
+  width: 14%;
+  background-color: #f1f1f1;
+  position: fixed;
+  padding-left: 30px;
+  overflow: auto;
+  height: 90%;
+}
+
+.cont {
+	margin-left: 17%;
+  padding:1px 40px;
+  margin-top: 64px;
+}
+
+.vertical-menu a {
+  background-color: #f1f1f1;
+  color: #000;
+  display: block;
+  padding: 10px;
+  font-size: 11pt;
+  text-decoration: none;
+
+}
+
+.acceder, .vertical-menu a:hover {
+  background-color: #ebebeb;
+}
+
+.activo {
+  background-color: #dcdcdc !important;
+  font-weight: bold;
+}
+
+.menulabel {
+  color: #11111199;
+  margin-top: 25px;
+  margin-bottom: 0;
+  padding: 0 10px;
+}
+
+.acceder {
+  background-color: transparent;
+  color: #2793e7;
+  width: 70px;
+}
+
+.pizq {
+  font-size: 15px;
+}
+
+.fs15 {
+  font-size: 15px;
+}
+
+.fs13 {
+  font-size: 13px;
+}
+
+.linea {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.derechos {
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+
