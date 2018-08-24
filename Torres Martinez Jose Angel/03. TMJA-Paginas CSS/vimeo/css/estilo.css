@@ -1,0 +1,159 @@
+
+.contenedor
+{
+  width: 100%;
+  height: auto;
+
+}
+#video_background {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 800px;
+	z-index: -1000;
+	overflow: hidden;
+}
+.encabezado
+{
+  width: 100%;
+  height: 80px;
+}
+#logo
+{
+  float: left;
+  width: auto;
+  height: 30px;
+  margin-left: 30px;
+}
+.margen
+{
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#navegador
+{
+  float: left;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+
+}
+.contenedor3
+{
+  width: 100%;
+  height: 550px;
+  background-color: #E4F6FF;
+  margin-top: 81px;
+}
+.contenedor2
+{
+  width: 100%;
+  height: auto;
+
+  align-items:center;
+  justify-content: center;
+  margin-top: 200px;
+
+
+}
+.contenedor4
+{
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  margin-top: 81px;
+}
+.imagen
+{
+  padding-top: 70px;
+  width: 100%;
+  max-width: 40.625rem;
+  margin: 0 auto;
+  display: block;
+  float: left;
+}
+.informacion
+{
+  float: left;
+  margin-left: 70px;
+  padding-top: 70px;
+}
+.contenedorChico
+{
+  width: 64%;
+  height: 400px;
+  align-items:center;
+  justify-content: center;
+  margin-top: 50px;
+  align: center;
+  margin: 0 auto;
+
+}
+.videoos
+{
+  margin: 5px 5px 5px 5px;
+  width: 200px;
+  height: 100px;
+}
+.fondo
+{
+  width: 100%;
+  height: auto;
+  background-image: url('img/captura.png');
+
+}
+#boton1
+{
+  margin-left: 30%;
+}
+#boton2
+{
+  margin-left: 20px;
+}
+#letras1
+{
+  text-align: center;
+}
+.letraB
+{
+  font-size: 20pt;
+}
+#navegador a {
+   padding: 2px 2px 2px 12px;
+   color: #666;
+   text-decoration: none;
+}
+#acceder
+{
+  float: left;
+}
+#subir
+{
+  float: right;
+}
+#cajaTexto
+{
+  height: auto;
+  width: 150px;
+  border-radius: 2px 2px 2px 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 100%;
+  float: right;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+
+}

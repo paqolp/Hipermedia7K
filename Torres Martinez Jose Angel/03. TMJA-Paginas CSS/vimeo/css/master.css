@@ -1,0 +1,74 @@
+.buttongd
+{
+
+   height: auto;
+   width: auto;
+   border-radius: 7px 7px 7px 7px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+
+}
+.butonch
+{
+  height: auto;
+  width: auto;
+  border-radius: 15px 15px 15px 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.bgVerde
+{
+   background-color: #7FC400;
+}
+.bgAzul
+{
+  background-color: #00ADEF;
+}
+.bgBlanco
+{
+  background-color: #EEF1F2;
+}
+
+.negrita
+{
+  font-weight: bold;
+}
+.textWh
+{
+  color: white;
+  font-family: arial;
+}
+.textgd
+{
+  font-size: 40pt;
+}
+.textch
+{
+  font-size: 11pt;
+}
+.textGy
+{
+  color: #1A2E3B;
+}
+.textmed
+{
+  font-size: 13pt;
+
+}
+.textBk
+{
+  color: black;
+  font-family: arial;
+}
+.encabezadoGd
+{
+
+}
+.encabezadoCh
+{
+
+}
