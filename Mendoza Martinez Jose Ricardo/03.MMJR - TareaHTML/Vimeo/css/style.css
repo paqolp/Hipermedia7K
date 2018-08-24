@@ -1,0 +1,194 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #979696;
+    text-align: center;
+    padding: 10px 10px 12px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+.unirse {
+    background-color: #7FC400;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.unirse:hover{
+    background-color: #8AAC42;
+}
+
+#menu{
+    padding-top: 30px;
+}
+
+#buscar{
+    padding: 7px 10px;
+    margin: 22px;
+    color: #CCCCCC;
+}
+
+.subir{
+    background-color: #00ADEF;
+    border: none;
+    color: white;
+    padding: 0px 13px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#fondoPrincipal{
+    width: 100%;
+    padding-top: 63px;
+}
+
+#intro{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    align-items: center;
+}
+
+#intro h1{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 74px;
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-bottom: 0px;
+}
+
+#intro h2{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 270px;
+    padding-top: 0px;
+}
+
+#introButtons{
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-bottom: 200px;
+}
+
+.plan{
+    background-color: #EEF1F2;
+    border: none;
+    color: #1A2E3B;
+    padding: 20px 39px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.plan:hover{
+    background-color: #D0D8DB;
+}
+
+.registrar{
+    background-color: #7FC400;
+    border: none;
+    color: white;
+    padding: 20px 39px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.registrar:hover{
+    background-color: #8AAC42;
+}
+
+#aloja{
+    position: absolute;
+    background-color: #E4F6FF;
+    width: 100%;
+    margin-top: 663px;
+    padding-bottom: 100px;
+    left: 0;
+}
+
+#alojaImg{
+    float: left;
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-right: 60px;
+}
+
+#alojaInfo{
+    text-align: justify;
+    width: 90%;
+    padding-top: 130px; 
+    margin-left: -11px;
+    margin-right: 20px;
+}
+
+.info{
+    background-color: #00ADEF;
+    border: none;
+    color: white;
+    padding: 20px 39px;
+    margin: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.info:hover{
+    background-color: #0088CC;
+}
+
+#mejores{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    margin-top: 1200px;
+    padding-bottom: 100px;
+    left: 0;
+    text-align: center;
+    
+}
