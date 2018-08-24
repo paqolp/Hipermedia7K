@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.barraNavegacion{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    font-weight: bold;
+}
+
+.barraNavegacion izq, .barraNavegacion .centro{
+    float: left;
+}
+
+.barraNavegacion .izq{
+    width: 15%;
+}
+.barraNavegacion .centro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.barraNavegacion .derecha{
+    width: 25%;
+}
+
+.barraNavegacion .izq a, .barraNavegacion .derecha a{
+    text-decoration: none;
+    color: rgba(17, 17, 17, 0.4);
+    vertical-align: middle;
+}
+
+.acceder{
+    color: #2793E6 !important;
+}
+
+.barraNavegacion .izq img{
+    vertical-align: bottom;
+}
+
+.barraNavegacion .izq span{
+    vertical-align: super;
+    font-size: 12px;
+}
+
+.barraNavegacion .izq .fa-bars{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.barraNavegacion .derecha ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.barraNavegacion .derecha li{
+    float: left;
+}
+
+.barraNavegacion .derecha li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.centro input{
+    background-color: #fff;
+    float: left;
+    color: #000;
+    font-size: 16px;
+    width: 60%;
+    height: 30px;
+    margin-right: 0;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid #ccc; 
+    padding-left: 10px
+}
+
+.centro button{
+    background-color: #f0f0f0;
+    color: #000;
+    width: 50px;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+    border-radius: 0 2px 2px 0;
+    border: 1px solid #ccc; 
+    cursor: pointer;
+}
+
+.main{
+    position: relative;
+    top: 60px;
+}
+
+.menuVertical{
+    position: absolute;
+    width: 15%;
+    background-color: #f5f5f5;
+    height: 1110px;
+    overflow-y: scroll;
+}
+
+.videos-principales{
+    width: 85%;
+    position: absolute;
+    left: 15%;
+}
+
+.menuVertical .contenedor{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.menuVertical ul{
+    list-style-type: none;
+}
+
+.menuVertical a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.menuVertical .contenedor .seccion1 ul li{
+    padding: 10px 20px;
+}
+
+.menuVertical .contenedor ul li:hover,
+.elementoActivo{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.elementoActivo{
+    font-weight: bold;
+}
+
+.elementoActivo i{
+    color: red;
+}
+
+.menuVertical .contenedor .titulo{
+    color: rgba(17, 17, 17, 0.6);
+    font-size: 14px;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.seccion1, .seccion2, .seccion3, .seccion4, 
+.seccion5, .seccion6{
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 30px;
+}
+
+.seccion2 ul li{
+    height: 50px;
+    padding: 10px 15px 10px 20px;
+}
+
+.seccion2 ul li span{
+    vertical-align: super;
+}
+
+.seccion2 ul li a{
+    display: block;
+    width: 90%;
+    font-size: 14px;
+}
+
+.seccion2 ul li a img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.seccion3{
+    height: 70px;
+    padding: 20px 0;
+}
+
+.seccion3 p{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seccion3 .info{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.seccion3 .info:hover{ 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.seccion3 p i{
+    font-size: 10px !important;
+    color: gray;
+    vertical-align: middle;
+}
+
+.seccion4{
+    padding: 20px 30px;
+}
+
+.seccion4 p{
+    margin-bottom: 10px;
+}
+
+.seccion5 ul li, .seccion6 ul li{
+    height: 40px;
+    padding: 10px 15px 10px 20px;
+}
+
+.seccion5 ul li a, .seccion6 ul li a{
+    display: block;
+    width: 90%;
+    font-size: 14px;
+}
+
+.seccion5 ul li a i, .seccion6 ul li a i{
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.seccion6{
+    margin-top: 10px;
+}
+
+.seccion7, .seccion8{
+    font-size: 14px;
+    color: #888888;
+    width: 80%;
+    margin: 0 auto 20px;
+}
+
+.seccion7 .a-derecha,
+.seccion8 .a-derecha{
+    margin-right: 10px;
+}
+
+footer .copy-fecha{
+    font-size: 12px;
+    padding: 10px 40px 0;
+
+}
+
+.main .videos-principales .comercial img{
+    width: 100%;
+}
+
+.videos{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.videos .row .titulo{
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.videos .row{
+    width: 100%;
+    height: 270px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.videos .video-contenedor{
+    height: 110px;
+    width: 20%;
+    position: relative;
+    margin: 5px;
+}
+
+.marca{
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.hoverVideo{
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+.hoverVideo .clock{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.hoverVideo a{
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.marca .tiempo{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 30px;
+    color: #fff;
+}
+
+.video-contenedor:hover .hoverVideo{
+    display: block;
+}
+
+.video-contenedor:hover .marca{
+    display: none;
+}
+
+.video-contenedor .info-video{
+    width: 100%;
+}
+
+.video-contenedor .info-video .titulo-video{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.video-contenedor .info-video .canal,
+.video-contenedor .info-video .notas{
+    margin: 5px 0;
+    font-size: 13px;
+    color: rgba(17, 17, 17, 0.6);
+}
+
+.video-contenedor .info-video .notas i{
+    font-size: 4px;
+    vertical-align: middle;
+}
+
+.row-videos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .titulo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.row .titulo a img{
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
