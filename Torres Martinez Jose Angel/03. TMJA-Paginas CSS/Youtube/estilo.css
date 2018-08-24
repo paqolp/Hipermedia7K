@@ -1,0 +1,99 @@
+.frameizquierdo
+{
+  width:15%;
+  height:700px;
+  float:left;
+overflow-y: scroll;
+background-color: #f4f4f4;
+}
+.framederecho
+{
+  width:85%;
+  height:100%;
+  overflow-y: scroll;
+  float:right;
+}
+.encabezado
+{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border-bottom: solid 1px gray;
+}
+.text
+{
+  font-family: arial;
+  font-size: 12pt;
+
+}
+body
+{
+  overflow: hidden;
+}
+#logo
+{
+  padding: 10px 10px 10px 10px;
+}
+.buscar
+{
+  padding-top: 10px;
+
+  float: right;
+}
+#botonBuscar{
+  float: left;
+  margin-right: 200px;
+}
+#cajaBuscar
+{
+  width: 500px;
+  float: left;
+}
+.objEncabezado
+{
+   align-items: center;
+   width:100%;
+   height:auto;
+   background: transparent;
+   border-bottom: solid 1px white;
+   float: left;
+
+}
+.menutext
+{
+  padding-top: 20px;
+  margin-left: 5px;
+  font-family: Arial;
+  color:black;
+  font-size:10pt;
+  float: left;
+}
+.logos
+{
+  padding-top: 25px;
+  padding-left: 5px;
+  float: left;
+}
+#fondo
+{
+  width: 100%;
+  height: auto;
+}
+.contenedorChico
+{
+  width: 80%;
+  height: 400px;
+  align-items:center;
+  justify-content: center;
+  margin-top: 50px;
+  align: center;
+  margin: 0 auto;
+
+}
+.contenedorVideo
+{
+  float: left;
+  margin: 100px 10px 5px 5px;
+  width: 200px;
+  height: 120px;
+}
