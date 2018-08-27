@@ -1,0 +1,106 @@
+a{
+	color: white;
+}
+input[type=text] {
+    border: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: lightgray;
+    opacity: 0.6;
+}
+.header{
+	width: 100%;
+}
+.headerImg {
+
+	pointer-events: none !important;
+	position: absolute; 
+	bottom: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	z-index: -1000; 
+	overflow: hidden;
+}
+main
+{
+  clear: both;
+}
+.banner
+{
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+img[class="video"]{
+	border: none;
+	height: auto;
+	width: 100%;
+	border-radius: 8px;
+	margin: 10px;
+	margin-top: 0px;
+}
+.subtitle{
+	font-size: 12px;
+	color: gray;
+	font-weight: bold;
+}
+.title{
+	font-weight: bold;
+}
+.seccion{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+	justify-content: center;
+	margin-right: 180px;
+	margin-left: 180px;
+}
+.contenedorVideo {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: auto;
+  	align-content: space-between;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: 100;
+}
+
+.alinear{
+	margin-right: 20px;
+	margin-left:0px;
+	vertical-align: center; 
+}
+
+.barraBusqueda{
+	size: 800px;
+	vertical-align: center;
+	margin:0px;
+	padding:0px;
+	margin-top: 1.5px;
+	background-color: #f3f3f3;
+}
+.button {
+    background-image: linear-gradient(to right, dodgerblue , cyan);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    float: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
