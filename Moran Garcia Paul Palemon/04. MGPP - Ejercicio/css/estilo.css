@@ -1,0 +1,141 @@
+.button1 {
+background-color: #65806F;
+border: none;
+color: white;
+padding: 8px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-style: unset;
+border-radius: 5px;
+}
+
+.topNavBar{
+padding-left:30px;
+padding-top:00px;
+padding-bottom:0px;
+margin:0px;
+margin-right:10px;
+border:0px;
+overflow: hidden;
+border-bottom: 1px solid rgb(26, 46, 59);
+background-color: rgba(48,48,48,.92);
+z-index: 7;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+    font-size:14px;
+    color:#000;
+    margin:0px;
+}
+
+.barraBusqueda{
+    font-size:15px;
+    vertical-align: top;
+    top:0;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: .1875rem 0 0 .1875rem;
+    display: inline-block;
+    position: relative; top:11px;
+    text-align: center;
+}
+
+::placeholder {
+    color:rgb(216, 208, 208);
+    opacity: 1;
+}
+
+h4.navBar{
+    font-size: 14px;
+    color:rgba(255,255,255,.5);
+    border: none;
+    text-align: left;
+    font-weight: 700;
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+h1{
+    position:absolute;
+    left:27%;
+    color: #FFF;
+    font-size: 4.5rem;
+    line-height: 4.25rem;
+    text-align: center;
+    font-weight: 200;
+    padding-top: 10%;
+    top: 0;
+}
+
+h2{
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1.5rem;
+    line-height: 2.375rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 20%;
+    top: 0;
+    position: relative;
+}
+
+
+h3{
+    display: inline;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 6%;
+    font-size: 2.25rem;
+    font-weight: 200;
+    line-height: 2.875rem;
+    text-align: left;
+    margin-left: 0;
+    max-width: 100%;
+    color:#000
+}
+
+.botones{
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    bottom: 25%;
+    }
+
+.parte2{
+    background-color: rgba(116, 116, 116, 0.705);
+    position: relative;
+    padding: 2.5rem .625rem;
+    top:20%;
+    width:1329px;
+    height: 400px;
+}
+
+.imagenes{
+    width: 120px;
+    height: 120px;
+}
+
+table{
+    max-width: 400px;
+}
+
+th, td{
+    font-weight: 600;
+    padding-right: 15%;
+    position: relative;
+}
+
+.mainPage{
+    margin-left:15%;
+    margin-right:15%;
+    display: block;
+}
