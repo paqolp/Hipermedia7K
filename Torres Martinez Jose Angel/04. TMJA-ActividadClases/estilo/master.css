@@ -1,0 +1,94 @@
+.encabezado
+{
+  height: 90px;
+  width: 100%;
+  background-color: #f4f4f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ofertas
+{
+  width:19%;
+  height:500px;
+  float:left;
+  overflow-y: scroll;
+  background-color: #f4f4f4;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  font-family: arial;
+  font-style: italic;
+}
+.normal
+{
+  width:78%;
+  height:500px;
+  overflow-y: scroll;
+  float:right;
+  background-color: #f4f4f4;
+  border-bottom-right-radius: 20px;
+  margin-left: 30px;
+
+}
+.contenedor2
+{
+  margin-top: 30px;
+
+}
+.TipoProductos img
+{
+
+  width: 100%;
+  height: auto;
+}
+#foto
+{
+  padding: 10px 10px 10px 10px;
+  width: 98%;
+  height: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+ .contenedorVideo
+ {
+   margin-top: 40px;
+   padding: 10px 10px 10px 10px;
+ }
+.logo
+{
+  margin: 10px 10px 10px 10px;
+  width: 20%;
+
+}
+#logo
+{
+  padding: 10px 10px 10px 10px;
+  width: 50%;
+  height: auto;
+}
+.producto img
+{
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+  height: auto;
+}
+.producto
+{
+  border: solid 3px gray;
+}
+.producto2 img
+{
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+  height: auto;
+}
+.producto2
+{
+  border: solid 3px gray;
+  float: left;
+  text-align: center;
+}
+.TipoProductos
+{
+  height: auto;
+  width: 15%;
+  float: left;
+}
