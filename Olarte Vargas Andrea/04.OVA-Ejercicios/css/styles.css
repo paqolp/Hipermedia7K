@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Opens Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+
+header{
+    width: 100%;
+}
+
+header .nav-bar{
+    padding: 10px 50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-bar .left{
+    display: flex;
+    align-items: center;
+}
+
+header .nav-bar .right{
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .nav-bar .logo{
+    float: left;
+}
+
+header .nav-bar .logo img{
+    width: 120px;
+}
+
+header .nav-bar nav ul{
+    list-style: none;
+}
+
+header .nav-bar nav ul li{
+    display: inline-block;
+    margin: 0 10px 0;
+}
+
+header .nav-bar nav ul li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header .nav-bar nav ul li a:hover{
+    color: #fff;
+}
+
+header .nav-bar a.cart{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header .nav-bar a.cart:hover{
+    color: #fff;
+}
+
+header .nav-bar form{
+    float: right;
+}
+
+header .nav-bar .right input[type="text"], 
+header .nav-bar .right input[type="submit"]{
+    margin: 0;
+    padding: 10px;
+    border: none;
+}
+
+header .nav-bar .right input[type="text"]{
+    width: 80%;
+}
+
+header .nav-bar .right input[type="text"]:hover{
+    cursor: text;
+}
+
+header .nav-bar .right input[type="submit"]{
+    background-color: rgb(254, 189, 105);
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+header .nav-bar .right input[type="submit"]:hover{
+    background-color: rgb(243, 168, 71);
+}
+
+header .nav-bar .fas,
+header .nav-bar .cart{
+    font-size: 1em;
+    line-height: 1.08em;
+}
+
+header .carousel{
+    width: 100%;
+}
+
+header .carousel img{
+    width: 100%;
+}
+
+header .carousel button.prev,
+header .carousel button.next{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2.5em;
+}
+
+header .carousel button.prev:hover,
+header .carousel button.next:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+header .carousel button.prev{
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .carousel button.next{
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h2{
+    margin-top: 30px; 
+    font-size: 2.5em;
+}
+
+hr{
+    width: 90%;
+    margin: 10px 0;
+    background-color: rgb(203, 200, 203);
+}
+
+.products .row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .row .product{
+    padding: 10px;
+    margin: 10px 5px;
+    width: 23%;
+    background-color: #fff;
+}
+
+.products .row .product img{
+    width: 100%;
+}
+
+.products .row .product .price-now{
+    font-size: 1.5em;
+}
+
+.products .row .product a.details{
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+    background-color: #4872F6;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.shipping{
+    color: gray;
+}
