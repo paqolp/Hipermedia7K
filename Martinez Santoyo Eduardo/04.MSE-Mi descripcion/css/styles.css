@@ -1,0 +1,172 @@
+html
+{
+  box-sizing: border-box;
+  font-family:Lucida Sans Unicode;
+  font-size: 16px;
+}
+
+*, *:after,*:before
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+#banner
+{
+  height: 75px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #0c090d;
+  padding: 10px 0;
+}
+.nav-fixed
+{
+  /* position: fixed;
+  top: 0px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: White;
+}
+.nav-fixed ul li
+{
+  /* list-style: none; */
+  display: inline-block;
+  padding: 5px 35px;
+}
+.nav-fixed ul li:hover
+{
+  border-bottom: 1px solid white;
+}
+ul
+{
+  display: inline-block;
+  list-style: square;
+  padding: 5px 35px;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+section
+{
+  height: 500px;
+  width: 100%;
+  background-color: aqua;
+}
+.impar
+{
+  background-color: #a63d40;
+  
+}
+.par
+{
+  background-color: #939196;
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.content
+{
+  padding: 15px 100px;
+  width: 60%;
+}
+.content p
+{
+  margin: 15px 0;
+}
+h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+#formacion
+{
+  background-color: #3a425c;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* #e6e6e6 */
+}
+#formacion img
+{
+  width: 275px;
+}
+#logros
+{
+  background-color: #020122;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+#logros h1
+{
+  color: #06def5;
+}
+#hobbies
+{
+  background-color: #7193ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* #828a95 */
+}
+#hobbies h1
+{
+  color: #0b7847;
+}
+#datos
+{
+  background-color: #2855ac;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* #031a6b */
+}
+#datos h1
+{
+  color: #ebe554;
+}
+#datos img
+{
+  width: 275px;
+}
+.imagen
+{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+p
+{
+  text-align: justify;
+}
+
+#formacion-titulo
+{
+  /* color: #fff;
+  font-size: 60px;
+  letter-spacing: 5px;
+  
+  text-shadow: -1px -1px 0px #828a95,
+    3px 3px 0px #828a95,
+    6px 6px 0px #1A161B; */
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+}
+footer img
+{
+  width: 40px;
+  padding: 0 10px;
+}
