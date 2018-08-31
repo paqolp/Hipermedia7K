@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-content: flex-start;
+}
+
+.flex-column {
+    flex-flow: column wrap;
+}
+
+.flex-row {
+    flex-flow: row wrap;
+}
+
+.flex-grow-half {
+    flex-grow: .5;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.basis-20 {
+    flex-basis: 20%;
+}
+
+.basis-25 {
+    flex-basis: 25%;
+}
+
+.basis-30 {
+    flex-basis: 30%;
+}
+
+.basis-33 {
+    flex-basis: 33.33%;
+}
+
+.basis-50 {
+    flex-basis: 50%;
+}
+
+.basis-70 {
+    flex-basis: 70%;
+}
+
+.basis-75 {
+    flex-basis: 75%;
+}
+
+.basis-80 {
+    flex-basis: 80%;
+}
+
+.basis-100 {
+    flex-basis: 100%;
+}
