@@ -1,0 +1,171 @@
+html
+{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body
+{
+  background-color: #f4d35e;
+}
+
+*, *:after,*:before
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+.ofertas
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+  background-color: white;
+}
+.grid-ofertas
+{
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-ofertas img
+{
+  width: 100px;
+}
+.nav-fixed
+{
+  top: 0px;
+  width: 100%;
+}
+.nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.banner
+{
+  height: 60px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #6b0504;
+}
+.logo
+{
+  padding: 10px 0;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.logo a img 
+{
+  width: 120px;
+}
+.menu
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  color: white;
+  padding: 10px 0;
+}
+.menu ul li
+{
+  display: inline;
+  font-size: 14px;
+  padding: 0 15px;
+}
+.menu ul li:hover
+{
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+.search
+{
+  width: 250px;
+  border-radius: 2px;
+  height: 30px;
+  border: 0;
+  padding-left: 5px;
+  background-color: hsla(0,0%,58%,.4);
+  color: currentColor;
+  margin-right: 20px;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+button
+{
+  background-color: #0d3b66;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 14px;
+  border: 0;
+  cursor: pointer;
+  
+}
+button a
+{
+  color: #fff;
+}
+.ofertas
+{ 
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #888888;
+  margin-bottom: 20px;
+}
+.ofertas img
+{
+  margin: 10px;
+}
+.marco
+{
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+  background-color: white;
+  box-shadow: 5px 10px 8px #888888;
+}
+.marco img
+{
+  width: 150px;
+}
+.info
+{
+  display: flex;
+}
+.precio
+{
+  width: 45%;
+  text-align: center;
+  padding: 30px 0;
+}
+.imagen
+{
+  width: 100%;
+  text-align: center;
+}
+.productos
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nombre h2
+{
+  text-align: center;
+}

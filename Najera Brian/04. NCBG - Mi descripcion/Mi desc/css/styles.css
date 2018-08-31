@@ -1,0 +1,156 @@
+html
+{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*, *:after,*:before
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+.logo
+{
+  height: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+.logo a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 30%;
+}
+.nav
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+.menu
+{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  color: white;
+}
+.menu ul li
+{
+  display: inline;
+  font-size: 14px;
+}
+video {
+  pointer-events: none !important;
+  width: 100%;
+  height: auto;
+	bottom: 0; 
+  right: 0; 
+  z-index: -1000; 
+  overflow: hidden;
+}
+main
+{
+  clear: both;
+}
+.banner
+{
+  height: 500px;
+  width: 100%;
+  margin: auto;
+
+}
+.miniatura
+{
+  width: 100%;
+  
+}
+li:hover{
+  color: dodgerblue
+}
+p:hover{
+  color: gray
+}
+ul[class="blue"] p:hover{
+  color: rgb(13, 76, 107)
+}
+ul[class="red"] p:hover{
+  color: rgb(240, 128, 128)
+}
+ul[class="amarillo"] p:hover{
+  color: rgb(116, 91, 10)
+}
+
+.imgs
+{
+  display: flex;
+  justify-content: space-between;
+}
+.listas-impar
+{
+  padding: 40px 20%;
+  background-color: #f3f3f3;
+}
+.listas-par
+{
+  padding: 40px 20%;
+}
+button
+{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(262deg, rgb(0, 210, 243), rgb(0, 170, 255));
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 14px;
+  border: 0;
+  cursor: pointer;
+  
+}
+.menu ul li
+{
+  padding: 0 5px;
+}
+.nav-fixed
+{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.img-style
+{
+  color: rgb(127, 127, 127);
+  font-family: Retina, arial;
+  font-size: 20px;
+  padding-left: 300px; 
+}
+.titles
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer img{
+  width: 40px;
+  padding: 0 10px;
+}
+.miniatura-next
+{
+  display: flex;
+  align-items: center;
+  
+}
+#explore
+{
+  color: #727272;
+}
+footer
+{
+  display: flex;
+}

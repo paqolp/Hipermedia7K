@@ -1,0 +1,197 @@
+
+/*#####################Page Containers#######################*/
+body{ 	
+	width: auto;
+	min-width: 60em;
+	margin: 1em;
+	background-color:#212027;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+footer{
+	clear: both;
+	width: auto;
+	background-color:#615635;
+	color : #A4B5DE;
+	text-align: center;
+	padding: 0.5em;
+	border-bottom-right-radius: 0.7em;
+	border-bottom-left-radius: 0.7em;
+}
+
+#container{ 
+	border:0.5em solid #3C4450;
+	background-color: #A4B5DE;
+	border-radius: 1.3em;
+}
+
+#content{
+	clear: both;
+	padding: 2em;
+	border-radius: 1.3em;
+}
+
+/*##################### Header #######################*/
+
+header{
+	background-color: #FFF;
+}
+
+.head{
+	float: left;
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+.Main{
+	font-size: 2em;
+	font-weight: bold;
+	color: #4D5569;
+	padding-left: 2em;
+	padding-bottom: 0.3em;
+}
+
+.Sub{
+	font-size: 1em;
+	font-weight: bold;
+	color: #4D5569;
+	padding-left: 5em;
+	padding-bottom: 0.3em;
+}
+
+/*##################### Navigation #######################*/
+nav{
+	width: 100%;
+	clear: both;
+	float: left;
+	border-top: 0.5em solid #4D5569;
+	border-bottom: 0.3em solid #4D5569;
+	padding-top: 0.5em;
+	padding-bottom: 0.4em;
+	text-align: center;
+}
+
+nav a { 
+	margin-right: 1.1em;
+	margin-bottom: 1em;
+	color : #4D5569;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.25em 1em 0.25em;
+	margin-right: 1.1em;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a:hover {
+	background-color:#615635;
+	color: #FFF;
+} 
+
+/*##################### Content #######################*/
+
+.cvList{
+padding-bottom: 2em;
+}
+.intro{
+	font-size: 1.1em;
+	color: #4D5569;
+	width: 35em;
+	padding-left: 12.5em;
+	padding-bottom: 1em;
+}
+.cvSection{
+	font-size: 1.2em;
+	color: #212027;
+	float: left;
+}
+.cvSContent{
+	font-size: 1.1em;
+	color: #4D5569;
+	width: 35em;
+	padding-left: 12em;
+}
+.titles{
+	font-size: 1.2em;
+	color: #212027;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.First{
+	float: left;
+	padding-bottom: 1em;
+	color: #4D5569;
+}
+.Second{
+	clear: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 34em;
+	color: #4D5569;
+}
+.Third{
+	clear: right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #4D5569;
+}
+.Fourth{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.contentText1{
+	width: 50em;
+}
+.contentText2{
+	width: 40em;
+}
+.contentText3{
+	width: 55em;
+	padding-bottom: 3em;
+}
+.contentText4{
+	width: 54em;
+}
+.ref2{
+
+	padding-top: 1em;
+}
+.mTitles{
+	font-size: 1.2em;
+	color: #212027;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.video{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.data{
+	margin-left: 0;
+	margin-right: 50em;
+}
+/*##################### Pictures #######################*/
+
+.selfie{
+	float: left;
+	padding-bottom: 2em; 
+	border-radius: 0.5em;
+}
+
+.ol1{
+	float: left;
+	padding-right: 1em;
+}
+.ol2{
+	float: right;
+	padding-left: 1em;
+}
+.uni{
+	float: left;
+	padding-bottom: 1em;
+	padding-right: 1em; 
+}
