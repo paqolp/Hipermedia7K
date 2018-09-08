@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Dorsa');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background: url("../img/fondo.png");
+    position: relative;
+    z-index: -1;
+}
+
+header .carrera{
+    width: 100%;
+    height: 100%;
+    font-family: 'Tangerine', cursive;
+    color: #fff;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+header .carrera .nombre{
+    font-size: 130px;
+    margin-bottom: 25px;
+}
+
+header .carrera .generacion{
+    font-size: 180px;
+}
+
+header .nombre-alumna{
+    font-family: 'Dorsa', sans-serif;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 130px;
+    top: 125px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.main .titulo{
+    font-family: 'Dorsa', sans-serif;
+    font-size: 50px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.galeria{
+    width: 70%;
+    margin: 50px 15%;
+}
+
+.galeria .fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria .fotos .foto{
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.galeria .fotos .foto img{
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+}
+
+footer{
+    background: url("../img/fondo.png");
+    display: flex;
+    flex-wrap: wrap;
+    color: #b4b4b4;
+    padding: 20px;
+}
+
+footer .redes-sociales{
+    margin: 0 auto;
+}
+
+footer .redes-sociales .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+footer .redes-sociales a{
+    color: #b4b4b4;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover{ 
+    background: #1da1f2;
+    color: #fff;
+}
+
+footer .redes-sociales .facebook:hover{	
+    background: #3b5998;
+    color: #fff;
+}
+
+footer .redes-sociales .github:hover{ 
+    background: #333;
+    color: #fff;
+}
+
+footer .redes-sociales .instagram:hover{  
+    background: radial-gradient(ellipse farthest-corner at 20px 70px,#ffdc80, #fcaf45 10%, #f77737 25%, #f56040 30%, #fd1d1d 40%, #e1306c 50%, #c13584 60%, #833ab4 70%, #5851db 90%, #405de6 98%);
+    color: #fff;
+}
+
