@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #000;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+header .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+header .avatar img{
+    /* max-height: 100%; */
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 3.2em;
+    line-height: 0.8;
+    color: #fff;
+}
+
+header p{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+header p::first-line{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.85em;
+    color: #fff;
+}
+
+.main{
+    width: 100%;
+}
+
+.main .title{
+    width: calc(90% - 20px);
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-bottom: 1px solid coral;
+    text-align: center;
+}
+
+.main .title h2{
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: coral;
+}
+
+.main .gallery{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.main .gallery .column{
+    width: 33%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.gallery .column a{
+    width: 100%;
+    min-width: 300px;
+    min-height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: 0.3s all ease;
+}
+
+.gallery .column a img{
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px;
+}
+
+.gallery .column a:hover{
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 5px;
+    transform: scale(1.3);
+    z-index: 1000;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+footer i,
+footer strong{
+    font-weight: 300;
+    color: #fff;
+}
