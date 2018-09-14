@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+h2{
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+video{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+div{
+    display: inline-block;
+}
+img{
+    width: 50px;
+    height: auto;
+}
+</style>
+
+</head>
+<body class="center">
+
+<h2>Videos</h2>
+
+<h2>Let's see theese little things</h2>
+<h4>Resize the browser window to see the flow.</h4>
+<div>
+    <div>
+      <div class="gallery">
+            <img src="left arrow.png">
+            </img> 
+        <div class="desc">Video 1</div>
+      </div>
+    </div>
+
+<div class="responsive">
+  <div class="gallery">
+        <video source controls src="1.mp4" type="video/mp4" >
+        </video> 
+    <div class="desc">Video 1</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+        <video source controls src="2.mp4" type="video/mp4" >
+        </video> 
+    <div class="desc">Video 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+        <video source controls src="3.mp4" type="video/mp4" >
+        </video> 
+    <div class="desc">Video 3</div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

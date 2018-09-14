@@ -1,0 +1,43 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+i {
+	color: #fff;
+	margin: 10px;
+	border-radius: 30px;
+	text-align: center;
+  padding: 5px;
+  width: 28px;
+	transition: background-color .5s;
+}
+
+i:hover {
+  background-color: #2ed3ae;
+}
+
+.banner {
+	width: 100%;
+}
+
+hr {
+  width: 100px;
+  color: #9bfa23;
+}
+
+.img-card {
+	min-height: 200px;
+	max-height: 200px;
+}
+
+.bg-verde {
+	background-color: #8aad92;
+}
+
+.acordeon {
+	max-width: 50%;
+}
+
+.mh {
+	max-height: 269px;
+}
