@@ -1,0 +1,203 @@
+.main-image img {
+    object-fit: cover;
+    position: relative;
+    height: 65vh;
+}
+.main-image .main-header-text {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    padding-bottom: 5vh;
+    /* padding-top: 60px; */
+}
+.main-image .main-header-text img{
+    height: 50vh;
+}
+.main-image .main-header-text p{
+    font-size: 25px;
+}
+.section {
+    background-color: #fff;
+    background-size: cover;
+    padding: 60px 5%;
+    width: 100%;
+}
+
+.section-inner {
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+
+.section-inner .carousel-nav {
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    top: calc(50% - 15px);
+    z-index: 1;
+}
+
+.section-inner .carousel-nav.left {
+    left: -25px;
+}
+
+.section-inner .carousel-nav.right {
+    right: -25px;
+}
+
+.section-inner .section-header {
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.section-inner h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.section-inner .section-content {
+    font-size: 1.2rem;
+}
+
+.section-inner .section-content.basis-50.right{
+    padding-left: 10%;
+}
+
+.section-inner .section-content.basis-50.left{
+    padding-right: 10%;
+}
+
+.section-inner .section-content.basis-100 {
+    padding-left: 0;
+}
+.section-inner .section-content p {
+    margin-top: 20px;
+    padding-bottom: 4rem;
+    line-height: 1.7rem;
+}
+
+.section-inner figure {
+    padding: 0 8px 20px 8px;
+    margin: 25px 0 0 0;
+}
+
+.section-inner figure .figure-inner {
+    width: 100%;
+    position: relative;
+}
+
+.section-inner figure .figure-inner img {
+    width: 100%;
+}
+
+.section-inner figure .figure-inner .video-icon {
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.section-inner figure .figure-inner figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    z-index: 2;
+    padding: 0 10px 10px 10px;
+    width: 100%;
+}
+
+.section-inner figure .figure-inner figcaption .content {
+    font-size: 13px;
+    margin-right: 60px;
+}
+
+.section-inner .section-list {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.section-inner .section-list li {
+    padding: 10px 0;
+}
+
+.section-inner .section-list .bullet-icon {
+    color: rgba(70, 70, 70, 0.7);
+    line-height: 40px;
+    display: initial;
+}
+
+.section-inner .section-list .bullet-icon .fa-stack-2x {
+    font-size: 40px;
+}
+
+.section-inner .section-list .bullet-icon .fa-stack-1x {
+    font-size: 20px;
+    left: 12px;
+}
+
+.section-inner .section-list a {
+    padding: 0 0 0 50px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+}
+
+.section-inner blockquote {
+    font-size: 2rem;
+    width: 90%;
+    max-width:  700px;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.section-inner .user-list {
+    position: relative;
+}
+
+.user-info {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+.user-name {
+    font-size: 1.2rem;
+    display: block;
+}
+.user-position {
+    font-size: 1rem;
+    display: block;
+}
+.card {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+    margin: 50px 10px 0 10px;
+}
+
+.card h3 {
+    font-size: 1.6rem;
+    width: 80%;
+}
+
+.card p {
+    padding: 0 0 30px 0 !important;
+    font-size: 1rem;
+}
+
+.card ul {
+    list-style: none;
+    font-size: .9rem;
+    margin-bottom: 30px;
+}
+
+.card li {
+    padding: 10px 0;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #000;
+}
