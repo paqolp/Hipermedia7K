@@ -1,0 +1,95 @@
+/*HEADER*/
+header nav{
+    z-index: 10000;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+}
+
+header nav .navbar-brand{
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav #navbar ul {
+    list-style-type: none;
+}
+
+header nav #navbar ul form input{
+    width: 600px;
+}
+
+header nav #navbar .dropSesion a{
+    color: white;
+}
+
+/*MAIN*/
+
+.main{
+    margin-top: 100px;
+}
+
+/*CURSOS*/
+.cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cursos .curso{
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+
+/*PANTALLA-CURSO*/
+.pantalla-curso .main{
+    margin-top: 63px;
+}
+.pantalla-curso .main .header-curso{
+    background: url("../img/curso.jpg") repeat;
+    background-size: contain;
+    height: 400px;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+}
+
+
+/*PANTALLA SUBUNIDAD*/
+
+.pantalla-subunidad .main,
+.pantalla-actividad-terminada .main,
+.pantalla-actividad .main{
+    margin-top: 63px;
+}
+.pantalla-subunidad .main .header-curso{
+    height: 20px;
+}
+
+.pantalla-subunidad .main .main-curso .actividad{
+    border: gray solid 2px;
+    border-radius: 10px;
+    padding: 20px 20px 10px;
+    margin-bottom: 20px;
+}
+
+/*PANTALLA- ACTIVIDAD- TERMINADA*/
+
+.pantalla-actividad-terminada .main .header-curso{
+    height: 200px;
+}
+
+.pantalla-actividad-terminada .main .main-curso .seccion-actividad,
+.pantalla-actividad .main .main-curso .seccion-actividad{
+    border: gray solid 1px;
+    border-radius: 5px;
+    padding: 80px;
+    font-size: 30px;
+}
+
+.pantalla-actividad-terminada .main .main-curso .calificacion,
+.pantalla-actividad .main .main-curso .botones{
+    font-size: 40px;
+}
