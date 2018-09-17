@@ -1,0 +1,70 @@
+.nav-bar{
+    width: 100%;
+    /* height: 50px; */
+    padding:12px;
+    /* position: fixed; */
+    /* background-color: #ccc; */
+    background-color: rgb(0,112,192);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar img.logo{
+    width: 100px;
+}
+
+.nav-bar form{
+    width: 35%;
+}
+
+.nav-bar input{
+    margin: 0;
+    padding: 10px;
+    border: none;
+}
+
+.nav-bar input[type="search"]{
+    width: 90%;
+    border-radius: 3px 0 0 3px;
+}
+
+.nav-bar input[type="submit"]{
+    background-color: rgb(254, 189, 105);
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.nav-bar input[type="submit"]:hover{
+    background-color: rgb(243, 168, 71);
+}
+
+.nav-bar a.mine{
+    padding: 10px;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 1.15em;
+    text-decoration: none;
+}
+
+.nav-bar a.mine.active{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.nav-bar a.mine:hover{
+    text-decoration: underline;
+}
+
+.nav-bar a.login{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(236,82,82);
+}
+
+.nav-bar a.login:hover{
+    background-color: rgb(207,55,55);
+}

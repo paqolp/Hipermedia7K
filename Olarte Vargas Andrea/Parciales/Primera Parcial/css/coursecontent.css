@@ -1,0 +1,56 @@
+.coursecontent{
+    width: 100%;
+}
+
+.coursecontent .row{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.coursecontent .row h2{
+    font-size: 1.5em;
+    line-height: 2em;
+    /* margin-bottom: 5px; */
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.coursecontent .row .container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.coursecontent .row .container p{
+    font-size: 1.3em;
+}
+
+.coursecontent .row .container .bar{
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.coursecontent .row .container .bar:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.coursecontent .row .container .bar .title{
+    padding: 10px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.coursecontent .row .container .bar .sub{
+    padding: 10px;
+    padding-left: 40px;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+}
+
+.coursecontent .row .container .bar .sub ol{
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
