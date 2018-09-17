@@ -1,0 +1,97 @@
+#logo
+{
+  width: 5%;
+}
+#icono-usuario
+{
+  width: 15%;
+  float: right;
+}
+.search-container
+{
+  float: right;
+}
+nav ul li
+{
+  padding-right:30px; 
+}
+#search
+{
+  padding: 6px;
+  margin-top: 0px;
+  font-size: 17px;
+  border: solid 1px black;
+}
+#search-button
+{
+  float: right;
+  padding: 7px 10px;
+  margin-top: 0px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#search-button:hover {
+  background: #ccc;
+}
+.mini-video
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  height: 273.367px;
+  width: 300px;
+}
+.miniaturas
+{
+  width: 150px;
+  height: 100px;
+}
+.photo-container
+{
+  border: 1px solid black;
+  text-align: center;
+}
+.photo-container img
+{
+  width: 100px;
+  height: 100px;
+}
+.course-container
+{
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.course-container img
+{
+  width: 250px;
+  height: 200px;
+}
+.tiempo
+{
+  float: right;
+  font-size: 14px;
+}
+.chat-container
+{
+  border: 1px solid black;
+  text-align: center;
+  width: 200px;
+}
+.chat-container img
+{
+  width: 150px;
+  height: 100px;
+}
+.chat-container a
+{
+  text-decoration: none;
+  color: black;
+}
+#foto-usuario
+{
+  width: 250px;
+  height: 250px;
+}

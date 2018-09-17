@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mis Cursos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/inicio.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="./img/logo.png" alt="Logo Cursos" id="logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarPrincipal">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active ml-2">
+          <h4><a class="nav-link" href="./inicio.html">Inicio</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="nav-link" href="./mis-cursos.html">Mis Cursos</a></h4>
+        </li>
+        <li class="nav-item">
+          <h4><a class="nav-link" href="./mis-profesores.html">Mis Profesores</a></h4> 
+        </li>
+      </ul>
+      <a href="./mi-perfil.html">
+        <img src="./img/icon-user.png" alt="ícono usuario" id="icono-usuario">
+      </a>
+    </div>
+  </nav>
+  <div class="container-fluid mt-2">
+    <div class="course-container">
+      <div class="row">
+        <div class="col-3">
+            <img src="./img/drive.jpg" alt="Curso Drive">
+        </div>
+        <div class="col-7 pb-3 pt-2">
+          <h3>Curso: Uso de plataforma Google Drive</h3>
+          <h3>Instructor: Francisco Iván Lepe Salazar</h3>
+          <h3>Descripción:</h3>
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis officiis quas cum accusantium odit eum voluptate voluptatem iste quia delectus cumque vitae ducimus dolorum, nisi blanditiis? Voluptate deserunt esse dolorem enim quia quod quis, iste adipisci labore cupiditate sunt maiores aspernatur, quos praesentium corporis quasi! Ducimus fugiat deserunt dolorum! Rem.</h6>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-8">
+        <div id="accordion">
+
+          <div class="card">
+            <div class="card-header" id="unidad1">
+              <h5 class="mb-0">
+                <button class="btn" data-toggle="collapse" data-target="#collapseUnidad1" aria-expanded="true" aria-controls="collapseUnidad1">
+                  Unidad 1
+                </button>
+                <span class="tiempo">20:05</span>
+              </h5>
+            </div>
+            <div id="collapseUnidad1" class="collapse" aria-labelledby="unidad1" data-parent="#accordion">
+              <div class="card-body">
+
+                <div class="card">
+                  <div class="card-header" id="subUnidad1">
+                    <h5 class="mb-0">
+                      <button class="btn" data-toggle="collapse" data-target="#collapseSubUnidad1" aria-expanded="true" aria-controls="collapseSubUnidad1">
+                          Subunidad 1
+                      </button>
+                      <span class="tiempo">03:25</span>
+                    </h5>
+                  </div>
+                  <div id="collapseSubUnidad1" class="collapse" aria-labelledby="subUnidad1" data-parent="#unidad1">
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 1<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 2<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                          <li class="list-group-item">Examen<span>
+                          <button type="button" class="btn btn-danger tiempo" data-toggle="modal" data-target="#modalExamen">
+                            Realizar
+                          </button></span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="subUnidad2">
+                    <h5 class="mb-0">
+                      <button class="btn" data-toggle="collapse" data-target="#collapseSubUnidad2" aria-expanded="true" aria-controls="collapseSubUnidad2">
+                        Subunidad 2
+                      </button>
+                      <span class="tiempo">03:25</span>
+                    </h5>
+                  </div>
+                  <div id="collapseSubUnidad2" class="collapse" aria-labelledby="subUnidad2" data-parent="#unidad1">
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 1<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 2<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                          <li class="list-group-item">Examen<span>
+                          <button type="button" class="btn btn-danger tiempo" data-toggle="modal" data-target="#modalExamen">
+                            Realizar
+                          </button></span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Unidad 2
+                </button>
+                <span class="tiempo">20:05</span>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <div class="card">
+                  <div class="card-header" id="subUnidad1">
+                    <h5 class="mb-0">
+                      <button class="btn" data-toggle="collapse" data-target="#collapseSubUnidad1" aria-expanded="true" aria-controls="collapseSubUnidad1">
+                          Subunidad 1
+                      </button>
+                      <span class="tiempo">03:25</span>
+                    </h5>
+                  </div>
+                  <div id="collapseSubUnidad1" class="collapse" aria-labelledby="subUnidad1" data-parent="#unidad1">
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 1<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 2<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                          <li class="list-group-item">Examen<span>
+                          <button type="button" class="btn btn-danger tiempo" data-toggle="modal" data-target="#modalExamen">
+                            Realizar
+                          </button></span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="subUnidad2">
+                    <h5 class="mb-0">
+                      <button class="btn" data-toggle="collapse" data-target="#collapseSubUnidad2" aria-expanded="true" aria-controls="collapseSubUnidad2">
+                        Subunidad 2
+                      </button>
+                      <span class="tiempo">03:25</span>
+                    </h5>
+                  </div>
+                  <div id="collapseSubUnidad2" class="collapse" aria-labelledby="subUnidad2" data-parent="#unidad1">
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 1<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Cras justo odio <span class="tiempo">03:25</span></li>
+                        <li class="list-group-item">Tarea 2<span>
+                          <button type="button" class="btn btn-primary tiempo" data-toggle="modal" data-target="#modalTarea">
+                            Entregar
+                          </button></span></li>
+                          <li class="list-group-item">Examen<span>
+                          <button type="button" class="btn btn-danger tiempo" data-toggle="modal" data-target="#modalExamen">
+                            Realizar
+                          </button></span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 offset-1">
+        <div class="chat-container">
+          <a href="">
+            <img src="./img/chat.png" alt="Imagen chat">
+            <h3>Chat Unidad 1</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalTarea" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Tarea</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>Descripción</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime minima beatae veniam, sint delectus.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Subir archivos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalExamen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Examen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>Instrucciones</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maxime minima beatae veniam, sint delectus.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Subir archivos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
