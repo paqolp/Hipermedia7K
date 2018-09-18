@@ -1,0 +1,191 @@
+header nav{
+    background-color: #f8f9fa !important;
+}
+
+header nav a{
+    color: #000;
+}
+
+header nav li{
+    width: 150px;
+    text-align: center;
+}
+
+header nav li[class~=active]{
+    border-bottom: #0067af solid 2px;
+    font-weight: bold;
+}
+
+
+header nav form input{
+    width: 400px !important;
+}
+
+header nav #btn-estilo1{
+    color:#fff;
+    background-color: #007bff;
+}
+
+header nav #btn-estilo2{
+    color:#17a2b8;
+    border-color: #17a2b8;
+    background-color: transparent;
+}
+
+header nav #btn-estilo2:hover{
+    color:#fff;
+    background-color: #17a2b8;
+}
+
+header nav #btn-estilo3{
+    color:#343a40;
+    border-color: #343a40;
+    background-color: transparent;
+}
+
+header nav #btn-estilo3:hover{
+    color:#fff;
+    background-color: #343a40;
+}
+
+.main{
+    background-color: #dfe6e9;
+}
+
+.main #carousel .carousel-item{
+    height: 700px;
+}
+
+.main #carousel .carousel-item .carousel-caption h5{
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.main #carousel .carousel-item .carousel-caption p{
+    font-size: 20px;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.main #habitaciones{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.main #habitaciones .titulo{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2d3436;
+}
+
+.main #habitaciones .habitacion{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 30px grey;
+}
+
+.main #habitaciones .habitacion img,
+.main #habitaciones .habitacion .informacion{
+    width: 50%;
+    height: 500px;
+}
+
+.main #habitaciones .habitacion .informacion{
+    padding: 90px 50px;
+    text-align: center;
+}
+
+.main #habitaciones .habitacion .informacion h4{
+    color: #e17055;
+    font-size: 30px;
+}
+
+.main #habitaciones .habitacion .informacion h4:hover{
+    text-shadow: 2px 2px 8px #000;
+    font-size: 50px;
+}
+
+.main #habitaciones .habitacion .informacion p{
+    font-size: 20px;
+    text-align: start;
+}
+
+.main #habitaciones .habitacion .informacion .precio{
+    color: #0984e3;
+    text-align: center;
+}
+
+.main #habitaciones .habitacion .informacion .precio:hover{
+    font-size: 30px;
+    color: #043A63;
+}
+
+footer{
+    background: #0067af;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 50px 10%;
+}
+
+footer .titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .contacto{
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+}
+
+footer .contacto .direccion{
+    font-size: 20px;
+}
+
+footer .contacto i{
+    margin-right: 20px;
+}
+
+footer .contacto .telefono{
+    margin-bottom: 30px;
+}
+
+footer .redes-sociales{
+    width: 50%;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: flex-end;
+    vertical-align: middle;
+}
+
+footer .redes-sociales a{
+    color: #fff;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover{ 
+    background: #1da1f2;
+}
+
+footer .redes-sociales .facebook:hover{	
+    background: #3b5998;
+}
+
+footer .redes-sociales .instagram:hover{  
+    background: radial-gradient(ellipse farthest-corner at 20px 70px,#ffdc80, #fcaf45 10%, #f77737 25%, #f56040 30%, #fd1d1d 40%, #e1306c 50%, #c13584 60%, #833ab4 70%, #5851db 90%, #405de6 98%);
+}
