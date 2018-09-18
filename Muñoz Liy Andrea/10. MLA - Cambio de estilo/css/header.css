@@ -1,0 +1,18 @@
+.navbar-dark.bg-dark {
+    background-color: #000000 !important;
+}
+
+.navbar .navbar-brand {
+    line-height: 45px;
+}
+
+.line-right {
+    border-right: 1px solid rgba(255,255,255,0.7);
+    margin: 8px 10px 8px 8px !important;
+    padding: 0 15px 0 0 !important;
+}
+
+.navbar-dark .navbar-text,
+.navbar-dark .navbar-text {
+    color: rgba(255,255,255,0.7);
+}
