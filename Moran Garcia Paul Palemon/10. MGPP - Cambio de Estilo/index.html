@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Actividad JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+</head>
+<body>
+    <!--Contenedor de la barra de Navegación-->
+    <div class="container-fluid" id="navBar">
+        <ul>
+            <li class="logo"><img src="img/logo.png" class="logo"></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#" onclick="changeCSS('./css/estilo3.css', 4);">Estilo 3</a></li>
+            <li><a href="#" onclick="changeCSS('./css/estilo2.css', 4);">Estilo 2</a></li>
+            <li> <a href="#" onclick="changeCSS('./css/estilo1.css', 4);">Estilo 1</a></li>
+            <li class="active"><a href="#home">Hommie</a></li>
+        </ul>
+    </div>
+
+    <!--Primer Imagen de la Página-->
+    <div class="container" style="padding-bottom:2%">
+        <img class="fotoBienvenida" src="img/hotel.jpg">
+        <div class="center">
+            <h2 class="tituloImportante">ENAMORATE A PRIMERA VISTA</h2>
+            <p class="descripcionImportante">No lo hagas, la vida solo trae sufrimiento perpetuo</p>
+        </div>
+    </div>
+
+    <!--Texto en medio de la pantalla-->
+    <div class="container" style="width:100%;">
+        <div class="bienvenidaChida">
+            <h1 class="bienvenidaTitulo">EL LUGAR PERFECTO PARA... ALGO(?)</h1>
+        </div>
+    </div>
+    <div class="container" id="parrafoPerron">
+        <h3 class="descripcionBienvenida">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas cupiditate illo aliquam nobis qui dolore deleniti labore voluptatum expedita facilis porro enim, tempore, odit eos molestiae! Vero iure beatae sapiente minima expedita quo harum distinctio nesciunt quam quidem eos itaque dignissimos voluptatum voluptate nostrum, nemo inventore unde exercitationem nulla illo blanditiis error quisquam. Magni eius inventore aut est, minus molestias beatae? Fuga, laborum temporibus dolorum nihil rerum corrupti accusamus, maxime delectus a saepe accusantium suscipit? Maiores temporibus non sit reiciendis qui, ipsa magni commodi vero quia? Optio, similique id?</h3>
+    </div>
+
+    <!--Galería de imágenes depsués del texto en pantalla-->
+    <div class="contenedorImagenes">
+        <div class="galeria">
+            <img src="img/hotel2.jpg">
+            <div class="descripcionImagen"><p>Foto tomada en Vietnam</p></div>
+        </div>
+
+        <div class="galeria">
+            <img src="img/hotel3.jpg">
+            <div class="descripcionImagen"><p>Camello comiendo pasto</p></div>
+        </div>
+        
+        <div class="galeria">
+            <img src="img/hotel4.jpg">
+            <div class="descripcionImagen"><p>Tons k mami</p></div>
+        </div>
+        
+        <div class="galeria">
+            <img src="img/hotel2.jpg">
+            <div class="descripcionImagen"><p>Judio entrando a campos de concentración. 1819 (Colorizado)</p></div>
+        </div>
+    </div>
+
+    <script src="js/myScripts.js"></script>
+</html>

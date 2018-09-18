@@ -1,0 +1,158 @@
+body{
+    background-color: #A9CBB7;
+    font-family: 'Poor Story', cursive;
+    font-size:20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#navBar{
+    padding: 0px 6%;
+    background-color:#A9CBB7;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A9CBB7;
+    cursor:pointer;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb; 
+    padding:0px 10px;
+    color:#000;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poor Story', cursive;
+    font-size:18px;
+}
+
+li.logo{
+    float:left;
+    border-right: none;
+    width: 35%;
+}
+
+li.logo:hover{
+    background-color: rgba(94, 86, 90, 0);
+}
+
+li:hover {
+    background-color: rgb(125, 119, 180);
+}
+
+li.active{
+    color: white;
+    background-color: rgb(255, 134, 134);
+}
+
+.logo{
+    width: 40%;
+    height: 40%;
+    padding-top: 6px;
+}
+
+.fotoBienvenida{
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'Poor Story', cursive;
+    font-size:16px;
+    text-align: center;
+}
+
+.bienvenidaChida{
+    font-size: 18px;
+    font-family: 'Poor Story', cursive;
+    font-size:16px;
+    text-align: center;
+}
+
+h1.bienvenidaTitulo{
+    font-size: 40px;
+    font-family: 'Poor Story', cursive;
+    display: inline;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+}
+
+h3.descripcionBienvenida{
+    font-weight: 500;
+    font-display: 10;
+}
+
+#parrafoPerron{
+    padding: 0px 5%;
+    -webkit-columns: 50px 4; /* Chrome, Safari, Opera */
+    -moz-columns: 50px 4; /* Firefox */
+    columns: 50px 4;
+}
+
+h2.tituloImportante{
+    font-size:36px;
+    font-weight: bold;
+}
+
+p.descripcionImportante{
+    font-size:24px;
+}
+
+.contenedorImagenes{
+    display: block;
+    padding:0px 2%;
+}
+
+div.galeria {
+    margin: 10px 10px;
+    float: left;
+    width: 300px;
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+div.galeria:hover {
+    margin: 10px 10px;
+    float: left;
+    width: 300px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.descripcionImagen{
+    color:#000;
+    text-align: center;
+    padding:10px;
+}

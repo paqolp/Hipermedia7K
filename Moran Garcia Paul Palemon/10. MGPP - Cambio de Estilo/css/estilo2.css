@@ -1,0 +1,141 @@
+body{
+    background-color:#fff;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size:16px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#navBar{
+    padding: 0px 6%;
+    background-color:#fff;
+}
+
+p {
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb; 
+    padding:0px 10px;
+    color:#000;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size:14px;
+}
+
+li.logo{
+    float:left;
+    border-right: none;
+    width: 35%;
+}
+
+li.logo:hover{
+    background-color: rgba(94, 86, 90, 0);
+}
+
+li:hover {
+    background-color: rgb(163, 104, 132);
+}
+
+li.active{
+    color: white;
+    background-color: #A9CBB7;
+}
+
+.logo{
+    width: 40%;
+    height: 40%;
+    padding-top: 6px;
+}
+
+.fotoBienvenida{
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size:16px;
+    text-align: center;
+}
+
+.bienvenidaChida{
+    font-size: 20px;
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+}
+
+h1.bienvenidaTitulo{
+    font-size: 32px;
+    font-family: 'Noto Serif JP', sans-serif;
+    display: inline;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0%;
+}
+
+h3.descripcionBienvenida{
+    font-weight: 500;
+    font-display: 10;
+}
+
+#parrafoPerron{
+    padding: 0px 5%;
+}
+
+.contenedorImagenes{
+    display: block;
+    padding:0px 5%;
+}
+
+div.galeria {
+    margin: 10px 33%;
+    width: 400px;
+    cursor: pointer;
+    display: block;
+}
+
+div.galeria img:hover {
+    border: 2px solid rgb(163, 104, 132);
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+}
+
+.descripcionImagen{
+    color:#000;
+    text-align: center;
+    padding:10px;
+}
