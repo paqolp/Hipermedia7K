@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <script>
+        let presionado = 0;
+        const main = () => {
+            
+            const habilidades = $("#habilidades");
+            $("#boton").click((e) => {
+                e.preventDefault();
+                    switch(presionado) {
+                    case 0:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Hago APIs REST con PHP y slim o con nodeJS y express")
+                        );
+                        break;
+                    case 1:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Le muevo bastante bien a MySQL y estoy aprendiendo MongoDB")
+                        );
+                        break;
+                    case 2:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Tengo conocimientos básicos de Docker")
+                        );
+                        break;
+                    case 3:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Hago y deshago ubuntu")
+                        );
+                        break;
+                    case 4:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Estoy certificado en Java 8 SE, aunque creo que ya no le voy a mover a eso")
+                        );
+                        break;
+                    case 5:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Por lo anterior, le se mover a Android.. peeeero aquí es donde se empieza a poner feo")
+                        );
+                        setTimeout(() => {
+                            $("#boton").html($("#boton").html() + "... O no...");
+                        }, 1000);
+                        break;
+                    case 6:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Para CSS, sólo se usar bootstrap.. y no tanto")
+                        );  
+                        break;
+                    case 7:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Hago un par de cosas con jQuery, en especial las que tiene que ver con eventos")
+                        );  
+                        break;
+                    case 8:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Uso div para todo en HTML, es mas facil de manejar desde jQuery por eso de los IDs")
+                        );  
+                        break;
+                    case 9:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("No tengo idea de lo que quiere el cliente, y no se cómo preguntarlo")
+                        );  
+                        break;
+                    case 10:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Y una vez que se que quiere, no se cómo dibujarlo o diagramarlo")
+                        );  
+                        break;
+                    case 11:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("No tengo idea de seleccion de colores, la verdad es que me dan igual mientras no me dejen ciego")
+                        );
+                        break;
+                    case 12:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Me cuesta entender lo ambiguo de las explicaciones, prefiero cosas súper exactas")
+                        );
+                        break;
+                    case 13:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("En fin, no aspiro a hacer páginas de presencia de negocios")
+                        );
+                        break;
+                    case 14:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("O a pasar la materia en general")
+                        );
+                        break;
+                    case 15:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("Es mas, entregué esto tarde...")
+                        );
+                        break;
+                    case 16:
+                        habilidades.append(
+                            $("<li>").addClass("lead").html("y pues.. nada, eso es todo...")
+                        );
+                        $("#boton").addClass("disabled");
+                        break;
+                    }
+                presionado++;
+            });
+        }
+    </script>
+  </head>
+  <body>
+      <div class="container h-100">
+            <div class="jumbotron">
+                <h1 class="display-4">Notas del desarrollador</h1>
+                <p class="lead">aiudaaaaaaa, esto no es back, kastapasandaaaa DD:</p>
+                <hr class="my-4">
+                <p>Este documento representa el equivalente a poner mi nombre y entregar el examen porque la verdad es que no se nada acerca de entender lo que quiere el usuario, no me imagino los diagramas ni se como aplicar las consideraciones que se hacen para construir un software ni tampoco se cómo deducir qué hacer con ellas ni tampoco tengo la voluntad o la motivación para investigarlo para hacer el examen (El exentar el ordinario tampoco es motivación para ello). Así que ñeh, mejor hago la parte que si se hacer para el proyecto integrador. Me dedico al desarrollo de back y voy a comenzar con QA o tal vez me incline para DevOps.
+                        Lo que dijo la doctora que nos dió la presentación de ecología de medios acerca de la gente que eligió la carrera para evitar hablar con la gente.. pues soy una de esas personas y mi meta en la vida es demostrar que se puede ser buen ingeniero y vivir en el anonimato, en la sombra de aquellos que dan la cara.
+                        Tampoco hago lo que hago por dinero, sino por que me gusta. Si me pagaran el doble por hacer el diseño visual de una página y crear todos esos diagramas, vendiéndole la idea a un cliente de que necesita de un servicio, a lo que me pagarían haciendo lo que me gusta hacer, definitivamente me quedaría donde estoy.
+                </p>
+                <a id="boton" class="btn btn-primary btn-lg" href="#" role="button">Ver habilidades shidoliras</a>
+                <ul id="habilidades"></ul>
+            </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>$(main);</script>
+  </body>
+</html>

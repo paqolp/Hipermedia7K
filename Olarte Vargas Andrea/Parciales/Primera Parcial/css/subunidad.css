@@ -1,0 +1,66 @@
+.subunidad{
+    width: 100%;
+}
+
+.subunidad .row{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.subunidad .row h2{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+/* En el caso en que se agregue un video en lugar de iframe 
+.subunidad .row video{
+    width: 60%;
+}
+*/
+
+.subunidad .row iframe{
+    width: 50%;
+}
+
+.subunidad .row .line{
+    width: 1px;
+    height: 500px;
+    background-color: #ccc;
+    margin: 0 25px;
+}
+
+.subunidad .row .content{
+    width: 50%;
+}
+
+.subunidad .row .content .resources{
+    margin-bottom: 15px;
+}
+
+.subunidad .row .content .resources ul,
+.subunidad .row .content .resources ol{
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.subunidad .row .content .resources li.submit{
+    margin-bottom: 10px;
+}
+
+.subunidad .row .content .resources li.submit label{
+    margin: 3px 0 0 0;
+    display: block;
+    color: #333;
+    font-size: 0.85em;
+    line-height: 0.85em;
+}
+

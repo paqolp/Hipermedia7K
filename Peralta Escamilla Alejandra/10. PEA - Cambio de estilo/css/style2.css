@@ -1,0 +1,47 @@
+img.d-block.w-100 {
+	max-height: 500px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background-color: #2e442f91;
+}
+
+.logo {
+	width: 140px;
+	position: absolute;
+	top: 0;
+	left: 25px;
+}
+
+.slide-text {
+	padding: 15px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.colorcito {
+	color: #01579b;
+	text-align: center;
+}
+
+.card-text {
+	color: #3949ab;
+	text-align: center;
+	font-size: 20px;
+}
+
+.jumbotron {
+	background-image: url("../img/s31.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	color: #f1f8e9;
+	background-color: #004d40b0;
+}
+
+.bg-info {
+	background-color: #00695c !important;
+}

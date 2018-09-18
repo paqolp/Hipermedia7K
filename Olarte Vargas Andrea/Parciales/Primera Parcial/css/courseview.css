@@ -1,0 +1,92 @@
+.courseview{
+    width: 100%;
+}
+
+.courseview p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.courseview .row{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.courseview .row .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.courseview h2{
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.courseview .descrip{
+    width: 60%;
+    padding: 20px;
+    margin: 0 10px;
+    /* font-weight: 300; */
+    text-align: justify;
+    background-color: #fff;
+}
+
+.courseview .prof{
+    width: 30%;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.courseview .prof p{
+    font-size: 1em;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.courseview .prof .name{
+    margin: 10px 0 5px 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.courseview .prof img{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.courseview .content ol.unidades{
+    padding-left: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+.courseview .content ol.subunidades{
+    padding-left: 40px;
+}
+
+.courseview .content li.unidad{
+    margin-bottom: 15px;
+}
+
+.courseview .row.contenido{
+    width: calc(81% + 20px);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.courseview .row.contenido .container{
+    justify-content: space-around;
+}
+
+.courseview .row.contenido .container .line{
+    width: 1px;
+    height: 350px;
+    background-color: #ccc;
+}

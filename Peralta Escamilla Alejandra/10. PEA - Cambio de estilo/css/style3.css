@@ -1,0 +1,47 @@
+img.d-block.w-100 {
+	max-height: 400px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background-color: #23306b91;
+}
+
+.logo {
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+.slide-text {
+	padding: 10px;
+	font-size: 10pt;
+	text-align: justify;
+}
+
+.colorcito {
+	color: #00bfa5;
+	text-align: justify;
+}
+
+.card-text {
+	color: #00b8d4;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.jumbotron {
+	background-image: url("../img/s51.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	color: #ffebee;
+	background-color: #880e4fb0;
+}
+
+.bg-info {
+	background-color: #880e4f !important;
+}
