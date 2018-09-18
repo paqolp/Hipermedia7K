@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <title>Cambio de estilos</title>
+    <base target="_blank">
+</head>
+<body>
+    <header>
+        <ul class="navbar">
+          <li><a href="#">HABITACIONES</a></li>
+          <li><a href="#">SERVICIOS</a></li>
+          <li><a href="#">UBICACION</a></li>
+          <li><a href="#">INFORMACIÓN DE CONTACTO</a></li>
+       
+        </ul>
+    </header>
+    <img class="imgModelo" src="img/fondo.jpg">
+        <div class="intro">
+            <p></p>
+            <p></p>
+        </div>
+            
+    <main class="container">
+        <button class="collapse">Habitaciones</button>
+        <div class="panel">
+            <section id="informacion">
+                <table class="caract" style="margin: 100px;   left: 20%;">
+                    <tr>
+                        <th>Habitaciones
+                        <th>Disponibilidad</th>
+                        <th>Precio</th>
+                        <th></th>
+
+                    </tr>
+                    <tr>
+                        <td>Individual</td>
+                        <td>Disponible</td>
+                        <td>$900.00MX</td>
+                        <td><button class="buttonTabla"> Apartar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Doble</td>
+                        <td>No Disponible</td>
+                        <td>$1,300.00MX</td>
+                        <td><button class="buttonTabla2"> Apartar</button></td>
+                    </tr>
+                    <tr>
+                       <td>Suite</td>
+                        <td>Disponible</td>
+                        <td>$1,600.00MX</td>
+                        <td><button class="buttonTabla"> Apartar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Suite nupcial</td>
+                        <td>Disponiible</td>
+                        <td>$2,100.00MX</td>
+                        <td><button class="buttonTabla"> Apartar</button></td>
+                    </tr>
+                    <tr>
+                        <td>Presidencial</td>
+                        <td>No Disponible</td>
+                        <td>$10,000.00MX</td>
+                        <td><button class="buttonTabla2"> Apartar</button></td>
+                    </tr>
+                   
+                </table>
+            </section>
+        </div>
+
+        <button class="collapse">Servicios</button>
+        <div class="panel">
+            <section id="informacion">
+                 <div style="position: relative; display: inline-block; margin-top: 10px">
+                        <ul  style="font-size: 20px; margin: 60px; text-align: justify; "> 
+                                 <li type="disc">Tobogán acuático</li> 
+                                 <li type="disc">Bar o salón lounge</li> 
+                                 <li type="disc">Ascensor</li> 
+                                 <li type="disc">Servicio de recepción las 24 horas</li> 
+                                 <li type="disc">Bar junto a la piscina</li> 
+                                 <li type="disc">Centro de negocios</li> 
+                                 <li type="disc">Espacio para conferencias</li> 
+                                 <li type="disc">Mesa de billar o pool</li> 
+                                 <li type="disc">Portero o botones</li> 
+                                 <li type="disc">Asistencia turística y para la compra de entradas</li> 
+                                 <li type="disc">Salas de reuniones</li> 
+                                 <li type="disc">3 Restaurante</li>
+                        </ul>
+                </div>
+            </section>
+        </div>
+
+        <button class="collapse">Ubicación</button>
+        <div class="panel">
+            <section id="informacion">
+                <div style="position: relative; display: inline-block; margin-top: 10px">
+                    <p style="font-size: 20px; margin: 60px; text-align: justify; ">
+                        Dirección: Calle Gregorio Torres Quintero 12, Centro, 28000 Colima, Col. <img src="img/sitio-web.png" style="height: 30px; width: 30px;"><br> 
+                     </p>
+                </div>
+            </section>
+        </div>
+
+        <button class="collapse">Información de contacto</button>
+        <div class="panel">
+            <section id="informacion" >
+               <div style="position: relative; display: inline-block; margin-top: 10px">
+                <p style="font-size: 20px; margin: 60px; text-align: justify; ">
+                    Portal Medellín núm. 12 Colonia Centro, C.P. 28000 Colima, México <br> 
+                    Tels. 01 (312) 316 01 00 Fax (312) 312 06 45 <br> 
+                    Lada sin costo Nacional 01 800 581 97 20 <br> 
+                    Lada sin costo de E.U.A. y Canadá: 1-866-395-0880 <br> 
+                    E-mail: informes@hotelceballos.com<br> 
+                </p>
+                </div>
+            </section>
+        </div><br><br>
+
+        <button class="button1" onclick="changeCSS('./css/style2.css', 0);">Estilo 1</button>
+        <button class="button2" onclick="changeCSS('./css/style3.css', 0);">Estilo 2</button>
+        <button class="button3" onclick="changeCSS('./css/style.css', 0);">Estilo original</button>
+
+
+       <br><br> <h2>Imágenes</h2> <br><br> 
+           <ul class="galeria">
+        <li><a href="#img1" target="_parent"><img src="img/img1.jpg"></a></li>
+        <li><a href="#img2" target="_parent"><img src="img/img2.jpg"></a></li>
+        <li><a href="#img3" target="_parent"><img src="img/img3.jpg"></a></li>
+        <li><a href="#img4" target="_parent"><img src="img/img4.jpg"></a></li>
+        <li><a href="#img5" target="_parent"><img src="img/img5.jpg"></a></li>
+        <li><a href="#img6" target="_parent"><img src="img/img6.jpg"></a></li>
+    </ul>
+
+    <div class="modal" id="img1">
+        <h3>Imagen 1</h3>
+        <div class="imagen">
+            <a href="#img6" target="_parent">&#60;</a>
+            <a href="#img2" target="_parent"><img src="img/img1.jpg"></a>
+            <a href="#img2" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+    
+    <div class="modal" id="img2">
+        <h3>Imagen 2</h3>
+        <div class="imagen">
+            <a href="#img1" target="_parent">&#60;</a>
+            <a href="#img3" target="_parent"><img src="img/img2.jpg"></a>
+            <a href="#img3" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+    
+    <div class="modal" id="img3">
+        <h3>Imagen 3</h3>
+        <div class="imagen">
+            <a href="#img2" target="_parent">&#60;</a>
+            <a href="#img4" target="_parent"><img src="img/img3.jpg"></a>
+            <a href="#img4" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+    
+    <div class="modal" id="img4">
+        <h3>Imagen 4</h3>
+        <div class="imagen">
+            <a href="#img3" target="_parent">&#60;</a>
+            <a href="#img5" target="_parent"><img src="img/img4.jpg"></a>
+            <a href="#img5" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+
+    <div class="modal" id="img5">
+        <h3>Imagen 5</h3>
+        <div class="imagen">
+            <a href="#img4" target="_parent">&#60;</a>
+            <a href="#img6" target="_parent"><img src="img/img5.jpg"></a>
+            <a href="#img6" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+    
+    <div class="modal" id="img6">
+        <h3>Imagen 6</h3>
+        <div class="imagen">
+            <a href="#img5" target="_parent">&#60;</a>
+            <a href="#img1" target="_parent"><img src="img/img6.jpg"></a>
+            <a href="#img1" target="_parent">></a>
+        </div>
+        <a class="cerrar" href="" target="_parent">X</a>
+    </div>
+
+    
+
+        
+    </main>
+    <footer>
+        <p>Redes Sociales</p>
+        <hr class="hrFooter">
+        <a href="https://www.facebook.com/"><i class="icono fab fa-facebook-square"></i></a>
+        <a href="https:/www.twitter.com/"><i class="icono fab fa-twitter-square"></i></a>
+        <a href="https:/www.instagram.com/"><i class="icono fab fa-instagram"></i></a>
+        <a href="https:/www.youtube.com/"><i class="icono fab fa-youtube"></i></a>
+    </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapse");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <script src="js/fuctions.js" > </script>
+</body>
+</html>
