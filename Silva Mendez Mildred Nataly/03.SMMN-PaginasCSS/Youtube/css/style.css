@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.container{
+    background: #f3f3f3;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.navbar img{
+    width: 90px;
+    height: 40px;
+    margin-right: 250px;
+}
+.navbar .texto{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    
+}
+.navbar .submitt{
+    width: 70px;
+    height: 25px;
+    margin: 10px 0 0 0;
+    border-radius:2px; 
+}
+.lateralcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.lateral{
+width: 250px;
+height: 700px;
+background: #d4d4d4;
+display: flex;
+flex-direction: column;
+list-style: none;
+}
+.lateral ul{
+    margin: 0;
+}
+.lateral li{
+    list-style: none;
+    font-family: Helvetica;
+    margin: 6px;
+}
+.row-uno{
+margin: 10px 30px;
+}
+.row-uno p{
+    font-size: 12px;
+}

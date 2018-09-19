@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+#containerNav{
+    position: relative;
+}
+#containerNav:hover{
+ background-color: rgb(255, 204, 38);
+}
+#imgNav{
+    width: 70px;
+    height: 60px;
+}
+#linkNav{
+    margin-left: 20px;
+    font-family: "Poppins";
+    color: #333;
+}
+#containerNav:hover #linkNav{
+    color: rgb(59, 59, 59);
+}
+#buttonNav{
+    background: #333;
+    color: white;
+}
+#buttonNav:hover{
+    background: rgb(131, 131, 131);
+    color: white;
+}
+#searchNav{
+    width: 400px;
+    border-radius: 10px;
+}
+.galleryContainer{
+    display: flex;
+    flex-direction: column;
+    width: 1245px;
+    margin-top: 50px;
+    margin-left: 45px;
+    background: brown;
+}
+.rowOne{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+}
+.galleryContainer h2{
+    color: white;
+}
+.rowOne img{
+    width: 300px;
+    height: 230px;
+    margin-left: 10px;
+}
