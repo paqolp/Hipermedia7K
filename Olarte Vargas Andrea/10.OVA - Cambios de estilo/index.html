@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HOTEL Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styleuno.css" id="changingstyles"/>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <a class="navbar-brand" href="#">HOTEL Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Rooms
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Individual</a>
+                <a class="dropdown-item" href="#">Two people</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Familiar</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-light my-2 my-sm-0 ml-2" type="button" id="btn-style" onclick="change();">Estilo</button>
+          </form>
+        </div>
+    </nav>
+        
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block mb-5">
+                    <h5 class="display-2">HOTEL Brand</h5>
+                    <p class="h3">The best hotel</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/2.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block mb-5">
+                    <h5 class="display-2">HOTEL Brand</h5>
+                    <p class="h3">Relaxing Environment</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/3.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block mb-5">
+                    <h5 class="display-2">HOTEL Brand</h5>
+                    <p class="h3">Perfect staying</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="about">
+        <h2 class="title display-3">About</h2>
+        <p class="lead">El hotel *BRAND*, distinguido con el reconocimiento de 4 diamantes de la AAA, está ubicado en primera línea de playa en Manzanillo. Su espectacular arquitectura, fruto de la inspiración en los templos Mayas junto con jardines tropicales y una playa privada, convierten este hotel en un paraíso de relajación y entretenimiento para toda la familia.</p>
+    </div>
+    
+    <div class="services">
+        <h2 class="display-3">Services</h2>
+        <div class="service-wrap">
+            <div class="service">
+                <img src="images/service1.png" alt="">
+                <div class="texts">
+                    <p class="title h5">Variety of rooms</p>
+                    <p>Plenty of different rooms to fit your staying purpose</p>
+                </div>
+            </div>
+            <div class="service to-right">
+                <img src="images/service2.png" alt="">
+                <div class="texts">
+                    <p class="title h5">Food &amp; Drinks</p>
+                    <p>Among five restaurants to choose and have delicious food and drinks </p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="images/service3.png" alt="">
+                <div class="texts">
+                    <p class="title h5">Airport Pick-up</p>
+                    <p>We can pick you up at the airport so you do not get lost! Only need to book the service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rooms">
+        <h2 class="display-3">Rooms</h2>
+        <div class="room-wrap">
+            <div class="room">
+                <div class="image-container">
+                    <img src="images/room1.jpg" alt="">
+                </div>
+                <div class="texts">
+                    <p class="title h3">Suite Room</p>
+                    <p>Estas suites disponen de terraza o balcón privado con vistas parciales a la alberca (piscina) y a los jardines. Son habitaciones confortables y luminosas, decoradas con un diseño moderno y están ubicadas desde la primera hasta la séptima planta. </p>
+                    <p class="price h1">$200 <small class="h6">CAD / night</small></p>
+                </div>
+            </div>
+            <div class="room">
+                <div class="image-container">
+                    <img src="images/room2.jpg" alt="">
+                </div>
+                <div class="texts">
+                    <p class="title h3">Double Room</p>
+                    <p>Estas amplias y confortables habitaciones de 68 m² cuentan con vistas parciales al mar desde su balcón. Ubicadas desde la segunda hasta la séptima planta, están completamente equipadas para satisfacer las necesidades más exigentes.</p>
+                    <p class="price h1">$250 <small class="h6">CAD / night</small></p>
+                </div>
+            </div>
+            <div class="room">
+                <div class="image-container">
+                    <img src="images/room3.jpg" alt="">
+                </div>
+                <div class="texts">
+                    <p class="title h3">Family Room</p>
+                    <p>Con espectaculares vistas al mar, sin duda el mejor telón de fondo para disfrutar de una placentera estancia. Cuentan con 2 recámaras ideales para pasar las vacaciones en familia y gozar de un poco de intimidad. Amplias, confortables y luminosas.</p>
+                    <p class="price h1">$300 <small class="h6">CAD / night</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h2 class="display-4">Explore our gallery</h2>
+        <div class="pictures">
+            <div class="picture">
+                <img src="images/room1.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room2.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room3.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room4.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room2.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room3.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room4.jpg" alt="">
+            </div>
+            <div class="picture">
+                <img src="images/room1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Designed by Andrea Olarte Vargas © 2018
+    </footer>
+        
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>

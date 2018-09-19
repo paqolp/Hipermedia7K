@@ -1,0 +1,40 @@
+/* @import 'styleuno.css'; */
+/* @import 'styledos.css'; */
+/* @import 'styletres.css'; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+.carousel{
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img{
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.about{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.about h2{
+    /* border-bottom: 1px solid #000; */
+}
+
+footer{
+    padding: 20px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #000;
+}

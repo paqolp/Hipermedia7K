@@ -1,0 +1,118 @@
+nav.navbar{
+    background-color: #332E3C !important;
+}
+
+body{
+    background-color: #C4B2BC;
+    color: #332E3C;
+}
+
+.services{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.services .service-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.services .service-wrap .service{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.services .service-wrap .service img{
+    width: 50%;
+}
+
+.services .service-wrap .service .texts{
+    margin-top: 10px;
+}
+
+.services .service-wrap .service .texts .title{
+    font-weight: 700;
+}
+
+.rooms{
+    width: 100%;
+}
+
+.rooms .room-wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rooms .room{
+    width: 100%;
+    padding: 20px;
+    margin: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.rooms .room .image-container, 
+.rooms .room .texts{
+    width: 50%;
+}
+
+.rooms .room .image-container img{
+    width: 100%;
+}
+
+.rooms .room .texts{
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: left;
+    position: relative;
+}
+
+.rooms .room .texts .title{
+    font-weight: 700;
+}
+
+.rooms .room .texts .price{
+    text-align: right;
+    display: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.gallery{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #A29587;
+}
+
+.gallery .pictures{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery .pictures .picture{
+    width: 23%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.gallery .pictures .picture:hover{
+    transform: scale(1.1);
+}
+
+.gallery .pictures .picture img{
+    width: 100%;
+}

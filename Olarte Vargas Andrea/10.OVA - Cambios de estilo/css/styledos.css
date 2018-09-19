@@ -1,0 +1,113 @@
+nav.navbar{
+    background-color: #000 !important;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+}
+
+.services{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F3F4F3;
+}
+
+.services .service-wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.services .service-wrap .service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services .service-wrap .service.to-right{
+    flex-direction: row-reverse;
+}
+
+.services .service-wrap .service img{
+    width: 10%;
+}
+
+.services .service-wrap .service .texts{
+    width: 80%;
+    margin: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.services .service-wrap .service.to-right .texts{
+    text-align: right;
+}
+
+.services .service-wrap .service .texts .title{
+    font-weight: 700;
+}
+
+.rooms{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rooms .room-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rooms .room-wrap .room{
+    width: 30%;
+    padding: 15px;
+    padding-top: 30px;
+    /* margin: 15px; */
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+
+.rooms .room-wrap .room:hover{
+    box-shadow: 0 40px 80px rgba(0,0,0,.2);
+}
+
+.rooms .room .image-container, 
+.rooms .room .texts{
+    width: 100%;
+}
+
+.rooms .room .image-container img{
+    width: 90%;
+}
+
+.gallery{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.gallery .pictures{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.gallery .pictures .picture{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.gallery .pictures .picture img{
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.gallery .pictures .picture:hover img{
+    opacity: 0.8;
+}
