@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hotel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/style1.css"  id="css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+    <a class="navbar-brand" href="#">Barceló</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hoteles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ofertas</a> 
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Estilos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="btn-group-vertical">
+              <button class="btn btn-primary mb-2 ml-2" type="button" onclick="changeCSS('./css/style2.css');">Cambiar Estilo</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="my-2 my-lg-0">
+        <a href="#"><img src="./img/globo.png" class="mr-4" alt="Icono lenguaje"></a>
+        <a href="#"><img src="./img/menu.png" class="mr-4" alt="Icono menu"></a> 
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" id="carrusel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./img/barcelo1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/barcelo2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./img/barcelo3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid" id="barra-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h4>Barcelo.com</h4>
+          <p>Reserve en Barcelo.com con ventajas exclusivas: mejor precio, ofertas privadas y mucho más.</p>
+        </div>
+        <div class="col-3">
+          <h4>Su hotel</h4>
+          <p>Disfrute más de la estancia con el mejor servicio: bono regalo, Wi-Fi, detalle de bienvenida...</p>
+        </div>
+        <div class="col-3">
+          <h4>Y usted</h4>
+          <p>Acumule estancias, suba de nivel y vuelva con hasta un 10% de descuento y más beneficios.</p>
+        </div>
+        <div class="col-3">
+          <h4>Barcelo.com</h4>
+          <p>Reserve en Barcelo.com con ventajas exclusivas: mejor precio, ofertas privadas y mucho más.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="img-container">
+    <div class="row">
+      <div class="col-4">
+        <div class="container-info">
+          <h5>Barceló Karmina</h5>
+          <h5>Manzanillo, México</h5>
+          <p>El hotel Barceló Karmina*****, distinguido con el reconocimiento de 4 diamantes de la AAA, está ubicado en primera línea de playa en Manzanillo. Su espectacular arquitectura, fruto de la inspiración en los templos Mayas junto con jardines tropicales y una playa privada, convierten este hotel en un paraíso de relajación y entretenimiento para toda la familia.</p>
+          <p>Este lujoso alojamiento cuenta con 324 suites de diseño actual que destacan por su comodidad y luminosidad. Además, están totalmente equipadas para garantizar el máximo confort. El Premium Level proporciona beneficios exclusivos. </p>
+          <p>El hotel Barceló Karmina dispone también del programa Barceló Todo Incluido, ofreciendo la posibilidad de degustar una variada oferta gastronómica en sus 4 restaurantes. </p>
+          <p>Este hotel no sólo está ubicado en un entorno privilegiado en primera línea de playa, sino que cuenta con todo lo necesario para hacer de su estancia un verdadero placer, desde un magnífico spa hasta diversos espectáculos y animaciones diarias.</p>
+          <p>El hotel Barceló Karmina representa muchos contrastes, combinando a la perfección descanso y entretenimiento con el más exquisito servicio de un hotel de 5 estrellas.</p>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="info-container">
+          <img src="./img/hotel1.PNG" alt="Información de hotel" class="img-info-t">
+          <img src="./img/hotel2.PNG" alt="Información de hotel" class="img-info-t">
+          <img src="./img/hotel3.PNG" alt="Información de hotel" class="img-info-b">
+          <img src="./img/hotel4.PNG" alt="Información de hotel" class="img-info-b">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/fuctions.js"></script>
+</body>
+</html>
