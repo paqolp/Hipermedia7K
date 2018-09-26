@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Full Motion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Full Motion</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker" >
+		<link rel="stylesheet" href="./css/app.css">
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body id="top">
+
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner" data-video="images/banner">
+					<div class="inner">
+						<header>
+							<h1>Aprendiendo a multiplicar</h1>
+								<iframe width="700" height="450" src="https://www.youtube.com/embed/VcTlgEmNdUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></header>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a class="image fit"><img src="./img/2.jpg" alt="" class="tablas"/></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 2</h3>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="./img/3.jpg" class="tablas" alt="" /></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 3</h3>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="./img/4.jpg" class="tablas" alt="" /></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 4</h3>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="./img/5.jpg" class="tablas" alt="" /></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 5</h3>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="./img/6.jpg" class="tablas" alt="" /></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 6</h3>
+								</div>
+							</div>
+
+							<div class="box">
+								<a class="image fit"><img src="./img/7.jpg" class="tablas" alt="" /></a>
+								<div class="inner">
+									<h3>Tabla de multiplicar del 7</h3>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="container">
+					<header>
+							<h1>Memorama</h1>
+					</header>
+	
+					<section class="score-panel">
+	
+						<span class="moves"></span>
+	
+							<div class="timer">
+							</div>
+	
+							<div class="restart" onclick=startGame()>
+							<i class="fa fa-repeat"></i>
+						</div>
+					</section>
+	
+					<ul class="deck" id="card-deck">
+							<li class="card" type="diamond">
+									<h1>3x2</h1>
+							</li>
+							<li class="card" type="diamond">
+								<h1>6</h1>
+							</li>
+							<li class="card match" type="anchor">
+								<h1>4x5</h1>
+							</li>
+							<li class="card" type="anchor" >
+								<h1>20</h1>
+							</li>
+							<li class="card" type="cube">
+								<h1>3x7</h1>
+							</li>
+							<li class="card match" type="cube">
+								<h1>21</h1>
+							</li>
+							<li class="card" type="leaf">
+								<h1>7x7</h1>
+							</li>
+							<li class="card" type="leaf">
+								<h1>49</h1>
+							</li>
+							<li class="card" type="bomb">
+								<h1>6x8</h1>
+							</li>
+							<li class="card" type="bomb">
+								<h1>48</h1>
+							</li>
+							<li class="card" type="bolt">
+								<h1>9x9</h1>
+							</li>
+							<li class="card" type="bolt">
+								<h1>81</h1>
+						</li>
+					</ul>
+	
+					<div id="popup1" class="overlay">
+							<div class="popup">
+									<h2>Congratulations 🎉</h2>
+									<a class="close" href=# >×</a>
+									<div class="content-1">
+											Congratulations you're a winner 🎉🎉
+									</div>
+									<div class="content-2">
+											<p>You made <span id=finalMove> </span> moves </p>
+											<p>in <span id=totalTime> </span> </p>
+											<p>Rating:  <span id=starRating></span></p>
+									</div>
+									<button id="play-again"onclick="playAgain()">
+											Play again 😄</a>
+									</button>
+							</div>
+					</div>
+	
+			</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>La matemáticas son sencillas</h2>
+						<p>Solo es cuestión de amarlas, apretarlas hasta que las asifixieas antes que ella a ti. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="./js/jquery.min.js"></script>
+			<script src="./js/jquery.scrolly.min.js"></script>
+			<script src="./js/jquery.poptrox.min.js"></script>
+			<script src="./js/skel.min.js"></script>
+			<script src="./js/util.js"></script>
+			<script src="./js/main.js"></script>
+			<script src="./js/app.js"></script>
+
+	</body>
+</html>
