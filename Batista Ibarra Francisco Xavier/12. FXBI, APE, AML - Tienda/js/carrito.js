@@ -1,15 +1,8 @@
-// Ocupa la wea de las cookies
-
 const Carrito = (function() {
     function Carrito() {
         try {
             this.articulos = JSON.parse(window.name);
         } catch (err) {
-            this.articulos = { };
-            window.name = "";
-        }
-
-        if (this.articulos == null) {
             this.vaciarCarrito();
         }
     }
