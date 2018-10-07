@@ -1,0 +1,11 @@
+.card {
+    height: 100%;
+}
+
+.card h5 {
+    font-size: .9rem;
+}
+
+.card p {
+    font-size: 0.8rem;
+}
