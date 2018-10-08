@@ -8,4 +8,68 @@
 
 .card p {
     font-size: 0.8rem;
+    margin-bottom: 10px !important;
+}
+
+.card .div-img-producto {
+    cursor: pointer;
+    width: 100%;
+}
+
+.card .div-img-producto:after {
+    background-color: transparent;
+	content: '';
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	height: 100px;
+	opacity: 0;
+    transition: all .8s;
+    -webkit-transition: all .8s;
+}
+
+.card .div-img-producto:hover:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: 'Ver producto';
+    color: white;
+    padding: 40px 0 0 calc(50% - 50px);
+	opacity: 1;
+}
+
+.card .img-producto {
+    display: block;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.precio {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+}
+
+.media-body h5 {
+    font-size: 1rem;
+}
+
+.media-body p {
+    font-size: .9rem;
+}
+
+table img {
+    max-width: 50px;
+}
+
+#frmDatosEnvio input {
+	font-size: 14px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 30px;
 }
