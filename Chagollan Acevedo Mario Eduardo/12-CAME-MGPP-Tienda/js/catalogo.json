@@ -1,0 +1,258 @@
+{"productos": [
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 1",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Accesorios",
+ "nombre": "Auriculares 1",
+ "precio": "$1,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 2",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 3",
+ "precio": "$10,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 1",
+ "precio": "$1,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 4",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 1",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 5",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 1",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 6",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 7",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 8",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 9",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 10",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 11",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 12",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 13",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 14",
+ "precio": "$10,000"
+},
+{
+ "categoria": "Laptops",
+ "nombre": "Laptop 15",
+ "precio": "$10,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 3",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 4",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 5",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 6",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 7",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 8",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 9",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 10",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 11",
+ "precio": "$1,000"
+},
+{
+"categoria": "Accesorios",
+ "nombre": "Auriculares 12",
+ "precio": "$1,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 2",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 3",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 4",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 5",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 6",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 7",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 8",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 9",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 10",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Camaras",
+ "nombre": "Camara 11",
+ "precio": "$8,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 2",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 3",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 4",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 5",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 6",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 7",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 8",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 9",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 10",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 11",
+ "precio": "$5,000"
+},
+{
+ "categoria": "Smartphones",
+ "nombre": "Smartphone 12",
+ "precio": "$5,000"
+}
+],
+  "obj": {
+    "number": 1.2345e-6,
+    "enabled": true
+  },
+  "message": "Strings have to be in double-quotes."
+}
