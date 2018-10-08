@@ -2,6 +2,7 @@ const Carrito = (function() {
     function Carrito() {
         try {
             this.articulos = JSON.parse(window.name);
+            this.mostrarTotalCarrito();
         } catch (err) {
             this.vaciarCarrito();
         }
@@ -13,10 +14,13 @@ const Carrito = (function() {
         } else {
             this.articulos[idProducto] = cantidad;
         }
-
         window.name = JSON.stringify(this.articulos);
-
+        this.mostrarTotalCarrito();
         return this.articulos;
+    }
+
+    Carrito.prototype.mostrarTotalCarrito = function() {
+        document.getElementById('carrito-cantidad').innerHTML = Object.keys(this.articulos).length;
     }
 
     Carrito.prototype.vaciarCarrito = function() {
