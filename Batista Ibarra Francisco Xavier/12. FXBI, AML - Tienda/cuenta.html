@@ -58,13 +58,13 @@
                 </table>
             </div>
             <div class="col-12 col-md-4">
-                <div id="frmDatosEnvio" class="bg-info text-white p-4">
+                <div class="bg-info text-white p-4">
                     <h5>Subtotal: $<span id="subtotal">0.00</span></h5>
                     <h5>Costo de envío: $150.00</h5>
                     <h2>Total: $<span id="total">0.00</span></h2>
                     <br>
                     <h4>Datos de envío</h4>
-                    <form>
+                    <form id="frmDatosEnvio">
                         <div class="form-row">
                             <div class="form-group col-6">
                                 <label for="nombre">Nombre</label>
@@ -122,22 +122,19 @@
         </div>
     </main>
 
-    <div class="modal" tabindex="-1" role="dialog">
+    <div id="modalConfirmacion" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Compra finalizada</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
                 <div class="modal-body">
                     <p>Su pedido se realizó exitosamente.</p>
+                    <p>Monto a pagar: $<span id="totalPagar"></span></p>
                     <p>Número de cuenta para realizar depósito: XXXX-XXXX-XXX</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <a href="index.html" class="btn btn-primary">Aceptar</a>
                 </div>
             </div>
         </div>

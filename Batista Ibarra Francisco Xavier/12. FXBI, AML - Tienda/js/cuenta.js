@@ -75,10 +75,9 @@ const Cuenta = (function() {
 
         const frmDatosEnvio = document.getElementById('frmDatosEnvio');
         frmDatosEnvio.addEventListener("submit", (e) => {
-            if(!isValid){
-                e.preventDefault();
-                this.carrito.vaciarCarrito();
-            }
+            e.preventDefault();
+            this.carrito.vaciarCarrito();
+            this.mostrarModalConfirmacion();
         });
     }
 
@@ -93,6 +92,22 @@ const Cuenta = (function() {
         });
         document.getElementById('subtotal').innerText = this.total.toFixed(2);
         document.getElementById('total').innerText = (this.total + 150).toFixed(2);
+        document.getElementById('totalPagar').innerText = (this.total + 150).toFixed(2);
+    }
+
+    Cuenta.prototype.mostrarModalConfirmacion = function() {
+        const modalConfirmacion = document.getElementById('modalConfirmacion');
+        let backdrop = document.getElementById('bs.backdrop');
+        if (backdrop === null) {
+            backdrop = document.createElement('div');
+            backdrop.id = "bs.backdrop";
+            backdrop.className = "modal-backdrop fade show";
+            document.body.appendChild(backdrop);
+        }
+        modalConfirmacion.classList.add('in');
+        modalConfirmacion.style.display = 'block';
+        document.body.style.paddingRight = '13px';
+        document.body.classList.add('modal-open');
     }
     
     return Cuenta;
