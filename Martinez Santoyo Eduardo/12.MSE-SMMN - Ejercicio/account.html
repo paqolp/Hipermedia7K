@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cuenta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contacto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./account.html">Perfil</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./cart.html" id="number">Carrito (0)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-4">
+    <h2>Tus datos</h2>
+    <div class="row mt-4">
+      <div class="col-md-4 col-sm-12">
+        <h5>Nombre</h5>
+        <input type="text" placeholder="Mildred Nataly">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Apellido Paterno</h5>
+        <input type="text" placeholder="Silva">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Apellido Materno</h5>
+        <input type="text" placeholder="Mendez">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-4 col-sm-12">
+        <h5>Domicilio</h5>
+        <input type="text" placeholder="Su casa">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Estado</h5>
+        <select name="estados">
+  
+          <option value="1">Aguascalientes</option>
+  
+          <option value="2">Baja California</option>
+  
+          <option value="3">Baja California Sur</option>
+  
+          <option value="4">Campeche</option>
+  
+          <option value="5">Coahuila de Zaragoza</option>
+  
+          <option value="6">Colima</option>
+  
+          <option value="7">Chiapas</option>
+  
+          <option value="8">Chihuahua</option>
+  
+          <option value="9">Distrito Federal</option>
+  
+          <option value="10">Durango</option>
+  
+          <option value="11">Guanajuato</option>
+  
+          <option value="12">Guerrero</option>
+  
+          <option value="13">Hidalgo</option>
+  
+          <option value="14">Jalisco</option>
+  
+          <option value="15">México</option>
+  
+          <option value="16">Michoacán de Ocampo</option>
+  
+          <option value="17">Morelos</option>
+  
+          <option value="18">Nayarit</option>
+  
+          <option value="19" selected>Nuevo León</option>
+  
+          <option value="20">Oaxaca</option>
+  
+          <option value="21">Puebla</option>
+  
+          <option value="22">Querétaro</option>
+  
+          <option value="23">Quintana Roo</option>
+  
+          <option value="24">San Luis Potosí</option>
+  
+          <option value="25">Sinaloa</option>
+  
+          <option value="26">Sonora</option>
+  
+          <option value="27">Tabasco</option>
+  
+          <option value="28">Tamaulipas</option>
+  
+          <option value="29">Tlaxcala</option>
+  
+          <option value="30">Veracruz de Ignacio de la Llave</option>
+  
+          <option value="31">Yucatán</option>
+  
+          <option value="32">Zacatecas</option>
+  
+        </select>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Ciudad</h5>
+        <input type="text" placeholder="Monterrey">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-1">
+        <img src="./img/card.svg" alt="Tarjeta">
+      </div>
+      <div class="col-2 pt-2">
+        <h6>Mastercard</h6>
+      </div>
+      <div class="col-3 pt-2">
+        <h6>XXXX-XXXX-XXXX-XXXX</h6>
+      </div>
+      <div class="col-3 pt-2">
+        <h6>Caducidad: 08/2025</h6>
+      </div>
+      <div class="col-3">
+        <button class="btn btn-danger">Cambiar Método de Pago</button>
+      </div>
+    </div>
+    <div class="row mt-4 text-center">
+      <div class="col-12">
+        <button class="btn btn-primary">Agregar Método de Pago</button>
+      </div>
+    </div>
+    <div class="col-md-12 d-flex justify-content-center mb-4 mt-5">
+      <button class="botonGuardar "> Guardar cambios</button>
+  
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class=" bg-dark mg-auto p-2">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; VideoBuster 2018</p>
+    </div>
+  </footer>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/functions.js"></script>
+</body>
+</html>

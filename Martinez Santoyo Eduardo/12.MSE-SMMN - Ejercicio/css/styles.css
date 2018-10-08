@@ -1,0 +1,103 @@
+/*Estilos del template de Bootsrap*/
+body 
+{
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) 
+{
+  body 
+  {
+    padding-top: 56px;
+  }
+}
+
+/* Logo */
+.logo
+{
+  width: 50px;
+  height: 50px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar ul li
+{
+  padding: 0px 20px;
+}
+
+/* Estilos para Sidebar */
+.sidebar
+{
+  position: fixed;
+  height:100vh;
+}
+
+/* Estilos para imágenes de las pelícuals */
+.miniatura
+{
+  width: 100px;
+  height: 100px;
+}
+
+/* Estilos para carrusel */
+.carousel-item img
+{
+  width: 856.2px;
+  height: 332.967px;
+}
+
+/* Estilos de imagen de detalles de película */
+.img-details
+{
+  width: 100%;
+  height: 350px;
+}
+
+/* Estilos para carrito de compras */
+.mini-cart
+{
+  width: 80%;
+  height: 200px;
+}
+
+.price
+{
+  display: flex;
+}
+
+/* Estilos de perfil */
+img
+{
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilos de detalles de tarjeta */
+.movie-details
+{
+  width: 250px;
+  height: 250px;
+}
+
+/* Lo de Mily */
+input, select{
+  width: 250px;
+  height: 30px;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.botonGuardar{
+  background-color: rgb(9, 74, 148);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  height: 30px;
+}
+.tittle{
+  color:  rgb(9, 74, 148);
+}

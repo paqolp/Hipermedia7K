@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/login.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <div class="login-container text-white">
+          <h1 class="text-center mt-4">VideoBuster</h1>
+          <h3 class="text-center">Compra tus películas</h3>
+          <img  class="mx-auto d-block" src="./img/login-user.png" alt="Imagen usuario">
+          <form action="/inicio.html" method="POST">
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Usuario</label>
+                  <input type="text" class="form-control" id="usuario" placeholder="Usuario">
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" aria-describedby="passHelp" placeholder="Contraseña">
+                  <small id="emailHelp" class="form-text text-white">Nunca reveles tu contraseña</small>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary mx-auto d-block mb-4">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

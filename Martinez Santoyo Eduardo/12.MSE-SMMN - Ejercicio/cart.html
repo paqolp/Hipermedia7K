@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Carrito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./account.html">Perfil</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./cart.html" id="number">Carrito (0)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h1 class="text-center mt-5">Carrito</h1>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-7 offset-1">
+        <div class="row">
+          <div class="col-3 pr-0">
+            <img src="./img/chihiro.jpg" alt="Miniatura" class="mini-cart">
+          </div>
+          <div class="col-8 pl-0">
+            <h3 class="mb-5">Sen to Chihiro no kamikakushi</h3>
+            <div class="price">
+              <h3>Precio: $100.00</h3>
+              <form class="ml-5">
+                <div class="form-group d-flex">
+                  <label for="exampleSelect1">Cantidad</label>
+                  <select class="form-control ml-2" id="exampleSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option selected>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-3 pr-0">
+            <img src="./img/apocalypse.jpg" alt="Miniatura" class="mini-cart">
+          </div>
+          <div class="col-8 pl-0">
+            <h3 class="mb-5">X-men Apocalypse</h3>
+            <div class="price">
+              <h3>Precio: $100.00</h3>
+              <form class="ml-5">
+                <div class="form-group d-flex">
+                  <label for="exampleSelect1">Cantidad</label>
+                  <select class="form-control ml-2" id="exampleSelect1">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-3 pr-0">
+            <img src="./img/avengers.jpg" alt="Miniatura" class="mini-cart">
+          </div>
+          <div class="col-8 pl-0">
+            <h3 class="mb-5">Avengers</h3>
+            <div class="price">
+              <h3>Precio: $100.00</h3>
+              <form class="ml-5">
+                <div class="form-group d-flex">
+                  <label for="exampleSelect1">Cantidad</label>
+                  <select class="form-control ml-2" id="exampleSelect1">
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="col-3">
+        <div class="jumbotron">
+            <h5 class="mb-4">Subtotal: $600.00</h5>
+            <h5 class="mb-4">Costo del envío: $100.00</h5>
+            <h5>Total: $700.00</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url("../img/Online-courses.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-container
+{
+  width: 40%;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top:50%;
+  left:35%;
+  margin-top: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.login-container img
+{
+  width: 20%;
+}
