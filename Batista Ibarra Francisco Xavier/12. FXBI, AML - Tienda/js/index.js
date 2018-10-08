@@ -1,21 +1,3 @@
-function loadJSON(fileName, callback) {   
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', `../js/${fileName}.json`, true);
-    xobj.onreadystatechange = function () {
-        if (xobj.readyState == 4 && xobj.status == "200") {
-        callback(JSON.parse(xobj.responseText));
-      }
-    };
-    xobj.send(null);  
-}
-
-function truncateText(limit, text) {
-    const arrayWords = text.trim().split(' ');
-    const arraySelectedWords = arrayWords.slice(0, limit);
-    return arraySelectedWords.join(' ').concat('...');
-}
-
 const Tienda = (function() {
     function Tienda() {
         this.carrito = new Carrito();
@@ -38,12 +20,15 @@ const Tienda = (function() {
     }
 
     Tienda.prototype.generarProductoHtml = function(producto) {
-        return `<div class="col-12 col-md-6 col-lg-3 my-2">
+        return `<div class="col-12 col-sm-6 col-md-4 col-lg-3 my-2">
                     <div class="card">
-                        <img class="card-img-top" src="${producto.imagen}" alt="">
+                        <div class="div-img-producto" data-toggle="modal" data-target="#modalProducto" data-idProducto="${producto.id}">
+                            <img class="img-producto card-img-top" src="img/${producto.id}.jpg" alt="${producto.nombre}">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">${producto.nombre}</h5>
                             <p class="card-text">${truncateText(10, producto.descripcion)}</p>
+                            <b class="precio">$${Number(producto.precio).toFixed(2)}</b>
                             <button data-idProducto="${producto.id}" class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
                         </div>
                     </div>
@@ -58,13 +43,63 @@ const Tienda = (function() {
                 this.carrito.setProductoCantidad(idProducto);
             });
         });
+        const divsImagenProducto = document.getElementsByClassName('div-img-producto');
+        Array.from(divsImagenProducto).forEach((div) => {
+            div.addEventListener('click', (e) => {
+                const idProducto = e.target.dataset.idproducto;
+                const producto = this.productos.find(function(producto) {
+                    return producto.id == idProducto;
+                });
+                this.mostrarModalProducto(producto);
+            });
+        });
+    }
+
+    Tienda.prototype.mostrarModalProducto = function(producto) {
+        const resenias = producto.resenias.map((resenia) => {
+            const estrellasHtml = this.generarEstrellasHtml(resenia.calificacion);
+            return `<div class="media">
+                        <div class="media-body">
+                            <h5 class="mt-0">${resenia.autor} - ${estrellasHtml}</h5>
+                            <p>${resenia.comentario}</p>
+                        </div>
+                    </div>`;
+        }).join('');
+        const innerModal =  `<div class="modal-header">
+                                <h5 class="modal-title" id="modalProductoLabel">${producto.nombre}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <img src="img/${producto.id}.jpg" alt="${producto.nombre}" class="img-thumbnail">
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <p class="card-text">${producto.descripcion}</p>
+                                        <b class="precio">$${Number(producto.precio).toFixed(2)}</b>
+                                        <button onclick="tienda.carrito.setProductoCantidad(${producto.id})" data-idProducto="${producto.id}" class="agregar-carrito btn btn-primary btn-sm">Agregar al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                ${resenias}
+                            </div>`;
+        document.getElementById('modalProductoContenido').innerHTML = innerModal;
+    }
+
+    Tienda.prototype.generarEstrellasHtml = function(calificacion) {
+        let estrellasHtml = '';
+        for(let i = 0; i < calificacion; i++) {
+            estrellasHtml += `<i class="fas fa-star text-warning"></i>`;
+        }
+        return estrellasHtml;
     }
     
     return Tienda;
 
 })(); 
 
-(function() {
-    const tienda = new Tienda();
-    tienda.obtenerProductos();
-})();
+let tienda = new Tienda();
+tienda.obtenerProductos();
