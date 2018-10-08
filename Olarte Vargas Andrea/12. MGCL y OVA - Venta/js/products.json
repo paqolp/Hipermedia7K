@@ -1,0 +1,1066 @@
+[
+  {
+    "name" : "Camisa De Pana",
+    "picture" : "images/p1.jpg",
+    "alternative-pic" : "images/p1-2.jpg",
+    "description" : "Camisa de pana con bolsillos de parche en pecho, cierre de botones al frente, hombros caídos, mangas largas, cuello clásico y dobladillo curvo.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido Canalé V",
+    "picture" : "images/p2.jpg",
+    "alternative-pic" : "images/p2-2.jpg",
+    "description" : "Vestido en tejido de punto canalé, escote V, botones al frente, mangas largas y silueta en línea A.",
+    "price" : 269.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Minifalda De Lino",
+    "picture" : "images/p3.jpg",
+    "alternative-pic" : "images/p3-2.jpg",
+    "description" : "Minifalda de lino con estampado de rayas, frente de botones decorativos, banda en cintura, abertura posterior y cierre de cremallera lateral oculta con cierre de ganchillo.",
+    "price" : 309.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Gabardina Con Cinturón",
+    "picture" : "images/p4.jpg",
+    "alternative-pic" : "images/p4-2.jpg",
+    "description" : "Gabardina de tela ligera fluida con mangas largas, solapas con muesca, bolsillos delanteros de ribete, aberturas laterales y cinturón de tela con cierre auto-amarrable.",
+    "price" : 549.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Pantalón De Terciopelo",
+    "picture" : "images/p5.jpg",
+    "alternative-pic" : "images/p5-2.jpg",
+    "description" : "Pantalón en tiro alto en terciopelo con silueta de pierna ancha, paneles en costuras, cierres de cremallera lateral oculto.",
+    "price" : 479.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Suéter Canalé Rayas",
+    "picture" : "images/p6.jpg",
+    "alternative-pic" : "images/p6-2.jpg",
+    "description" : "Suéter en tejido de punto canalé con estampado de rayas coloridas, cuello redondo, mangas largas, borde en contraste y silueta ajustada.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Short Plisado",
+    "picture" : "images/p7.jpg",
+    "alternative-pic" : "images/p7-2.jpg",
+    "description" : "Short en tela fluida con cintura fruncida tiro alto, frente plisado, trabillas en cintura, cierre de cremallera frontal con ganchillo y cinturón removible de polipiel.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido Corto Marmoleado",
+    "picture" : "images/p8.jpg",
+    "alternative-pic" : "images/p8-2.jpg",
+    "description" : "Vestido corto en tejido de punto canalé marmoleado, cuello mock, mangas cortas y dobladillo skater.",
+    "price" : 269.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido Corto Geo",
+    "picture" : "images/p9.jpg",
+    "alternative-pic" : "images/p9-2.jpg",
+    "description" : "Vestido corto de tela fluida mini con estampado geométrico, cuello con muescas, cierre de botones al frente, mangas cortas dolman, cintura fruncida parcialmente elástica, costura para estilizar y dobladillo skater.",
+    "price" : 399.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Top Canalé Escote V",
+    "picture" : "images/p10.jpg",
+    "alternative-pic" : "images/p10-2.jpg",
+    "description" : "Top en tejido de punto canalé con escote V, mangas cortas con detalles fruncidos en hombros y confección de unión invisible posterior.",
+    "price" : 309.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Leggings Con Cierres",
+    "picture" : "images/p11.jpg",
+    "alternative-pic" : "images/p11-2.jpg",
+    "description" : "Leggings con diseño de paneles en tejido de punto canalé, cierres de tobillo y cintura elástica.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa Cut-Out",
+    "picture" : "images/p12.jpg",
+    "alternative-pic" : "images/p12-2.jpg",
+    "description" : "Blusa con detalle en V cut-out, cuello redondo, hombros caídos, manga larga dolman y dobladillo curvo.",
+    "price" : 159.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Suéter Canalé Semi-Transparente",
+    "picture" : "images/p13.jpg",
+    "alternative-pic" : "images/p13-2.jpg",
+    "description" : "Suéter en tejido de punto canalé semi-transparente con cuello redondo, manga larga globo y puños de banda.",
+    "price" : 379.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Camisa Rayas Con Bolsillo",
+    "picture" : "images/p14.jpg",
+    "alternative-pic" : "images/p14-2.jpg",
+    "description" : "Camisa en tela fluida con estampado de rayas, cuello clásico, botones al frente, pinzas en el busto y bolsillo de parche sobre el pecho.",
+    "price" : 359.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa De Chifón",
+    "picture" : "images/p15.jpg",
+    "alternative-pic" : "images/p15-2.jpg",
+    "description" : "Blusa semitransparente de chifón con escote en V, cierre de botones, manga larga con botón en el puño, bolsillos de parche sobre el pecho y bajo con aberturas laterales.",
+    "price" : 329.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Pantalón Palazzo Rayas",
+    "picture" : "images/p16.jpg",
+    "alternative-pic" : "images/p16-2.jpg",
+    "description" : "Pantalón estilo palazzo en corte ankle tejido en tela fluida arrugada, estampado de rayas y cintura fruncida con cinta auto-amarrable.",
+    "price" : 409.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Gabardina Doble Botonadura",
+    "picture" : "images/p17.jpg",
+    "alternative-pic" : "images/p17-2.jpg",
+    "description" : "Gabardina ligera tejida en tela fluida con cuello de muescas, trabillas con cierre de botón, mangas largas con cintas auto-amarrables, cierre de botones frontal con doble abotonadura, sin forro, bolsillos delanteros inclinados de ribete, cinta removible auto-amarrable y abertura posterior con botones ocultos.",
+    "price" : 969.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Short Estampado Rayas",
+    "picture" : "images/p18.jpg",
+    "alternative-pic" : "images/p18-2.jpg",
+    "description" : "Short en tiro alto tejido en tela fluida con estampado de rayas, cinta auto-amarrable removible, pliegue frontal suave, confección de bolsillos diagonales al frente y cierre oculto de cremallera.",
+    "price" : 290.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa De Chifón Con Nudo",
+    "picture" : "images/p19.jpg",
+    "alternative-pic" : "images/p19-2.jpg",
+    "description" : "Blusa en tejido de chifón con cuello redondo, mangas cortas, cintas auto-amarrables al frente y espalda abierta con ojal y cierre de botón.",
+    "price" : 369.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa Rayas Cintas Traseras",
+    "picture" : "images/p20.jpg",
+    "alternative-pic" : "images/p20-2.jpg",
+    "description" : "Blusa en tela fluida con estampado de rayas, cuello clásico con abertura, mangas ¾ con botón, dobladillo estilo delfín y espalda con diseño de cintas auto-amarrables.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa Estampado Flores",
+    "picture" : "images/p21.jpg",
+    "alternative-pic" : "images/p21-2.jpg",
+    "description" : "Blusa en tela fluida con estampado de flores, cuello redondo, mangas cortas con detalle fruncido y cintura con panel elástico.",
+    "price" : 359.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa Bordes Contraste",
+    "picture" : "images/p22.jpg",
+    "alternative-pic" : "images/p22-2.jpg",
+    "description" : "Blusa en tela fluida con bordes en contraste, cuello redondo, mangas cortas, pinzas en el busto y dobladillo estilo delfín.",
+    "price" : 269.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Blusa Cuello Con Cintas",
+    "picture" : "images/p23.jpg",
+    "alternative-pic" : "images/p23-2.jpg",
+    "description" : "Blusa ligeramente transparente en tela fluida con escote en V y cintas auto-amarrable, mangas largas con puños con botones, detalle de fruncidos y dobladillo curvo.",
+    "price" : 519.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Cárdigan Semi-Transparente",
+    "picture" : "images/p24.jpg",
+    "alternative-pic" : "images/p24-2.jpg",
+    "description" : "Cárdigan en tejido semi-transparente con frente abierto, mangas largas dolman, bordes de banda acanalados y silueta holgada.",
+    "price" : 409.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Top De Algodón",
+    "picture" : "images/p25.jpg",
+    "alternative-pic" : "images/p25-2.jpg",
+    "description" : "Top básico de algodón con tirantes, cuello redondo y silueta ajustada.",
+    "price" : 59.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Playera Cropped Gráfico Super Nintendo",
+    "picture" : "images/p26.jpg",
+    "alternative-pic" : "images/p26-2.jpg",
+    "description" : "Playera en tejido de algodón con estampado gráfico sobre pecho y espalda del logo 'Super Nintendo™ Entertainment System', hombros caídos, silueta corta con dobladillo corte al vivo, costuras a tono, mangas cortas y cuello redondo.- Producto con licencia oficial.",
+    "price" : 359.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Pantalón Stretch",
+    "picture" : "images/p27.jpg",
+    "alternative-pic" : "images/p27-2.jpg",
+    "description" : "Pantalón de tela stretch, cintura con jaretas, bragueta y confección de bolsillos laterales sin costuras.",
+    "price" : 359.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Falda Midi Cuadricula Abotonada ",
+    "picture" : "images/p28.jpg",
+    "alternative-pic" : "images/p28-2.jpg",
+    "description" : "Falda midi con patrón estampado de cuadricula, tiro alto, cierre de botones al frente con abertura, confección de bolsillos diagonales al frente, trabillas en cintura, cierre trasero de cremallera con ganchillos internos.",
+    "price" : 449.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Falda Rayas Con Tirantes",
+    "picture" : "images/p29.jpg",
+    "alternative-pic" : "images/p29-2.jpg",
+    "description" : "Falda con tirantes en tela fluida con diseño de rayas, cierre de botones al frente y silueta en línea A.",
+    "price" : 500.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Playera Gráfico “Notting Hill”",
+    "picture" : "images/p30.jpg",
+    "alternative-pic" : "images/p30-2.jpg",
+    "description" : "Playera en tejido de algodón con grafico al frente del texto 'Notting Hill London', diseño deslavado, acentos desgastados, a cuello redondo y mangas cortas.",
+    "price" : 300.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Top Acanalado",
+    "picture" : "images/p31.jpg",
+    "alternative-pic" : "images/p31-2.jpg",
+    "description" : "Top en tejido de punto acanalado con panel en hombros de botones metálicos grabados, cuello mock, mangas cortas y silueta ajustada.",
+    "price" : 329.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Overol Corto Cuadros",
+    "picture" : "images/p32.jpg",
+    "alternative-pic" : "images/p32-2.jpg",
+    "description" : "Vestido corto con estampado cuadros, tirantes delgados, escote recto y silueta ajustada.",
+    "price" : 400.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Minifalda De Terciopelo",
+    "picture" : "images/p33.jpg",
+    "alternative-pic" : "images/p33-2.jpg",
+    "description" : "Minifalda de terciopelo con cierre de cremallera frontal, cinco bolsillos y silueta recta.",
+    "price" : 359.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Camisa Estampado Cuadros",
+    "picture" : "images/p34.jpg",
+    "alternative-pic" : "images/p34-2.jpg",
+    "description" : "Camisa tejida en tela fluida con estampado de cuadros, cuello básico, cierre de botones al frente, dobladillo sutil curvo y manga larga abotonada.",
+    "price" : 350.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Sudadera Gráfico “LA Crew”",
+    "picture" : "images/p35.jpg",
+    "alternative-pic" : "images/p35-2.jpg",
+    "description" : "Sudadera de felpa con gráfico al frente del texto 'LA Crew', capucha con jaretas ajustables, mangas largas, hombros caídos y bordes acanalados.",
+    "price" : 380.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Jeans Tiro Alto Desflecada",
+    "picture" : "images/p36.jpg",
+    "alternative-pic" : "images/p36-2.jpg",
+    "description" : "Jeans de tiro alto con silueta de pierna recta, cintura desflecada, detalle de pespuntes superiores en contraste, a cinco bolsillos y cierre de cremallera frontal.",
+    "price" : 639.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Camisa Estampado Teléfono",
+    "picture" : "images/p37.jpg",
+    "alternative-pic" : "images/p37-2.jpg",
+    "description" : "Camisa tejida en tela fluida con estampado de teléfono, escote V con muescas, cierre frontal de botones, manga corta con puños de banda, bolsillo de parche en pecho y dobladillo curvo.",
+    "price" : 310.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido – Sudadera Corto",
+    "picture" : "images/p38.jpg",
+    "alternative-pic" : "images/p38-2.jpg",
+    "description" : "¡Precio Especial!- Vestido estilo sudadera de felpa, cuello redondo, hombros caídos, mangas largas, bordes acanalados y silueta corta.",
+    "price" : 289.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Kimono Playero Transparente",
+    "picture" : "images/p39.jpg",
+    "alternative-pic" : "images/p39-2.jpg",
+    "description" : "Kimono playero transparente, frente abierto con cinturón de tela auto-amarrable, manga corta y silueta larga.",
+    "price" : 520.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Bikini Top Flores",
+    "picture" : "images/p40.jpg",
+    "alternative-pic" : "images/p40-2.jpg",
+    "description" : "Top de bikini en tejido stretch con estampado de flores, tirantes ajustables en contraste con hebillas circulares, escote recto y copas con relleno extraíble.",
+    "price" : 360.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Kaftan Playero Transparente",
+    "picture" : "images/p41.jpg",
+    "alternative-pic" : "images/p41-2.jpg",
+    "description" : "Kaftan playero transparente con cuello en V, manga corta acampanada, cierre de botones al frente y bajo asimétrico.",
+    "price" : 430.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Traje De Baño Flores",
+    "picture" : "images/p42.jpg",
+    "alternative-pic" : "images/p42-2.jpg",
+    "description" : "Traje de baño en tejido stretch con estampado de flores, aberturas en el escote con tiras decorativas, tirantes halter con cierre de cordones y espalda en V.",
+    "price" : 459.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Falda Satinada Hojas",
+    "picture" : "images/p43.jpg",
+    "alternative-pic" : "images/p43-2.jpg",
+    "description" : "Falda midi satinada con estampado de hojas, cierre anudado lateral, bajo asimétrico y cremallera trasera oculta.",
+    "price" : 479.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Pijama Gráfico 'Yawn So Sleepy'",
+    "picture" : "images/p44.jpg",
+    "alternative-pic" : "images/p44-2.jpg",
+    "description" : "Conjunto de pijama con playera con gráfico frontal 'Yawn So Sleepy' y cuello redondo; Pantalones en tejido ligero con estampado de rayas, cintura elástica con cierre de cordones y bolsillos delanteros inclinados. ",
+    "price" : 370.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Short Deportivo Rayas Laterales",
+    "picture" : "images/p45.jpg",
+    "alternative-pic" : "images/p45-2.jpg",
+    "description" : "Short deportivo en tela fluida satinada con rayas laterales en contraste, cintura de banda elástica y dobladillo con abertura.",
+    "price" : 309.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Leggings Deportivos",
+    "picture" : "images/p46.jpg",
+    "alternative-pic" : "images/p46-2.jpg",
+    "description" : "Leggings deportivos con diseño de bordes en diseño color-block , rayas chevron laterales, control de humedad y cintura elástica.",
+    "price" : 340.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Rompevientos Con Rayas",
+    "picture" : "images/p47.jpg",
+    "alternative-pic" : "images/p47-2.jpg",
+    "description" : "Rompevientos en tela fluida con capucha de jaretas ajustables, mangas largas, rayas con bordes delgadas, confección de bolsillos diagonales al frente, bordes elásticos y cierre de cremallera frontal.",
+    "price" : 549.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido Estampado Flores",
+    "picture" : "images/p48.jpg",
+    "alternative-pic" : "images/p48-2.jpg",
+    "description" : "Vestido corto con estampado de flores, escote elástico con hombros descubiertos, detalle central fruncido, manga corta y abertura en la espalda con cierre de cremallera.",
+    "price" : 419.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Romper Geo Sobrepuesto",
+    "picture" : "images/p49.jpg",
+    "alternative-pic" : "images/p49-2.jpg",
+    "description" : "Romper holgado con estampado geo multicolor, cuello en contraste peter pan, manga corta, pinzas en busto, diseño de blusa sobrepuesta, espalda abierta V y cierre de cremallera posterior.",
+    "price" : 455.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido De Encaje Transparente",
+    "picture" : "images/p50.jpg",
+    "alternative-pic" : "images/p50-2.jpg",
+    "description" : "Vestido midi de malla transparente con encaje flores, con cuello redondo, mangas cortas, cintura elástica, dobladillo de encaje festoneado y cierre posterior de ojal botón.- No se incluyen las prendas debajo o sobrepuestas de la prenda descrita.",
+    "price" : 375.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Cazadora De Mezclilla",
+    "picture" : "images/p51.jpg",
+    "alternative-pic" : "images/p51-2.jpg",
+    "description" : "Cazadora en tejido ligero de mezclilla con cuello alto, cierre frontal de cremallera, con botones a presión, bolsillo de parche en pecho, cintura de cordones y bolsillos delanteros inclinados con solapa.",
+    "price" : 600.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Gabardina Estampado Cuadros",
+    "picture" : "images/p52.jpg",
+    "alternative-pic" : "images/p52-2.jpg",
+    "description" : "Gabardina en tejido ligero con estampado de cuadros, cuello con muescas, solapa trasera antitormenta, hombros con trabillas y cierres a presión, mangas largas con puños de botón, confección de bolsillos diagonales al frente, cierre de doble botonadura y cinta auto-amarrable removible.",
+    "price" : 909.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Chamarra De Antelina",
+    "picture" : "images/p53.jpg",
+    "alternative-pic" : "images/p53-2.jpg",
+    "description" : "Chamarra de Antelina de peso medio con cuello de muescas abotonados, manga larga con cierres de cremallera laterales, bolsillos frontales de cierre, hombros con trabillas de cierres a presión, diseño frontal asimétrico con cierre de cremallera y cinturón removible.",
+    "price" : 660.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Vestido T-Shirt Jaspeado",
+    "picture" : "images/p54.jpg",
+    "alternative-pic" : "images/p54-2.jpg",
+    "description" : "Vestido t-shirt en tejido jaspeado con cuello redondo, mangas cortas arremangadas y silueta ligeramente oversize.",
+    "price" : 239.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Jeans Tiro Alto Pierna Ancha",
+    "picture" : "images/p55.jpg",
+    "alternative-pic" : "images/p55-2.jpg",
+    "description" : "Jeans de mezclilla con tiro alto, silueta de pierna ancha, corte al tobillo, confección de bolsillos diagonales profundos al frente, bolsillos traseros decorativos de ribete, trabillas en cintura y cierre de cremallera frontal con botones.",
+    "price" : 580.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  },
+  {
+    "name" : "Parka Con Capucha",
+    "picture" : "images/p56.jpg",
+    "alternative-pic" : "images/p56-2.jpg",
+    "description" : "Parka tejida en tela fluida con capucha de cordones, cintura elástica, cuello alto, manga larga con puños elásticos, cierre de cremallera frontal y botones a presión, bolsillos con solapa con cierres a presión, forro de maya, abertura posterior y bajo elástico.",
+    "price" : 729.00,
+    "reviews" :  [
+      {
+        "customer" : "Carly Miranda",
+        "review" : "Es muy bonita, la talla me quedo perfecta, es igual a la descripción. La tela es strech por lo que se ajusta al cuerpo y te hace silueta.",
+        "stars" : 5
+      },
+      {
+        "customer" : "Andrea Olarte",
+        "review" : "La tela es un poco transparente y delgada, además la talla viene reducida. No se parece mucho a la de la imagen.",
+        "stars" : 3.5
+      }
+    ]
+  }
+]
