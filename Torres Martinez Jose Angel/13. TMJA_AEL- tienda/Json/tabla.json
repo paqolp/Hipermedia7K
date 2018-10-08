@@ -1,0 +1,58 @@
+{
+    "table": {
+        "rows": [
+            {
+                "id": "1001",
+                "dato1":"Perfume",
+                "dato2":"36",
+                "dato3":"buen perfume"
+            },
+
+            {
+                "id": "1002",
+                "dato1":"reloj",
+                "dato2":"120",
+                "dato3":"reloj economico"
+
+            },
+            {
+                "id": "1003",
+                "dato1":"cadena",
+                "dato2":"200",
+                "dato3":"collar"
+            },
+            {
+                "id": "1004",
+                "dato1":"collar",
+                "dato2":"300",
+                "dato3":"buen collar"
+            },
+            {
+                "id": "1005",
+                "dato1":"celular",
+                "dato2":"3603",
+                "dato3":"Iphone 5"
+            },
+
+            {
+                "id": "1006",
+                "dato1":"laptop",
+                "dato2":"12000",
+                "dato3":"dell inpiron 15"
+
+            },
+            {
+                "id": "1007",
+                "dato1":"pantalla",
+                "dato2":"20000",
+                "dato3":"pantalla samsung"
+            },
+            {
+                "id": "1008",
+                "dato1":"collar de oro",
+                "dato2":"30000",
+                "dato3":"buen collar de oro"
+            }
+        ]
+    }
+}

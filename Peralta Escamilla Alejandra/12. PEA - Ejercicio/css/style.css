@@ -1,0 +1,75 @@
+p {
+	font-size: 1rem;
+}
+
+.bg-img {
+	background-image: url(../img/bg2.jpg);
+	background-position: left bottom;
+	background-size: cover;
+	height: 100vh;
+}
+
+.login {
+	position: absolute;
+	top: 25vh;
+}
+
+.mw-540 {
+	max-width: 540px;
+}
+
+.bb-info {
+	border: 0;
+	border-bottom: 1px solid #17a2b8;
+	font-size: 0.78rem;
+	transition: border-bottom 0.4s, font-size 0.4s
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-bottom: 1px solid #563d7c;
+	font-size: 1rem;
+}
+
+i {
+	color: #fff;
+}
+.principal-hover {
+	background-color: #343a40;
+	transition: background-color 0.4s;
+}
+
+a {
+	text-decoration-style: none;
+}
+
+.principal-hover:hover {
+	background-color: #9a9da0;
+}
+
+img{
+	max-width: 100px;
+	height: 100px;
+}
+
+.r-autor {
+	font-weight: bold;
+}
+
+.r-com {
+	font-style: italic;
+}
+
+.r-calif {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.btn-x {
+	max-height: 25px;
+	padding-top: 0;
+}
+
+.btn-outline-danger:hover {
+  color: #fff !important;
+}
