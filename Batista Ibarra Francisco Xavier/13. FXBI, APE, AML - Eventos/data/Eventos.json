@@ -1,0 +1,42 @@
+[
+    {
+        "id": 2,
+        "nombre": "Fiesta en mi casa",
+        "organizador": "Yo, pos quien mas",
+        "cupo": "5000",
+        "direccion": "Aquí en corto",
+        "tipo": {
+            "id": 1,
+            "nombre": "Familiar",
+            "imagenes": [
+                "1_1",
+                "1_2",
+                "1_3",
+                "1_4",
+                "1_5"
+            ]
+        },
+        "asistentes": [
+            {
+                "nombre": "Paquito, el de las travesuras",
+                "correo": "paquito@correo.com"
+            },
+            {
+                "nombre": "Fulanito, el educado",
+                "correo": "fulanito@correo.com"
+            },
+            {
+                "nombre": "Antonio, el imaginario",
+                "correo": "antonio@correo.com"
+            }
+        ],
+        "actividades": [
+            {
+                "nombre": "Beer pong",
+                "descripcion": "Como ping pong, pero mas ebrio",
+                "lugar": "En la sala",
+                "fechaHora": "2018-10-08 00:00:00"
+            }
+        ]
+    }
+]
