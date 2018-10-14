@@ -36,21 +36,64 @@ const ControladorEvento = (function() {
     };
 
     ControladorEvento.prototype.agregar = function(evento) {
+        if (Eventos.length == 0) {
+            evento.id = 0;
+        } else {
+            evento.id = Eventos[Eventos.length - 1].id + 1;
+        }
         Eventos.push(evento);
         setCookie("eventos", Eventos, 365);
         return Eventos;
     };
 
     ControladorEvento.prototype.eliminar = function(id) {
-        const idEliminar = Eventos.findIndex(function(evento) { return evento.id == id } );
-        delete Eventos[idEliminar];
+        Eventos = Eventos.filter(function(evento) { return evento.id != id } );
         setCookie("eventos", Eventos, 365);
         return Eventos;
     }
 
     ControladorEvento.prototype.modificar = function(id, nuevo) {
         const idModificar = Eventos.findIndex(function(evento) { return evento.id == id } );
-        Evento[idModificar] = nuevo;
+        nuevo.id = idModificar;
+        Eventos[idModificar] = nuevo;
+        setCookie("eventos", Eventos, 365);
+        return Eventos;
+    }
+
+    ControladorEvento.prototype.agregarAsistente = function(idEvento, asistente) {
+        const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
+        const Evento = Eventos[indexEvento];
+        asistente.id = Evento.asistentes[Evento.asistentes.length - 1].id + 1;
+        Evento.asistentes.push(asistente);
+        Eventos[indexEvento] = Evento;
+        setCookie("eventos", Eventos, 365);
+        return Eventos;
+    }
+
+    ControladorEvento.prototype.eliminarAsistente = function(idEvento, idAsistente) {
+        const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
+        const Evento = Eventos[indexEvento];
+        Evento.asistentes = Evento.asistentes.filter(asistente => asistente.id != idAsistente)
+        Eventos[indexEvento] = Evento;
+        setCookie("eventos", Eventos, 365);
+        return Eventos;
+    }
+
+    ControladorEvento.prototype.agregarActividad = function(idEvento, actividad) {
+        const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
+        const Evento = Eventos[indexEvento];
+        actividad.id = Evento.actividades[Evento.actividades.length - 1].id + 1;
+        Evento.actividades.push(actividad);
+        Eventos[indexEvento] = Evento;
+        setCookie("eventos", Eventos, 365);
+        return Eventos;
+    }
+
+    ControladorEvento.prototype.eliminarActividad = function(idEvento, idActividad) {
+        const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
+        const Evento = Eventos[indexEvento];
+        Evento.actividades = Evento.actividades.filter(actividad => actividad.id != idActividad)
+        Eventos[indexEvento] = Evento;
         setCookie("eventos", Eventos, 365);
         return Eventos;
     }

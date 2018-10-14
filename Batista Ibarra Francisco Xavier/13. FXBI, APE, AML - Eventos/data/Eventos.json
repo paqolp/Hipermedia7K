@@ -1,6 +1,6 @@
 [
     {
-        "id": 2,
+        "id": 0,
         "nombre": "Fiesta en mi casa",
         "organizador": "Yo, pos quien mas",
         "cupo": "5000",
@@ -18,20 +18,24 @@
         },
         "asistentes": [
             {
+                "id": 0,
                 "nombre": "Paquito, el de las travesuras",
                 "correo": "paquito@correo.com"
             },
             {
+                "id": 1,
                 "nombre": "Fulanito, el educado",
                 "correo": "fulanito@correo.com"
             },
             {
+                "id": 2,
                 "nombre": "Antonio, el imaginario",
                 "correo": "antonio@correo.com"
             }
         ],
         "actividades": [
             {
+                "id": 0,
                 "nombre": "Beer pong",
                 "descripcion": "Como ping pong, pero mas ebrio",
                 "lugar": "En la sala",
