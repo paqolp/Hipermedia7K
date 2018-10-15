@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Muestra cuantos links hay en el archivo HTML</h2>
+
+<p>
+<a href="pagina1.html">Pagina 1</a>
+<br>
+<a href="pagina2.html">Pagina 2</a>
+<br>
+<a href="pagina3.html">Pagina 3</a>
+</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+"Number of links: " + document.links.length;
+</script>
+
+<p>Muestra el historial de cuantas URL se han visitado</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demos"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demos").innerHTML = history.length;
+}
+</script>
+
+</body>
+</html>
