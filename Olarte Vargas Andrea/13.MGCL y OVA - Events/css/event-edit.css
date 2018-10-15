@@ -1,0 +1,50 @@
+.event-edit-area form{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.event-edit-area .event-detail{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.event-edit-area .event-detail h4{
+    margin-bottom: 10px;
+}
+
+.event-edit-area .event-detail input {
+    width: 85%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.event-edit-area .event-detail textarea{
+    width: 85%;
+    resize: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.event-edit-area button, .event-edit-area a{
+    color: #000;
+    background: #d3d3d3;
+    margin-left: 20px;
+    width: 10%;
+    font-size: 25px;
+    border: none;
+}
+
+.event-edit-area button:hover, .event-edit-area a:hover{
+    cursor: pointer;
+    color: #fff;
+    background: -moz-linear-gradient( 0deg, rgb(202,45,255) 0%, rgb(142,150,248) 55%, rgb(82,255,241) 100%);
+    background: -webkit-linear-gradient( 0deg, rgb(202,45,255) 0%, rgb(142,150,248) 55%, rgb(82,255,241) 100%);
+    background: -ms-linear-gradient( 0deg, rgb(202,45,255) 0%, rgb(142,150,248) 55%, rgb(82,255,241) 100%);
+}
+
+.event-edit-area .saveEvent, .event-edit-area .cancelEvent{
+    width: 45%;
+    padding: 20px;
+    border-radius: 20px;
+}

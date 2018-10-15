@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/jquery-30301.min.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript">
+    function obtenerDatos()
+    {
+      var name= localStorage.getItem("name");
+      var place= localStorage.getItem("place");
+      var day= localStorage.getItem("day");
+      var month= localStorage.getItem("month");
+      var descipcion= localStorage.getItem("descripcion");
+      $('<font>'+name+'</font>',{}).appendTo('#nameEvent');
+      $('<font>'+place+'</font>',{}).appendTo('#placeEvent');
+      $('<font>'+day+' de '+month+'</font>',{}).appendTo('#dateEvent');
+      $('<font>'+descipcion+'</font>',{}).appendTo('#descEvent');
+    }
+
+
+    </script>
+
+
+    <title>Evento</title>
+  </head>
+  <body class="container" onload="obtenerDatos()">
+
+  	<div class="event_box">
+  	    <div class="event_info">
+  	        <div class="event_title" id="nameEvent">
+
+  	        </div>
+  	        <div class="event_date" id="dateEvent">
+
+  	        </div>
+  	        <div class="speakers" >
+  	            <strong id="descripcionEvent"></strong>
+  	        </div>
+  	    </div>
+  	    <hr class="my-5">
+  	      	<!-- lista de actividades start -->
+  	      	<section class="pb100">
+  	      	    <div class="container">
+  	      	        <div class="table-responsive">
+  	      	            <table class="event_calender table">
+  	      	                <thead class="event_title">
+  	      	                <tr>
+  	      	                    <th>
+  	      	                        <i class="ion-ios-calendar-outline"></i>
+  	      	                        <span>Actividades</span>
+  	      	                    </th>
+  	      	                    <th></th>
+  	      	                    <th></th>
+  	      	                </tr>
+  	      	                </thead>
+  	      	                <tbody>
+  	    	  	                <tr>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h5>Nombre</h5>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h6>1</h6>
+  	    	  	                            <p>Horas</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <p>Descripción.......................</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                </tr>
+  	    	  	                <tr>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h5>Nombre</h5>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h6>1</h6>
+  	    	  	                            <p>Horas</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <p>Descripción.......................</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                </tr>
+
+  	      	                </tbody>
+  	      	            </table>
+  	      	            <a href="EditarEvento.html" target="blank" class="btn btn-primary btn-rounded">Registrar actividad</a> 
+  	      	        </div>
+  	      	    </div>
+  	      	</section>
+  	      	<!-- lista de actividades end -->
+  	      	<!-- lista de asistentes start -->
+  	      	<section class="pb100">
+  	      	    <div class="container">
+  	      	        <div class="table-responsive">
+  	      	            <table class="event_calender table">
+  	      	                <thead class="event_title">
+  	      	                <tr>
+  	      	                    <th>
+  	      	                        <i class="ion-ios-calendar-outline"></i>
+  	      	                        <span>Asistentes</span>
+  	      	                    </th>
+  	      	                    <th></th>
+  	      	                </tr>
+  	      	                </thead>
+  	      	                <tbody>
+  	    	  	                <tr>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h5>Nombre</h5>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <p>Nombre</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                </tr>
+  	    	  	                <tr>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <h5>Nombre</h5>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                    <td>
+  	    	  	                        <div class="event_place">
+  	    	  	                            <p>Nombre</p>
+  	    	  	                        </div>
+  	    	  	                    </td>
+  	    	  	                </tr>
+  	      	                </tbody>
+  	      	            </table>
+  	      	            <a href="EditarEvento.html" target="blank" class="btn btn-primary btn-rounded">Registrar asistentes</a> 
+  	      	        </div>
+  	      	    </div>
+  	      	</section>
+  	      	<!-- lista de asistentes end -->
+  	    <hr class="mb-5">
+  	    <div class="event_word container">
+  	        <div class="row justify-content-center">
+  	            <div class="col-md-6 col-12">
+					<div class="event_info">
+  	            	<div class="speakers">
+  	            	    <strong>Lugar del evento</strong>
+  	            	</div>
+  	            	</div>
+  	               <p id="placeEvent"></p>
+  	            </div>
+  	        </div>
+        	<a href="extraEvente()" class="btn btn-primary btn-rounded">Editar lugar del evento</a>
+  	    </div>
+  	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="js/function.js"></script>
+  </body>
+</html>

@@ -63,6 +63,7 @@ const ControladorEvento = (function() {
     ControladorEvento.prototype.agregarAsistente = function(idEvento, asistente) {
         const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
         const Evento = Eventos[indexEvento];
+        if (Evento.asistentes.length == Evento.cupo) throw new Error("La wea ya se llenó");
         if (Evento.asistentes.length) {
             asistente.id = Evento.asistentes[Evento.asistentes.length - 1].id + 1;
         } else {

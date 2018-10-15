@@ -1,0 +1,44 @@
+{
+    "table": {
+        "rows": [
+            {
+                "nombre": "halloween",
+                "lugar":"Colima",
+                "dia":"31",
+                "mes":"Octubre",
+                "actividades":"1",
+                "asistentes":"200",
+                "descripcion":"también conocido como Noche de Brujas, Noche de Muertos o Noche de Víspera de Difuntos, es una celebración moderna resultado del sincretismo originado por la cristianización de la fiesta del fin de verano de origen celta llamada Samhaín."
+            },
+
+            {
+              "nombre": "Navidad",
+              "lugar":"Comala",
+              "dia":"31",
+              "mes":"Octubre",
+              "actividades":"1",
+              "asistentes":"200",
+              "descripcion":"es una de las festividades más importantes del cristianismo, junto con la Pascua de resurrección y Pentecostés. Esta solemnidad, que conmemora el nacimiento de Jesucristo en Belén, se celebra el 25 de diciembre en la Iglesia católica, en la Iglesia anglicana, en algunas comunidades protestantes y en la mayoría de las Iglesias ortodoxas"
+
+            },
+            {
+              "nombre": "Maratón",
+              "lugar":"Villa de alvarez",
+              "dia":"01",
+              "mes":"Noviembre",
+              "actividades":"1",
+              "asistentes":"200",
+              "descripcion":" es una carrera de larga distancia que consiste en recorrer una distancia de 42 195 metros (42 km y 195 m). Forma parte del programa de atletismo en los Juegos Olímpicos desde Atenas 1896, en la categoría masculina, y desde Los Ángeles 1984, en la categoría femenina."
+            },
+            {
+              "nombre": "Hackatón",
+              "lugar":"Manzanillo",
+              "dia":"01",
+              "mes":"Octubre",
+              "actividades":"1",
+              "asistentes":"200",
+              "descripcion":"Un hackatón es un encuentro de programadores –aunque puede haber diseñadores gráficos, analistas de datos o emprendedores– que se reúnen en eventos de un día a una semana de duración para desarrollar de un modo colaborativo software abierto."
+            }
+        ]
+    }
+}

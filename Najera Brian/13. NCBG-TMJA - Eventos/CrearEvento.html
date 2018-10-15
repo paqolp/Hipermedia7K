@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/conexion.js"></script>
+    <script type="text/javascript" src="js/jquery-30301.min.js"></script>
+    <script type="text/javascript" src="js/fuck.js"></script>
+
+
+    <title>Crear Evento</title>
+  </head>
+  <body class="container">
+    <hr class="my5">
+	   <!-- Crear evento start -->
+      <div class="row">
+          <div class="col-12">
+              <form>
+              <div id="contact-form" class="form-container" data-form-container>
+              <div class="row">
+                  <div class="form-title">
+                      <span>Crear evento</span>
+                  </div>
+              </div>
+              <div class="input-container">
+                  <div class="row">
+                      <span class="req-input" >
+                          <span class="input-status" data-toggle="tooltip" data-placement="top" title="Escribe el nombre del evento"> </span>
+                          <input type="text" id="nombreC" data-min-length="8" placeholder="Nombre de evento">
+                      </span>
+                  </div>
+                  <div class="row">
+                      <span class="req-input message-box">
+                          <span class="input-status" data-toggle="tooltip" data-placement="top" title="Descripción lugar evento"> </span>
+                          <textarea type="textarea" id="lugarC" data-min-length="10" placeholder="Lugar de evento"></textarea>
+                  </div>
+                  <div class="row">
+                      <span class="req-input" >
+                          <span class="input-status" data-toggle="tooltip" data-placement="top" title="Escribe dia"> </span>
+                          <input type="text" id="diaC" data-min-length="8" placeholder="Dia">
+                      </span>
+                  </div>
+                  <div class="row">
+                      <span class="req-input" >
+                          <span class="input-status" data-toggle="tooltip" data-placement="top" title="Escribe mes"> </span>
+                          <input type="text" id="mesC" data-min-length="8" placeholder="Mes">
+                      </span>
+                  </div>
+                  <div class="row">
+                      <span class="req-input" >
+                          <span class="input-status" data-toggle="tooltip" data-placement="top" title="Escribe descripcion"> </span>
+                          <input type="text" id="descripcionC" data-min-length="8" placeholder="Descripcion">
+                      </span>
+                  </div>
+                  <!-- Empieza Registrar actividad -->
+                  <hr>
+                  <div class="row justify-content-center">
+                  	<div class="col-8">
+                      <div class="form-group">
+                          <label for="tech" class="col-sm-3 control-label" style="font-size: 20px;">Actividades</label>
+                          <div class="col-sm-3">
+  	                       <select class="form-control" id="activityC">
+  		                    	<option value="1">1</option>
+  		                    	<option value="2">2</option>
+  		                    	<option value="3">3</option>
+  	                       </select>
+                          </div>
+                    	</div> <!-- form-group // -->
+
+                  	</div>
+                	</div>
+                	<hr>
+                	<!-- Termina Registrar actividad -->
+
+                  <!-- Empieza Registrar asistente -->
+                  <hr>
+                  <div class="row justify-content-center">
+                  	<div class="col-8">
+                      <div class="form-group">
+                          <label for="tech" class="col-sm-3 control-label" style="font-size: 20px;">Asistentes</label>
+                          <div class="col-sm-3">
+  	                       <select class="form-control" id="asistC">
+  		                    	<option value="1">1</option>
+  		                    	<option value="2">2</option>
+  		                    	<option value="3">3</option>
+  	                       </select>
+                          </div>
+                    	</div> <!-- form-group // -->
+
+
+                  	</div>
+                	</div>
+
+                	<hr>
+                	<!-- Termina Registrar asistente -->
+                  <div class="row submit-row justify-content-center">
+                      
+                      <input class="btn btn-primary btn-rounded" onclick="extra()" type="submit" value="Crear">
+                  </div>
+              </div>
+              </div>
+              </form>
+          </div>
+      </div>
+	<!-- Crear evento end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="js/function.js"></script>
+  </body>
+</html>

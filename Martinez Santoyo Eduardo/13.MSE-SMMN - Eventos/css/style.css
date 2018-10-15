@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+body,html{  
+margin: 0;
+background-image: url("../img/fondo.jpg");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.evento{
+    position: absolute;
+    font-family: "Poppins";
+    margin-top:20%;  
+    justify-content: center;
+}
+a:link{
+text-decoration: none;
+}
+a{
+    color:white;
+}
+a:hover{
+    color: white;
+}
+.evento h1{
+    color: #0B3954;
+    font-size: 60px;
+}
+.evento button{
+    border:none;
+    border-radius: 5px;
+    width: 150px;
+    height: 33px;
+    background-color: #0B3954;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(22, 82, 117);
+}
