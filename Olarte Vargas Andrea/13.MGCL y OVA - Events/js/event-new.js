@@ -84,11 +84,11 @@ function save(){
     myString += '"desc":"' + document.getElementById("eventDescription").value + '",';
     myString += '"qtyAttend":"' + document.getElementById("numEventAttendees").value + '",';
     
-    myString += '"imgPlace":["' + getImages() + '"],';
-    myString += '"activities":["' + getActivities() + '"],';
-    myString += '"attendants":["' + getAttendees() + '"]}';
+    myString += '"imgPlace":[' + getImages() + '],';
+    myString += '"activities":[' + getActivities() + '],';
+    myString += '"attendants":[' + getAttendees() + ']}';
 
-    alert(myString);
+    // alert(myString);
     window.open('event-details.html?event=' + myString, '_blank');
 }
 
@@ -99,17 +99,9 @@ function getImages(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;
@@ -122,17 +114,9 @@ function getActivities(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;
@@ -145,17 +129,9 @@ function getAttendees(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;

@@ -103,20 +103,6 @@ function moreActivities(){
 }
 
 function save(){
-    // {
-    //     name: "Kayak Outing on Lake Chapala", 
-    //     date: "Monday, October 15 2018", 
-    //     hour: "8:00 AM", 
-    //     address: "Maria Isabel Restaurant, Ajijic, Jalisco", 
-    //     host: "Lake Chapala Kayak Club",
-    //     desc: "New members would be expected to be able to swim, be familiar with wearing a PFD, and have a general comfort level on the water from having some experience kayaking, canoeing, or sailing.",
-    //     qtyAttend: 10,
-    //     imgPlace: ["https://q-ec.bstatic.com/images/hotel/max1280x900/227/22795009.jpg", "https://www.ecestaticos.com/imagestatic/clipping/a0a/d98/a0ad98dc552223bc3e12e4f0c5cb91d9/por-que-es-mejor-que-viajemos-en-tren-en-lugar-de-en-avion.jpg?mtime=1500895657","https://media-cdn.tripadvisor.com/media/photo-s/07/f2/86/49/increible-lugar-para.jpg"],
-    //     activities: ["Actividad 1", "Actividad 2"],
-    //     attendants: ["Manuel Sánchez","Roberto Jiménez"]
-    //   }
-      //{%22name%22:%22Kayak%20Outing%20on%20Lake%20Chapala%22,%22date%22:%22Monday,%20October%2015%202018%22,%22hour%22:%228:00%20AM%22,%22address%22:%22Maria%20Isabel%20Restaurant,%20Ajijic,%20Jalisco%22,%22host%22:%22Lake%20Chapala%20Kayak%20Club%22,%22desc%22:%22New%20members%20would%20be%20expected%20to%20be%20able%20to%20swim,%20be%20familiar%20with%20wearing%20a%20PFD,%20and%20have%20a%20general%20comfort%20level%20on%20the%20water%20from%20having%20some%20experience%20kayaking,%20canoeing,%20or%20sailing.%22,%22qtyAttend%22:10,
-      //%22imgPlace%22:[%22https://www.ecestaticos.com/imagestatic/clipping/a0a/d98/a0ad98dc552223bc3e12e4f0c5cb91d9/por-que-es-mejor-que-viajemos-en-tren-en-lugar-de-en-avion.jpg?mtime=1500895657%22,%22https://media-cdn.tripadvisor.com/media/photo-s/07/f2/86/49/increible-lugar-para.jpg%22],%22activities%22:[%22Actividad%201%22,%22Actividad%202%22],%22attendants%22:[%22Manuel%20S%C3%A1nchez%22,%22Roberto%20Jim%C3%A9nez%22]}
     var myString = '{"name":"' + document.getElementById("eventName").value + '",';
     myString += '"date":"' + document.getElementById("eventDate").value + '",';
     myString += '"hour":"' + document.getElementById("eventTime").value + '",';
@@ -125,11 +111,11 @@ function save(){
     myString += '"desc":"' + document.getElementById("eventDescription").value + '",';
     myString += '"qtyAttend":"' + document.getElementById("numEventAttendees").value + '",';
     
-    myString += '"imgPlace":["' + getImages() + '"],';
-    myString += '"activities":["' + getActivities() + '"],';
-    myString += '"attendants":["' + getAttendees() + '"]}';
+    myString += '"imgPlace":[' + getImages() + '],';
+    myString += '"activities":[' + getActivities() + '],';
+    myString += '"attendants":[' + getAttendees() + ']}';
 
-    alert(myString);
+    // alert(myString);
     window.open('event-details.html?event=' + myString, '_blank');
 }
 
@@ -140,17 +126,9 @@ function getImages(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;
@@ -163,17 +141,9 @@ function getActivities(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;
@@ -186,17 +156,9 @@ function getAttendees(){
     var imagenes='';
 
     for (i=0;i<numImagenes;i++){
-        if(i == 0 && i != numImagenes - 1){
-            imagenes+= arrImg[i].value;
-        }
-        else if(i == 0){
-            imagenes+= arrImg[i].value + '",';
-        }
-        else if (i == numImagenes - 1){
-            imagenes+= '"' + arrImg[i].value;
-        }
-        else{
-            imagenes+= '"' + arrImg[i].value + '",';
+        imagenes += '"' + arrImg[i].value + '"';
+        if(i != numImagenes - 1){
+            imagenes += ',';
         }
     }
     return imagenes;
