@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var w;
+function openWindow() {
+    w = window.open('','', 'width=300,height=300');
+    w.focus();
+}
+
+function resizeWindow() {
+    w.resizeTo(700, 700);
+    w.focus();
+}
+
+function addContent() {
+    
+    w.document.open();
+    w.document.write("<h2>Hola Mundo</h2>");
+    w.document.close();
+    
+}
+</script>
+</head>
+<body>
+
+<button onclick="openWindow()">Crear Ventana</button>
+<button onclick="resizeWindow()">Cambiar Tamaño a Ventana</button>
+<button onclick="addContent()">Cambiar Contenido de la Ventana</button>
+
+</body>
+</html>
