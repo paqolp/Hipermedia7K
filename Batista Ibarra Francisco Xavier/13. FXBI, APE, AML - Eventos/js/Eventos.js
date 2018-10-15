@@ -27,11 +27,11 @@ const ControladorEvento = (function() {
         return TiposEvento;
     };
 
-    ControladorEvento.prototype.obtener = function(id = null) {
+    ControladorEvento.prototype.obtener = function(id = null, callback) {
         if (!id) { // Pos todos los productos siono
-            return Eventos;
+            callback(Eventos);
         } else {
-            return Eventos.find(function(evento) { return evento.id == id });
+            callback(Eventos.find(function(evento) { return evento.id == id }));
         }
     };
 
@@ -63,7 +63,11 @@ const ControladorEvento = (function() {
     ControladorEvento.prototype.agregarAsistente = function(idEvento, asistente) {
         const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
         const Evento = Eventos[indexEvento];
-        asistente.id = Evento.asistentes[Evento.asistentes.length - 1].id + 1;
+        if (Evento.asistentes.length) {
+            asistente.id = Evento.asistentes[Evento.asistentes.length - 1].id + 1;
+        } else {
+            asistente.id = 0;
+        }
         Evento.asistentes.push(asistente);
         Eventos[indexEvento] = Evento;
         setCookie("eventos", Eventos, 365);
@@ -82,7 +86,11 @@ const ControladorEvento = (function() {
     ControladorEvento.prototype.agregarActividad = function(idEvento, actividad) {
         const indexEvento = Eventos.findIndex(evento => evento.id == idEvento);
         const Evento = Eventos[indexEvento];
-        actividad.id = Evento.actividades[Evento.actividades.length - 1].id + 1;
+        if (Evento.actividades.length) {
+            actividad.id = Evento.actividades[Evento.actividades.length - 1].id + 1;
+        } else {
+            actividad.id = 0;
+        }
         Evento.actividades.push(actividad);
         Eventos[indexEvento] = Evento;
         setCookie("eventos", Eventos, 365);
