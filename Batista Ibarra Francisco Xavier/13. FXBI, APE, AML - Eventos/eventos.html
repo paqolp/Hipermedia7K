@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <title>Eventos</title>
+</head>
+<body>
+  <div id="regresar" class="fixed-top m-4">
+    <a href="index.html" title="Regresar a la sección de eventos" class="text-info">
+      <h5>
+        <i class="fas fa-arrow-left"></i> Regresar
+      </h5>
+    </a>
+  </div>
+  <div class="jumbotron m-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-sm-10 col-md-11">
+          <h1 class="nombre display-4"></h1>
+          <hr class="hrh">
+        </div>
+        <div class="col-2 col-sm-2 col-md-1">
+          <button type="button" class="btn btn-info btn-sm float-right mt-3" data-toggle="modal" data-target="#editarEvento">
+            <i class="fas fa-pencil-alt"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <img id="imgPrincipal" src="img/1.png" class="img-fluid" title="Imagen representativa del evento">
+        </div>
+        <div class="col-12 col-sm-6 col-md-8 mt-5">
+          
+          <h4 class="fw">Nombre del evento: </h4>
+          <p><i class="nombre">Inserte nombre aquí</i></p>
+          <h4 class="fw">Nombre del organizador: </h4>
+          <p><i class="organizador">Inserte organizador aquí</i></p>
+          <h4 class="fw">Dirección del evento: </h4>
+          <p><i class="direccion">Inserte dirección aquí</i></p>
+          <h4 class="fw">Tipo de evento: </h4>
+          <p><i class="tipo">Inserte tipo de evento aquí</i></p>
+          <h4 class="fw">Cupo: </h4>
+          <p><i class="cupo">Inserte cupo aquí</i></p>
+
+          <button type="button" class="btn btn-info btn-sm float-right mt-3" data-toggle="modal" data-target="#agregarAsistente" title="Agregar asistente al evento">
+            Agregar asistente <i class="fas fa-pencil-alt"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid m-0 p-0">
+    <div id="imgsEvento" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+      </div>
+      <a class="carousel-control-prev" href="#imgsEvento" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Ant</span>
+      </a>
+      <a class="carousel-control-next" href="#imgsEvento" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Sig</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container my-5">
+  	<div class="row">
+  		<div class="col-12 my-1">
+		  	<h1 class="fw">Asistentes</h1>
+        <hr class="hrh">
+		  </div>
+
+		  <div class="col-12">
+		  	<ul id="listaAsistentes" class="list-group">
+		  	</ul>
+		  </div>
+	  </div>
+  </div>
+
+  <div class="container-fluid bg-dark text-white py-5">
+  	<div class="container">
+      <div class="row">
+        <div class="col-10 col-sm-10 col-md-11 mb-4">
+          <h1 class="fw">Actividades</h1>
+          <hr class="hrw">
+        </div>
+        <div class="col-2 col-sm-2 col-md-1 mb-5">
+          <button type="button" class="btn btn-info btn-sm float-right mt-3" data-toggle="modal" data-target="#agregarActividad" title="Agregar una actividad al evento">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-dark">
+    	<div id="listaActividades" class="row">
+			</div>
+    </div>
+  </div>
+
+  <!-- MODAL EDITAR EVENTO - INICIO -->
+  <div class="modal fade" id="editarEvento" tabindex="-1" role="dialog" aria-labelledby="tituloEvento" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloEvento">Editar evento</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form id="frmEditarEvento">
+          <div class="modal-body">  
+            <div class="form-group">
+              <label for="nombreEvento">Nombre del evento</label>
+              <input type="text" class="nombre form-control" id="nombreEvento">
+            </div>
+            <div class="form-group">
+              <label for="organizador">Nombre del organizador</label>
+              <input type="text" class="organizador form-control" id="organizadorEvento">
+            </div>
+            <div class="form-group">
+              <label for="direccionEvento">Dirección del evento</label>
+              <input type="text" class="direccion form-control" id="direccionEvento">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-4">
+                <label for="cupo">Cupo del evento</label>
+                <input type="number" min="1" class="cupo form-control" id="cupoEvento">
+              </div>
+              <div class="form-group col-sm-8">
+                <label for="tipoEvento">Tipo de evento</label>
+                <select id="tipoEvento" class="form-control">
+                  <option>Seleccionar</option>
+                  <option value="1">Música</option>
+                  <option value="2">Artes</option>
+                  <option value="3">Negocios</option>
+                  <option value="4">Fiestas</option>
+                  <option value="5">Clases</option>
+                  <option value="6">Deportes</option>
+                  <option value="7">Gastronomía</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-outline-primary btn-sm">Editar evento</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL EDITAR EVENTO - FIN -->
+
+  <!-- MODAL AGREGAR ASISTENTE - INICIO -->
+  <div class="modal fade" id="agregarAsistente" tabindex="-1" role="dialog" aria-labelledby="tituloEvento" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloEvento">Agregar asistente</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form id="frmAgregarAsistente">
+          <div class="modal-body">  
+            <div class="form-group">
+              <label for="nombreAsistente">Nombre del asistente</label>
+              <input type="text" class="form-control" name="nombre" id="nombreAsistente" value="Sutanito">
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" class="form-control" name="correo" id="correoAsistente" value="sutanito@correo.com">
+            </div>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-outline-primary btn-sm">Agregar asistente</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL AGREGAR ASISTENTE - FIN -->
+
+  <!-- MODAL AGREGAR ACTIVIDAD - INICIO -->
+  <div class="modal fade" id="agregarActividad" tabindex="-1" role="dialog" aria-labelledby="tituloActividad" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloActividad">Agregar actividad</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form id="frmAgregarActividad">
+          <div class="modal-body">  
+            <div class="form-group">
+              <label for="nombreActividad">Nombre del actividad</label>
+              <input type="text" class="form-control" id="nombreActividad" placeholder="Actividad">
+            </div>
+            <div class="form-group">
+              <label for="descripcionActividad">Descripción de la actividad</label>
+              <input type="text" class="form-control" id="descripcionActividad" placeholder="Descripción">
+            </div>
+            <div class="form-group">
+              <label for="lugarActividad">Lugar del actividad</label>
+              <input type="text" class="form-control" id="lugarActividad" placeholder="Lugar">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="fecha">Fecha</label>
+                <input type="text" class="form-control" id="fechaActividad" placeholder="dd/mm/aaaa">
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="hora">Hora</label>
+                <input type="text" class="form-control" id="horaActividad" placeholder="hh:mm">
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-outline-primary btn-sm">Agregar actividad</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL AGREGAR ACTIVIDAD - FIN -->
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/Cookies.js"></script>
+  <script type="text/javascript" src="js/Eventos.js"></script>
+  <script type="text/javascript" src="js/VistaEvento.js"></script>
+</body>
+</html>

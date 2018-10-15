@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <title>Inicio</title>
+</head>
+<body>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-10 col-sm-10 col-md-11">
+        <h1 class="display-4">Eventos</h1>
+        <hr class="hrh">
+      </div>
+      <div class="col-2 col-sm-2 col-md-1">
+        <button type="button" class="btn btn-info float-right mt-3" data-toggle="modal" data-target="#crearEvento" title="Crear un evento">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-4">
+    <div id="eventosContainer" class="row">
+    </div>
+  </div>
+
+  <!-- MODAL CREAR EVENTO - INICIO -->
+  <div class="modal fade" id="crearEvento" tabindex="-1" role="dialog" aria-labelledby="tituloEvento" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="tituloEvento">Crear evento</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <form id="frmAgregarEvento">
+          <div class="modal-body">  
+            <div class="form-group">
+              <label for="nombreEvento">Nombre del evento</label>
+              <input type="text" class="form-control" id="nombreEvento" placeholder="Evento">
+            </div>
+            <div class="form-group">
+              <label for="organizador">Nombre del organizador</label>
+              <input type="text" class="form-control" id="organizadorEvento" placeholder="Organizador">
+            </div>
+            <div class="form-group">
+              <label for="direccionEvento">Dirección del evento</label>
+              <input type="text" class="form-control" id="direccionEvento" placeholder="Dirección">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-4">
+                <label for="cupo">Cupo del evento</label>
+                <input type="number" min="1" class="form-control" id="cupoEvento" placeholder="100">
+              </div>
+              <div class="form-group col-sm-8">
+                <label for="tipoEvento">Tipo de evento</label>
+                <select id="tipoEvento" class="tipo form-control">
+                  <option>Seleccionar</option>
+                  <option value="1">Música</option>
+                  <option value="2">Artes</option>
+                  <option value="3">Negocios</option>
+                  <option value="4">Fiestas</option>
+                  <option value="5">Clases</option>
+                  <option value="6">Deportes</option>
+                  <option value="7">Gastronomía</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-outline-primary btn-sm">Crear evento</button>
+            <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL CREAR EVENTO - FIN -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/Cookies.js"></script>
+  <script type="text/javascript" src="js/Eventos.js"></script>
+  <script type="text/javascript" src="js/VistaEventos.js"></script>
+</body>
+</html>
