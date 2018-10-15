@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+.navbar{
+    background-color: #DC5B77;
+}
+input{
+    margin-top: 2%;   
+   }

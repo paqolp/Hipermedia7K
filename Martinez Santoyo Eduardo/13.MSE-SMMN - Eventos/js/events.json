@@ -1,0 +1,8 @@
+{
+  "events":[
+    {"name":"Evento 1", "activities":"Muchas cosas", "address":"Colima", "imagen":{"first":"imagen1", "second":"imagen2", "third":"imagen3"}, "organizer":"Mily", "participants":"5"},
+    {"name":"Evento 2", "activities":"Muchas cosas", "address":"Manzanillo", "imagen":{"first":"imagen1", "second":"imagen2", "third":"imagen3"}, "organizer":"Mily2", "participants":"3"},
+    {"name":"Evento 3", "activities":"Muchas cosas", "address":"Mi casa", "imagen":{"first":"imagen1", "second":"imagen2", "third":"imagen3"}, "organizer":"Mily3", "participants":"40"},
+    {"name":"Evento 4", "activities":"Muchas cosas", "address":"Mi casa", "imagen":{"first":"imagen1", "second":"imagen2", "third":"imagen3"}, "organizer":"Mily3", "participants":"10"}
+  ]
+}
