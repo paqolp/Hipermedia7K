@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM y BOM</title>
+</head>
+<body>
+    <p id="demo"></p>
+    
+    <input type="button" value="Ocultar nombre de navegador" onclick="document.getElementById('demo').style.visibility='hidden'">
+    
+    <input type="button" value="Mostrar nombre de navegador" onclick="document.getElementById('demo').style.visibility='visible'">
+    <script>
+        document.getElementById("demo").innerHTML = 
+        "El nombre del navegador es: " + navigator.appCodeName;
+    </script>
+            
+</body>
+</html>
