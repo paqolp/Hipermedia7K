@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>DOM</h2>
+
+<div id="div1">
+<p id="p1">Aquí abajo te daremos la bienvenida</p>
+<p id="p2">Presiona el botón de hasta abajo y danos tu nombre</p>
+</div>
+
+<script>
+function myFunction1(txt) {
+  var para = document.createElement("p");
+    if (txt == null || txt == "") {
+        var node = document.createTextNode("Por favor danos tu nombre :D");
+    } else {
+        var node = document.createTextNode(txt + " eres bienvenido! :D");
+    }
+  
+  para.appendChild(node);
+  var element = document.getElementById("div1");
+  element.appendChild(para);
+  }
+</script>
+
+<h2>BOM</h2>
+
+<button onclick="myFunction()">Probar</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter your name:", "Brian");
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+        txt = "Hola " + person + "! ¿Cómo estás?";
+    }
+    document.getElementById("demo").innerHTML = txt;
+    myFunction1(person);
+}
+</script>
+
+</body>
+</html>
