@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      var myWindow
+      function openWin() {
+          myWindow = window.open("","_blank","toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400");
+          myWindow.document.write("<p>I replaced the current window.</p>");
+          myWindow.document.write("<p>I replaced the current window.</p>"); 
+          count()
+      }
+      function count() {
+        let x = myWindow.document.getElementsByTagName('p');
+        document.getElementById("demo").innerHTML = "Número de parráfos: " + x.length;
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <input type="button" value="Open Window" onclick="openWin()">
+      <p id="demo"></p>
+    </form>
+  </body>
+</html>
