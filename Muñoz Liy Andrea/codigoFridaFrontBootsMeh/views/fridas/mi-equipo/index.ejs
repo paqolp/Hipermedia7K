@@ -1,0 +1,96 @@
+<main class="container">
+  <section>
+    <div class="d-flex flex-row flex-wrap justify-content-center">
+    	<div class="col-12 col-lg-3 text-justify">
+    		<h1>Mi equipo</h1>
+    	</div>
+    	<div class="col-12 col-lg-7 contenedorNombreEquipo">
+    		<h5 id="nombreEquipo">Nombre del equipo</h5>
+				<!--<button type="button" class="btn btn-outline-dark btn-sm float-right rounded-circle" data-toggle="modal" data-target="#editarNombreEquipo">
+					<i class="fas fa-pencil-alt"></i>
+				</button> -->
+    	</div>
+			<div class="col-12 col-lg-2 text-center">
+				<p class="contenedorCodigoEquipo">
+					Código del equipo: 
+					<span id="codigoEquipo"></span>
+				</p>
+    	</div>
+			<div class="col-12">
+				<div class="row">
+					<div class="col-12">
+						<div class="card border-info mb-3">
+						  <div class="card-body">
+						    <h5 class="card-title">Mentores</h5>
+						    <div class="row" id="divMentores">
+
+									<template id="plantillaMentor">
+										<div class="col-12 col-md-6 mb-3">
+											<div class="media">
+												<img class="mr-3 imgPerfil" src="/img/image.jpeg" alt="Mentor">
+												<div class="media-body">
+													<p class="nombre"></p>
+													<p class="correo"></p>
+												</div>
+											</div>
+										</div>
+									</template>
+
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<div class="card border-info mb-3">
+						  <div class="card-body">
+						    <h5 class="card-title">Integrantes</h5>
+						    <div class="row" id="divIntegrantes">
+
+									<template id="plantillaIntegrante">
+										<div class="col-12 col-md-6 mb-3">
+											<div class="media">
+												<img class="mr-3 imgPerfil" src="/img/image.jpeg" alt="Integrante">
+												<div class="media-body">
+													<p class="nombre"></p>
+													<p class="correo"></p>
+													<p class="edad">Edad: </p>
+												</div>
+											</div>
+										</div>
+									</template>
+
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-12">
+						<div class="card border-info mb-3">
+						  <div class="card-body">
+						    <h5 class="card-title">Insignias</h5>
+						    <div class="row" id="divInsignias">
+
+									<template id="plantillaInsignia">
+										<div class="col-12 col-md-6 mb-3">
+											<div class="media">
+												<img class="mr-3 imgPerfil" src="/img/image.jpeg" alt="Insignia">
+												<div class="media-body">
+													<p class="nombre"></p>
+													<p class="descripcion"></p>
+												</div>
+											</div>
+										</div>
+									</template>
+
+						    </div>
+						  </div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+				
+    </div>
+  </section>
+</main>

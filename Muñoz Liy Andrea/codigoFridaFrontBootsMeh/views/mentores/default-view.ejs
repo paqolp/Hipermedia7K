@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <% for (let cssFile in cssFiles) { %>
+        <link rel="stylesheet" href="/css/<%= cssFiles[cssFile] %>.css">
+    <% } %>
+</head>
+<body>
+    <% if (typeof headerFile !== 'undefined') { %>
+        <%- include('partials/' + headerFile) %>
+    <% } %>
+
+    <% if (typeof subsection !== 'undefined') { %>
+        <%- include(subsection + '/index') %>    
+    <% } else { %>
+        <%- include(section + '/index') %>    
+    <% } %>
+
+    <%- include('partials/footer') %>
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        const actualPage = "<%= section %>";
+        localStorage.apiUrl = "<%= apiUrl %>";
+        localStorage.baseUrl = "<%= baseUrl %>";
+    </script>
+    <script src="/js/utils.js"></script>
+    <% for (let jsFile in jsFiles) { %>
+        <script src="/js/<%= jsFiles[jsFile] %>.js"></script>
+    <% } %>
+</body>
+</html>

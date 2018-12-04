@@ -1,0 +1,42 @@
+#logoRegistro {
+    width: 50%;
+    max-width: 100px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.div-input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#inputTelefono {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.group-span-filestyle.input-group-btn > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#divTerminos {
+    padding-top: 5px;
+}
+
+#divInputEquipoNombre {
+    display: none;
+}
+
+#editorImagen {
+    height: 200px;
+    margin: 40px;
+    width: 200px;
+}

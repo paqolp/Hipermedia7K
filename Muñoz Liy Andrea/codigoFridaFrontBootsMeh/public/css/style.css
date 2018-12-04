@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,700');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.btn-primary {
+  background-color: #882b37;
+  border-color: #882b37;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: #d95454 !important;
+  border-color: #d95454 !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(217,84,84,.5);
+
+}
+.btn-primary:disabled {
+  background-color: lightgray !important;
+  border-color: lightgray !important;
+}
+a {
+  color: #d95454;
+}
+a:hover {
+  color: #882b37;
+  text-decoration: none;
+}
+main {
+  min-height: calc(100vh - 58px - 34px);
+  padding: 1rem 1rem;
+}
+
+.navbar {
+  border-bottom: 5px solid #d95454;
+  padding: 3px 1rem 0 1rem;
+}
+
+.bg-danger-light {
+  background-color: #ffc1c7 !important;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  background-color: #d95454;
+  color: #ffffff;
+  padding: 8px;
+}

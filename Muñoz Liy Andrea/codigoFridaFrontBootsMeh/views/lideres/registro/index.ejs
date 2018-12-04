@@ -1,0 +1,138 @@
+<main class="container">
+  <div class="col-12 text-center">
+    <img id="logoRegistro" src="/img/logo.png" alt="Logo Código Frida">
+  </div>
+  <h1 class="text-center">Registro</h1>
+  <section class="d-flex flex-row flex-wrap justify-content-center">
+    <form id="frmRegistro" novalidate class="col-col-md-8 needs-validation">
+      <h2>Datos personales</h2>
+      <div class="form-row">
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputNombre">Nombre *</label>
+          <input id="inputNombre" name="nombre" type="text" class="form-control" placeholder="Nombre" minlength="3" maxlength="30" pattern="[a-zA-Z]{3,30}" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            Sólo se admiten de 3 a 30 letras.
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputApPaterno">Apellido paterno *</label>
+          <input id="inputApPaterno" name="apPaterno" type="text" class="form-control" placeholder="Apellido paterno"
+            minlength="3" maxlength="25" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            Sólo se admiten de 3 a 25 letras.
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputApMaterno">Apellido materno</label>
+          <input id="inputApMaterno" name="apMaterno" type="text" class="form-control" placeholder="Apellido materno" maxlength="25">
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputFechaNacimiento">Fecha de nacimiento *</label>
+          <input id="inputFechaNacimiento" name="fechaNacimiento" type="date" class="form-control" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputTelefono">Teléfono *</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">+52</span>
+            </div>
+            <input id="inputTelefono" name="telefono" type="tel" class="form-control" placeholder="3120000000" maxlength="10" pattern="[0-9]{10}"
+              required>
+              <div class="invalid-feedback">
+              Este campo es obligatorio.
+              <br>
+              El formato debe ser como en el ejemplo.
+            </div>
+          </div>
+          <div class="col-12 px-0">
+            <small>Ejemplo: 3120000000</small>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputEscuela">Institución de procedencia *</label>
+          <input id="inputEscuela" name="escuela" type="text" class="form-control" placeholder="Institución de procedencia"
+            required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            Sólo se admiten de 3 a 30 letras.
+          </div>
+        </div>
+        <div class="col-md-8 div-input">
+          <label for="inputAreaConocimiento">Área de conocimiento</label>
+          <select id="inputAreaConocimiento" name="disciplina" class="form-control" required>
+              <option value="Físico Matemático y Ciencias de la Tierra">Físico Matemático y Ciencias de la Tierra</option>
+              <option value="Biología y Química">Biología y Química</option>
+              <option value="Medicina y Ciencias de la salud">Medicina y Ciencias de la salud</option>
+              <option value="Humanidades y Ciencias de la Conducta">Humanidades y Ciencias de la Conducta</option>
+              <option value="Sociales y Económico Administrativas">Sociales y Económico Administrativas</option>
+              <option value="Biotecnología y Ciencias Agropecuarias">Biotecnología y Ciencias Agropecuarias</option>
+              <option value="Ingenierías">Ingenierías</option>
+          </select>
+        </div>
+      </div>
+      <h2>Datos de la cuenta</h2>
+      <div class="form-row">
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputCorreo">Correo *</label>
+          <input id="inputCorreo" name="correo" type="email" class="form-control" placeholder="Correo" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio. 
+            <br>
+            El correo electrónico debe ser válido.
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputContrasena1">Contraseña *</label>
+          <input id="inputContrasena1" type="password" class="form-control" placeholder="Contraseña" minlength="4" maxlength="10" required>
+          <small>
+            La contraseña debe tener de 4 a 10 caracteres.
+          </small>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            <span class="mensajeContrasena"></span>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 div-input">
+          <label for="inputContrasena2">Confirma la contraseña *</label>
+          <input id="inputContrasena2" name="contrasena" type="password" class="form-control" placeholder="Confirmar contraseña" minlength="4" maxlength="10" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            <span class="mensajeContrasena"></span>
+          </div>
+        </div>
+        <div class="col-sm-6 div-input">
+          <label for="inputFotoPerfil">Foto de perfil</label>
+          <input id="inputFotoPerfil" type="file" class="filestyle" data-text="Explorar" accept="image/*">
+        </div>
+        <div class="col-sm-6">
+          <div id="editorImagen" style="display: none;"></div>
+        </div>
+      </div>
+      <div class="d-flex flex-row flex-wrap justify-content-between align-items-center">
+        <div id="divTerminos" class="custom-control custom-checkbox">
+          <input type="checkbox" id="inputTerminosCondiciones" name="terminosCondiciones" class="custom-control-input"
+            required>
+          <label class="custom-control-label" for="inputTerminosCondiciones">
+            Acepto los
+            <a href="#">términos y condiciones</a>
+          </label>
+          <br>
+          <div class="invalid-feedback">
+            Debes estar de acuerdo antes de continuar
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrar Líder F</button>
+      </div>
+    </form>
+  </section>
+</main>

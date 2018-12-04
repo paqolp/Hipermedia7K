@@ -1,0 +1,31 @@
+<div class="modal fade" id="AgregarContenido" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Agregar Contenido</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form id="frmAgregarContenido">
+        <div class="modal-body">
+          <div class="row m-2">
+            <h6>Descripción</h6>
+            <textarea id="inputDescripcion" rows="3" class="form-control" name="descripcion"></textarea>
+          </div>
+          <div class="row m-2">
+            <h6>Ejercicio</h6>
+            <textarea id="inputEjercicio" rows="3" class="form-control" name="ejercicio"></textarea>
+          </div>
+          <div class="modal-footer">
+            <div class="d-flex flex-wrap justify-content-end">
+                <button id="btnAgregarContenido" type="submit" class="btn btn-primary mx-2" name="button">Agregar</button>
+                <button id="btnCancelarContenido" type="button" class="btn btn-secondary" name="button" data-dismiss="modal">Cancelar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

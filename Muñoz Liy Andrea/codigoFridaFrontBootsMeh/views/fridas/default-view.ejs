@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <% for (let cssFile in cssFiles) { %>
+        <link rel="stylesheet" href="/css/<%= cssFiles[cssFile] %>.css">
+    <% } %>
+</head>
+<body>
+    <% if (typeof headerFile !== 'undefined') { %>
+        <%- include('partials/' + headerFile) %>
+    <% } %>
+
+    <% if (typeof subsection !== 'undefined') { %>
+        <%- include(subsection + '/index') %>
+    <% } else { %>
+        <%- include(section + '/index') %>
+    <% } %>
+
+    <%- include('mi-equipo/modals/editarNombreEquipo') %>
+    <%- include('partials/footer') %>
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/sweetalert2.min.js"></script>
+    <script src="/js/moment.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/bootstrap/bootstrap-filestyle.min.js"></script>
+    <script>
+        const actualPage = "<%= section %>";
+        localStorage.apiUrl = "<%= apiUrl %>";
+        localStorage.baseUrl = "<%= baseUrl %>";
+        localStorage.publicUrl = 'http://ventascatalogo.xyz:5000/public/';
+    </script>
+    <script src="/js/utils.js"></script>
+    <% for (let jsFile in jsFiles) { %>
+        <script src="/js/<%= jsFiles[jsFile] %>.js"></script>
+    <% } %>
+</body>
+</html>

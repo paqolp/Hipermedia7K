@@ -1,0 +1,39 @@
+<main class="container">
+  <div class="col-12 text-center">
+    <img id="logoRegistro" src="/img/logo.png" alt="Logo Código Frida">
+  </div>
+  <h1 class="text-center">Iniciar sesión</h1>
+  <section class="d-flex flex-row flex-wrap justify-content-center">
+    <form id="frmLogin" novalidate class="col-12 col-md-5 needs-validation">
+      <div class="form-row">
+        <div class="col-12 div-input">
+          <label for="inputCorreo">Correo</label>
+          <input id="inputCorreo" name="correo" type="email" class="form-control" placeholder="Correo" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio. 
+            <br>
+            El correo electrónico debe ser válido.
+          </div>
+        </div>
+        <div class="col-12 div-input">
+          <label for="inputContrasena">Contraseña</label>
+          <input id="inputContrasena" name="contrasena" type="password" class="form-control" placeholder="Contraseña" minlength="6" maxlength="10" required>
+          <div class="invalid-feedback">
+            Este campo es obligatorio.
+            <br>
+            <span class="mensajeContrasena"></span>
+          </div>
+        </div>
+        <div class="col-12 d-flex justify-content-end flex-wrap">
+          <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        </div>
+      </div>
+    </form>
+    <div class="col-12 d-flex justify-content-center flex-wrap">
+      <p class="my-4">
+        ¿No tienes cuenta? 
+        <a href="<%= baseUrl %>/fridas/registro">Regístrate aquí</a>
+      </p>
+    </div>
+  </section>
+</main>

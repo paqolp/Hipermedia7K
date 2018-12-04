@@ -1,0 +1,27 @@
+.imgPerfil {
+	width: 150px;
+	height: 150px;
+}
+
+.contenedorNombreEquipo {
+  padding-top: 10px;
+}
+
+.contenedorNombreEquipo h5,
+.contenedorNombreEquipo button {
+  display: inline-block;
+}
+
+.contenedorCodigoEquipo {
+  background-color: #d95454;
+  color: white;
+  margin: 10px 0px;
+  padding: 5px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgPerfil {
+    width: 100px;
+		height: 100px;
+  }
+}

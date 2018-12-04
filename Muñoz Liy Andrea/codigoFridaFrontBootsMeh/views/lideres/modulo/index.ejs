@@ -1,0 +1,49 @@
+<main>
+    <div id="divContenedorModulo"class="container">
+      <div class="row">
+        <div class="col">
+          <h1 id="idModuloN">Modulo <span id="numeroModuloN">1 </span><span id="tituloModuloN" class="text-secondary">Herramientas CASE</span> </h1>
+        </div>
+      </div>
+      <div id="divContenido" class="container my-5 p-4">
+        <div class="row m-2">
+          <h1>Contenido <span id="numeroContenidoN">1</span></h1>
+        </div>
+        <div class="row m-2">
+          <p id="descripcionN">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="row ">
+          <div class="col m-2">
+            <button type="button" name="button" class="btn btn-primary">Material <span id="numeroMaterialN">1</span></button>
+            <button type="button" name="button" class="btn btn-primary">Material <span id="numeroMaterialN">2</span></button>
+          </div>
+        </div>
+        <div class="row m-2">
+          <h5>Ejercicio</h5>
+        </div>
+        <div class="row m-2">
+          <p id="ejercicioInstruccionesN">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="row">
+          <div class="col m-2">
+            <button id="btnEjercicioN" type="button" name="button" class="btn btn-primary ">Ejercicio</button>
+          </div>
+          <div class="col m-2">
+            <button id="btnVerComentariosN" type="button" name="button" class="btn btn-light" data-toggle="modal" data-target="#modalComentarios">Ver Comentarios</button>
+          </div>
+        </div>
+        <div class="row m-2">
+          <h5>Reemplazar archivo de ejercicio</h5>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 div-input">
+            <input type="file" class="filestyle" data-text="Explorar">
+          </div>
+        </div>
+      </div>
+      <%- include('modals/comentarios.ejs') %>
+
+
+
+    </div>
+</main>

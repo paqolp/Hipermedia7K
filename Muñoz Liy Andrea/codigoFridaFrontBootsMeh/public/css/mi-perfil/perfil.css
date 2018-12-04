@@ -1,0 +1,15 @@
+.imgPerfil
+{
+  max-height: 300px;
+  max-width: 300px;
+  width: 100%;
+}
+
+form {
+  padding: 0 1rem;
+}
+
+.div-input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

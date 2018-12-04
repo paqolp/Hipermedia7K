@@ -1,0 +1,27 @@
+.headerLandingPage {
+    background-image: url("../../img/landingPage/liderF.jpg");
+    background-size: cover;
+    background-position: bottom;
+    min-height: calc(100vh - 66px);
+    position: relative;
+}
+
+.colorFilter{
+    background: rgba(100,0,0,0.3);
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    padding: 10vh;
+}
+
+.headerLandingPage h1 {
+    color: white;
+    text-align: center;
+}
+
+.roleDescription {
+    padding: 2rem;
+    text-align: center;
+}

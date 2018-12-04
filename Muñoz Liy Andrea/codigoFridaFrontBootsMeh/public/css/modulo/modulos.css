@@ -1,0 +1,9 @@
+#divModulos {
+	align-items: stretch;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#divModulos .card {
+	height: 100%;
+}

@@ -1,0 +1,81 @@
+<main>
+  <div id="divContenedorPerfil" class="container">
+    <div class="row mt-3">
+      <div class="col">
+        <h1 class="mb-3">Mi perfil</h1>
+        <section class="border border-info p-3 row no-gutters">
+          <div class="col-12 col-md-6 col-lg-4 text-center">
+            <img class="imgPerfil rounded" src="/img/image.jpeg" alt="Foto de perfil">
+          </div>
+          <form id="frmRegistro" novalidate class="col-12 col-md-6 col-lg-8 px-3 needs-validation">
+            <div class="form-row">
+              <div class="col-lg-6 div-input">
+                <label for="inputNombre">Nombre</label>
+                <input id="inputNombre" name="nombre" type="text" class="form-control" placeholder="Nombre" minlength="4" maxlength="30" pattern="[a-zA-Z]{3,30}" required>
+                <div class="invalid-feedback">
+                  Este campo es obligatorio.
+                  <br>
+                  Sólo se admiten de 3 a 30 letras.
+                </div>
+              </div>
+              <div class="col-lg-6 div-input">
+                <label for="inputApPaterno">Apellido paterno</label>
+                <input id="inputApPaterno" name="apPaterno" type="text" class="form-control" placeholder="Apellido paterno"
+                  required>
+                <div class="invalid-feedback">
+                  Este campo es obligatorio.
+                  <br>
+                  Sólo se admiten de 3 a 30 letras.
+                </div>
+              </div>
+              <div class="col-lg-6 div-input">
+                <label for="inputApMaterno">Apellido materno</label>
+                <input id="inputApMaterno" name="apMaterno" type="text" class="form-control" placeholder="Apellido materno">
+              </div>
+              <div class="col-lg-6 div-input">
+                <label for="inputFechaNacimiento">Fecha de nacimiento</label>
+                <input id="inputFechaNacimiento" name="fechaNacimiento" type="date" class="form-control" required>
+                <div class="invalid-feedback">
+                  Este campo es obligatorio.
+                </div>
+              </div>
+              <div class="col-lg-6 div-input">
+                <label for="inputTelefono">Teléfono</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">+52</span>
+                  </div>
+                  <input id="inputTelefono" name="telefono" type="tel" class="form-control" placeholder="3120000000" maxlength="10" pattern="[0-9]{10}"
+                    required>
+                    <div class="invalid-feedback">
+                    Este campo es obligatorio.
+                    <br>
+                    El formato debe ser como en el ejemplo.
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 div-input">
+                <label for="inputCorreo">Correo</label>
+                <input id="inputCorreo" name="correo" type="email" class="form-control" placeholder="Correo" required>
+                <div class="invalid-feedback">
+                  Este campo es obligatorio. 
+                  <br>
+                  El correo electrónico debe ser válido.
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-6 div-input">
+                <label for="inputEscuela">Escuela de procedencia</label>
+                <input id="inputEscuela" name="escuela" type="text" class="form-control" placeholder="Escuela" required>
+                <div class="invalid-feedback">
+                  Este campo es obligatorio. 
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>

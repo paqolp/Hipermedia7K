@@ -1,0 +1,52 @@
+<main>
+  <div id="divContenedorModulo"class="container">
+    <div class="row">
+      <div class="col-9">
+        <h1>Contenido Adicional</h1>
+      </div>
+      <div class="col my-2">
+        <button id="btnEditarContenidoAMN" type="button" name="button" class="btn btn-light" data-toggle="modal" data-target="#AgregarContenido">Agregar Contenido</button>
+      </div>
+    </div>
+    <div id="divContenido" class="container my-5 p-4">
+      <div class="row ">
+        <div class="col-9 ">
+          <h1>Contenido <span id="numeroContenidoAMN">1</span></h1>
+        </div>
+        <div class="col my-2">
+          <button id="btnEditarContenidoAMN" type="button" name="button" class="btn btn-light" data-toggle="modal" data-target="#editarContenido">Editar</button>
+        </div>
+
+      </div>
+      <div class="row m-2">
+        <p id="descripcionAMN">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="row m-2">
+        <h5>Subir Material</h5>
+      </div>
+      <div class="row m-2">
+        <div class="input-group mb-3">
+           <div class="custom-file">
+               <input type="file" class="custom-file-input" id="inputGroupFile02">
+               <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+           </div>
+          <div class="input-group-append">
+               <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+          </div>
+        </div>
+        <div class="row ">
+              <div class="col-md-9 col-md-offset-9 col-xs-12 text-right" >
+                 <div class="btn-group" role="group">
+                    <button class="btn btn-primary" type="button">Material <span id="numeroMaterialAMN">1</span></button>
+                    <button class="btn btn-primary" type="button">X</button>
+                 </div>
+              </div>
+        </div>
+      </div>
+      <%- include('modals/modalAgregarContenido.ejs') %>
+      <%- include('modals/modalEditarContenido.ejs') %>
+    </div>
+
+
+  </div>
+</main>

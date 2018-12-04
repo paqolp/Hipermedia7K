@@ -1,0 +1,35 @@
+<div class="modal fade" id="modalComentarios" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Ejercicio <span id="numeroContenido">1</span> - Comentarios</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section id="contenedorComentarios">  
+        </section>
+        <template id="plantillaComentario">
+          <div class="comentario">
+            <h6>
+              <span class="autor">Autor</span> - 
+              <span class="fecha">24/07/2018</span>
+            </h6>
+            <p class="texto m-2"></p>
+          </div>
+        </template>
+        <form id="frmComentario" class="no-gutters">
+          <div class="form-group">
+            <label for="comentarioEjercicio" class="col-form-label">Escribe un comentario:</label>
+            <textarea class="form-control" id="comentarioEjercicio" required></textarea>
+          </div>
+          <div class="col-12 d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Comentar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
